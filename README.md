@@ -11,8 +11,8 @@
     <a href="#equipe">Equipe</a> | 
 </p>
 
-## 📌 Sobre o projeto
-Conforme desafio apresentado pelo cliente, o desenvolvimento de uma aplicação Curso Scrum será a proposta como solução, alinhado com a metodologia ágil, trazendo valores e processos de modo claro e sucinto.
+## 📌 Objetivo do projeto
+Conforme desafio apresentado pelo cliente, o desenvolvimento de uma aplicação Curso Scrum será a proposta como solução, alinhado com a metodologia ágil, trazendo valores e processos da aplicação de modo claro e sucinto.
 <span id="sobre"></span>
 
 <h2> Sobre o projeto </h2>
@@ -113,7 +113,7 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 
 |    Função   |  Nome    |    GitHub     |
 | :----------: | :-----------------------|:------------------------------------------: |
-|   Product Owner| Paulo Alexandre Bueno|[Github](github.com/paulobueno23)|
+|   Product Owner| Paulo Alexandre Bueno|[Github](github.com/pauloabueno23)|
 |   Scrum Master| Samuel Lucas Vieira de Melo|[GitHub](github.com/SamuelLucasVieira)|
 |   Dev Team| Ana Júlia Tette Lopes Afonso |[GitHub](github.com/AnaBarbancho)|
 |   Dev Team| Anielle Wesla Macedo Xavier |[GitHub](github.com/Anielle-Ws)|
