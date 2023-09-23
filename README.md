@@ -113,12 +113,12 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 
 |    Função   |  Nome    |    GitHub     |
 | :----------: | :-----------------------|:------------------------------------------: |
-|   Product Owner| Paulo Alexandre Bueno|[Github](github.com/pauloabueno23)|
-|   Scrum Master| Samuel Lucas Vieira de Melo|[GitHub](github.com/SamuelLucasVieira)|
-|   Dev Team| Ana Júlia Tette Lopes Afonso |[GitHub](github.com/AnaBarbancho)|
-|   Dev Team| Anielle Wesla Macedo Xavier |[GitHub](github.com/Anielle-Ws)|
-|   Dev Team| Diego José da Conceição|[GitHub](diegojose94)|
-|   Dev Team| Edlaine de Paula Souza |[GitHub](github.com/edlaine-souza)|
-|   Dev Team| Lucas de Andrade Brito |[GitHub](github.com/Outc0d3)|
-|   Dev Team|  Marcelly Cristini Santos de Souza|[GitHub](github.com/Marcelly-cris)|
-|   Dev Team|Vitor Cezar de Souza|[GitHub](github.com/vooshybee)|
+|   Product Owner| Paulo Alexandre Bueno|[Github](https://github.com/pauloabueno23)|
+|   Scrum Master| Samuel Lucas Vieira de Melo|[GitHub](https://github.com/SamuelLucasVieira)|
+|   Dev Team| Ana Júlia Tette Lopes Afonso |[GitHub](https://github.com/AnaBarbancho)|
+|   Dev Team| Anielle Wesla Macedo Xavier |[GitHub](https://github.com/Anielle-Ws)|
+|   Dev Team| Diego José da Conceição|[GitHub](https://diegojose94)|
+|   Dev Team| Edlaine de Paula Souza |[GitHub](https://github.com/edlaine-souza)|
+|   Dev Team| Lucas de Andrade Brito |[GitHub](https://github.com/Outc0d3)|
+|   Dev Team|  Marcelly Cristini Santos de Souza|[GitHub](https://github.com/Marcelly-cris)|
+|   Dev Team|Vitor Cezar de Souza|[GitHub](https://github.com/vooshybee)|
