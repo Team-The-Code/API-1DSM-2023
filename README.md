@@ -67,7 +67,7 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 | Item | Funcionalidade                  |
 | :--: | :------------------------- |
 |  01  | **WireFrame da Aplicação**|
-<p align="center">
+
 
 </p>
 
@@ -84,9 +84,7 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 |  08  |**9.Sprint Backlog**|
 |  09  |**15.Planning Poker**|
 |  10  | **16.Kanban** |
-<p align="center">
-    <img src="">
-</p>
+
 
 ### Sprint 3 
 | Item | Funcionalidade             |
@@ -99,19 +97,15 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 |  06  | **14.DOD**|
 |  07  | **Artefato Scrum**|
 |  08  | **18.MVP**|
-<p align="center">
-    <img src="">
-</p>
-
 
 <span id="tecnologias"></span>
 
 ## Tecnologias utilizadas
-* <img href = "https://img.shields.io/badge/HTML-CED4DA?style=for-the-badge&logo=typescript&logoColor=007ACC" alt="html">   
-* <img href = "https://img.shields.io/badge/CSS3-CED4DA?style=for-the-badge&logo=typescript&logoColor=007ACC" alt ="css3">
-* <img href = "https://img.shields.io/badge/JavaScript-CED4DA?style=for-the-badge&logo=typescript&logoColor=007ACC" alt ="JavaScript">
-* <img href = "https://img.shields.io/badge/Jira-CED4DA?style=for-the-badge&logo=typescript&logoColor=007ACC" alt ="Jira">
-* <img href = "https://img.shields.io/badge/GitHub-CED4DA?style=for-the-badge&logo=typescript&logoColor=007ACC" alt ="GitHub">
+* <img src = "https://img.shields.io/badge/HTML-CED4DA?style=for-the-badge&logo=typescript&logoColor=007ACC" alt="html">   
+* <img src = "https://img.shields.io/badge/CSS3-CED4DA?style=for-the-badge&logo=typescript&logoColor=007ACC" alt ="css3">
+* <img src = "https://img.shields.io/badge/JavaScript-CED4DA?style=for-the-badge&logo=typescript&logoColor=007ACC" alt ="JavaScript">
+* <img src = "https://img.shields.io/badge/Jira-CED4DA?style=for-the-badge&logo=typescript&logoColor=007ACC" alt ="Jira">
+* <img src = "https://img.shields.io/badge/GitHub-CED4DA?style=for-the-badge&logo=typescript&logoColor=007ACC" alt ="GitHub">
 
 <span id="equipe"></span>
 
@@ -123,7 +117,7 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 |   Scrum Master| Samuel Lucas Vieira de Melo|[GitHub](github.com/SamuelLucasVieira)|
 |   Dev Team| Ana Júlia Tette Lopes Afonso |[GitHub](github.com/AnaBarbancho)|
 |   Dev Team| Anielle Wesla Macedo Xavier |[GitHub](github.com/Anielle-Ws)|
-|   Dev Team| Diego José da Conceição|[GitHub](diegojose94)
+|   Dev Team| Diego José da Conceição|[GitHub](diegojose94)|
 |   Dev Team| Edlaine de Paula Souza |[GitHub](github.com/edlaine-souza)|
 |   Dev Team| Lucas de Andrade Brito |[GitHub](github.com/Out0d3)|
 |   Dev Team|  Marcelly Cristini Santos de Souza|[GitHub](github.com/Marcelly-cris)|
