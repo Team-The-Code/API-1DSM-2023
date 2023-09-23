@@ -119,6 +119,6 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 |   Dev Team| Anielle Wesla Macedo Xavier |[GitHub](github.com/Anielle-Ws)|
 |   Dev Team| Diego José da Conceição|[GitHub](diegojose94)|
 |   Dev Team| Edlaine de Paula Souza |[GitHub](github.com/edlaine-souza)|
-|   Dev Team| Lucas de Andrade Brito |[GitHub](github.com/Out0d3)|
+|   Dev Team| Lucas de Andrade Brito |[GitHub](github.com/Outc0d3)|
 |   Dev Team|  Marcelly Cristini Santos de Souza|[GitHub](github.com/Marcelly-cris)|
 |   Dev Team|Vitor Cezar de Souza|[GitHub](github.com/vooshybee)|
