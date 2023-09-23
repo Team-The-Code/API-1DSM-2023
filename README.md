@@ -101,7 +101,7 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 <span id="tecnologias"></span>
 
 ## Tecnologias utilizadas
-* <img src = "https://img.shields.io/badge/HTML-CED4DA?style=for-the-badge&logo=html&logoColor=007ACC" alt="html">   
+* <img src = "https://img.shields.io/badge/HTML-CED4DA?style=for-the-badge&logo=html5&logoColor=007ACC" alt="html">   
 * <img src = "https://img.shields.io/badge/CSS3-CED4DA?style=for-the-badge&logo=css3&logoColor=007ACC" alt ="css3">
 * <img src = "https://img.shields.io/badge/JavaScript-CED4DA?style=for-the-badge&logo=javaScript&logoColor=007ACC" alt ="JavaScript">
 * <img src = "https://img.shields.io/badge/Jira-CED4DA?style=for-the-badge&logo=jira&logoColor=007ACC" alt ="Jira">
