@@ -57,7 +57,7 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 |**14.DOD**|3|
 |**15.Planning Poker**|2|
 |**16.Kanban**|2|
-|**Artefato Scrum**|3|
+|**17.Artefato Scrum**|3|
 |**18.MVP**|3|
 |**19.Protótipo**|1|
 
@@ -95,7 +95,7 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 |  04  | **12.Retrospectiva**|
 |  05  | **13.DOR**|
 |  06  | **14.DOD**|
-|  07  | **Artefato Scrum**|
+|  07  | **17.Artefato Scrum**|
 |  08  | **18.MVP**|
 
 <span id="tecnologias"></span>
