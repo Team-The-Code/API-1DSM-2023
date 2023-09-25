@@ -31,8 +31,8 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 | Sprint| Período | Status |
 |:-----:|:----------:|:---------:|
 | 01 |   04/09/2023 – 27/09/2023 | Entregue :heavy_check_mark: | 
-| 02 |   02/10/2022 - 25/10/2022 | Pendente :hourglass:|    
-| 03 |   30/10/2022 - 22/11/2022 | Pendente :hourglass:| 
+| 02 |   02/10/2022 - 25/10/2023 | Pendente :hourglass:|    
+| 03 |   30/10/2022 - 22/11/2023 | Pendente :hourglass:| 
 <span id="backlogs"></span>
 
 ###   Backlogs
