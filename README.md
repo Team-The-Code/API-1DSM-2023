@@ -4,13 +4,14 @@
 <span id="topo"></span>
 <h1 align="center">Fatec Professor Francisco Moura, Jacareí - 1º Semestre DSM 2023</h1>
 <p align="center">
+    <a hhef ="objetivo">Objetivo </a>|
     <a href="#sobre">Sobre</a> | 
     <a href="#entregas">Entregas</a> | 
     <a href="#backlogs">Backlogs</a> |  
     <a href="#tecnologias">Tecnologias</a> | 
-    <a href="#equipe">Equipe</a> | 
+    <a href="#equipe">Equipe</a> 
 </p>
-
+<span id="objetivo"></span>
 ## 📌 Objetivo do projeto
 Conforme desafio apresentado pelo cliente, o desenvolvimento de uma aplicação Curso Scrum será a proposta como solução, alinhado com a metodologia ágil, trazendo valores e processos da aplicação de modo claro e sucinto.
 <span id="sobre"></span>
