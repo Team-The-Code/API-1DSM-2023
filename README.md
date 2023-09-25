@@ -12,6 +12,7 @@
     <a href="#equipe">Equipe</a> 
 </p>
 <span id="objetivo"></span>
+
 ## 📌 Objetivo do projeto
 Conforme desafio apresentado pelo cliente, o desenvolvimento de uma aplicação Curso Scrum será a proposta como solução, alinhado com a metodologia ágil, trazendo valores e processos da aplicação de modo claro e sucinto.
 <span id="sobre"></span>
