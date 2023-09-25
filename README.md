@@ -4,7 +4,7 @@
 <span id="topo"></span>
 <h1 align="center">Fatec Professor Francisco Moura, Jacareí - 1º Semestre DSM 2023</h1>
 <p align="center">
-    <a href ="objetivo">Objetivo </a>|
+    <a href ="#objetivo">Objetivo </a>|
     <a href="#sobre">Sobre</a> | 
     <a href="#entregas">Entregas</a> | 
     <a href="#backlogs">Backlogs</a> |  
