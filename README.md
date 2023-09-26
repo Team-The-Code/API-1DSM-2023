@@ -80,7 +80,7 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 |**Logo da empresa** | 05 |
 | **Marca do Time** | 04 |
 | **Jira** | 04 |
-| **Analise de coloração**| 01 |
+| **Análise de coloração**| 01 |
 | **Documentação no GitHub** | 05 |
 | **Backlog** | 05 |
 | **Fazer a apresentação** | 02 |
