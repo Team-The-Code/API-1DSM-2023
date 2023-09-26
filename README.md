@@ -22,9 +22,10 @@ Conforme desafio apresentado pelo cliente, o desenvolvimento de uma aplicação 
 Projeto desenvolvido por alunos do 1º semestre do curso de Desenvolviento de Software Multiplatafora, da FATEC Prof Francisco Moura em Jacareí. <br> Consiste na criação de uma plataforma de curso simples para o aprendizado do SCRUM. Front-end desenvolvido em linguagem de marcação HTML e estilo CSS em conjunto com JavaScript, framework utilizado Bootstrap.
 >Status do projeto: Em desenvolvimento :hourglass:
 
-## Como executar a aplicação do Figma
+## Como executar a aplicação do Figma e Video
 
-* <a href="https://www.figma.com/proto/WamIDDE9ZgLUanlkHOClT3/Untitled?type=design&node-id=1-2&t=JapPxWvDgM2Vw1s7-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2&hotspot-hints=0&mode=design">Clique Aqui!</a>
+* <a href="https://www.figma.com/proto/WamIDDE9ZgLUanlkHOClT3/Untitled?type=design&node-id=1-2&t=JapPxWvDgM2Vw1s7-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2&hotspot-hints=0&mode=design">Figma:Clique Aqui!</a>
+*<a href=>Vídeo:Clique aqui</a>
 
 <span id="entregas"></span>
 
@@ -69,9 +70,27 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 ### Sprint 1
 | Item | Funcionalidade                  |
 | :--: | :------------------------- |
-|  01  | **WireFrame da Aplicação**|
+|  01  | **WireFrame da Aplicação**|<br>
 
+|   Tarefas  |         Story Point         |
+|:-------------------------:|:-----:|
+| **Pesquisa de conteúdo SCRUM**| 02 |
+| **WireFrame no Figma**| 05 |
+|**Planning Poker**| 01 |
+|**Logo da empresa** | 05 |
+| **Marca do Time** | 04 |
+| **Jira** | 04 |
+| **Analise de coloração**| 01 |
+| **Documentação no GitHub** | 05 |
+| **Backlog** | 05 |
+| **Fazer a apresentação** | 02 |
+|||
+|   **Total Story Point** | 34|
 
+## Métrica do Time
+<img href="../docs/burndow.png">
+
+<img src>
 </p>
 
 ### Sprint 2 
@@ -109,6 +128,9 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 * <img src = "https://img.shields.io/badge/JavaScript-CED4DA?style=for-the-badge&logo=javaScript&logoColor=007ACC" alt ="JavaScript">
 * <img src = "https://img.shields.io/badge/Jira-CED4DA?style=for-the-badge&logo=jira&logoColor=007ACC" alt ="Jira">
 * <img src = "https://img.shields.io/badge/GitHub-CED4DA?style=for-the-badge&logo=github&logoColor=007ACC" alt ="GitHub">
+* <img src = "https://img.shields.io/badge/Bootstrap-CED4DA?style=for-the-badge&logo=bootstrap&logoColor=007ACC" alt ="Bootstrap">
+* <img src = "https://img.shields.io/badge/Figma-CED4DA?style=for-the-badge&logo=figma&logoColor=007ACC" alt ="Figma">
+
 
 <span id="equipe"></span>
 
