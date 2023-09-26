@@ -88,7 +88,7 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 |   **Total Story Point** | 34|
 
 ## Métrica do Time
-<img href="docs\burndow.png">
+<img src="docs\burndow.png">
 
 <img src>
 </p>
