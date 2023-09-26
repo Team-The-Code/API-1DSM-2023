@@ -22,8 +22,9 @@ Conforme desafio apresentado pelo cliente, o desenvolvimento de uma aplicação 
 Projeto desenvolvido por alunos do 1º semestre do curso de Desenvolviento de Software Multiplatafora, da FATEC Prof Francisco Moura em Jacareí. <br> Consiste na criação de uma plataforma de curso simples para o aprendizado do SCRUM. Front-end desenvolvido em linguagem de marcação HTML e estilo CSS em conjunto com JavaScript, framework utilizado Bootstrap.
 >Status do projeto: Em desenvolvimento :hourglass:
 
-## Como executar a aplicação do Figman
-* Em Breve
+## Como executar a aplicação do Figma
+
+* <a href="https://www.figma.com/proto/WamIDDE9ZgLUanlkHOClT3/Untitled?type=design&node-id=1-2&t=JapPxWvDgM2Vw1s7-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2&hotspot-hints=0&mode=design">Clique Aqui!</a>
 
 <span id="entregas"></span>
 
