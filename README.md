@@ -89,8 +89,6 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 
 ## Métrica do Time
 <img src="docs\burndow.png">
-
-<img src>
 </p>
 
 ### Sprint 2 
