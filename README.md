@@ -24,8 +24,8 @@ Projeto desenvolvido por alunos do 1º semestre do curso de Desenvolviento de So
 
 ## Como executar a aplicação do Figma e Video
 
-* <a href="https://www.figma.com/proto/WamIDDE9ZgLUanlkHOClT3/Untitled?type=design&node-id=1-2&t=JapPxWvDgM2Vw1s7-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2&hotspot-hints=0&mode=design">Figma:Clique Aqui!</a>
-* <a href="">Vídeo:Clique aqui</a>
+* Figma:<a href="https://www.figma.com/proto/WamIDDE9ZgLUanlkHOClT3/Untitled?type=design&node-id=1-2&t=JapPxWvDgM2Vw1s7-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2&hotspot-hints=0&mode=design">Clique Aqui!</a>
+* Vídeo:<a href="https://www.youtube.com/watch?v=ZdZHI50Kp0w">Clique aqui!</a>
 
 <span id="entregas"></span>
 
