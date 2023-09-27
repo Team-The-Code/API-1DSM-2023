@@ -9,7 +9,7 @@
     <a href="#entregas">Entregas</a> | 
     <a href="#backlogs">Backlogs</a> |  
     <a href="#tecnologias">Tecnologias</a> | 
-    <a href="#equipe">Equipe</a> 
+    <a href="#equipe">Equipe</a>
 </p>
 <span id="objetivo"></span>
 
@@ -86,6 +86,21 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 | **Fazer a apresentação** | 02 |
 |||
 |   **Total Story Point** | 34|
+
+### Quadro Kanban 
+
+|  Product Backlog  |   Sprint Backlog (Tarefas com base no requisito 19)  |   A fazer    |     Em andamento     |     Pronto    |
+|:----------------:|:-------------------------------------:|:-----------------------------------:|:---------------------:|:---------------------:|
+| **19 - WireFrame no Figma**  |WireFrame no Figma              |                  |                   |WireFrame no Figma|
+| *                            |Pesquisa do Conteúdo Scrum      |                  |                   |Pesquisa do Conteúdo Scrum|
+| *                            |Planning Poker                  |                  |                   |Planning Poker|
+| *                            |Marca do empresa                |                  |                   |Logo da empresa|
+| *                            |Marca do time                   |                  |                   |Marca do time|
+| *                            |Jira                            |                  |                   |Jira|
+| *                            |Análise de coloração            |                  |                   |Análise de coloração|
+| *                            |Backlog                         |                  |                   |Backlog|
+| *                            |Fazer a apresentação            |                  |                   |Fazer a apresentação|
+| *                            |Documentação via GitHub Sprint 1|                  |                   |Documentação via GitHub Sprint 1|
 
 ## Métrica do Time
 <img src="docs\burndow.png">
