@@ -89,18 +89,19 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 
 ### Quadro Kanban 
 
-|  Product Backlog  |   Sprint Backlog (Tarefas com base no requisito 19)  |   A fazer    |     Em andamento     |     Pronto    |
-|:----------------:|:-------------------------------------:|:-----------------------------------:|:---------------------:|:---------------------:|
-| **19 - WireFrame no Figma**  |WireFrame no Figma              |                  |                   |WireFrame no Figma|
-| *                            |Pesquisa do Conteúdo Scrum      |                  |                   |Pesquisa do Conteúdo Scrum|
-| *                            |Planning Poker                  |                  |                   |Planning Poker|
-| *                            |Marca do empresa                |                  |                   |Logo da empresa|
-| *                            |Marca do time                   |                  |                   |Marca do time|
-| *                            |Jira                            |                  |                   |Jira|
-| *                            |Análise de coloração            |                  |                   |Análise de coloração|
-| *                            |Backlog                         |                  |                   |Backlog|
-| *                            |Fazer a apresentação            |                  |                   |Fazer a apresentação|
-| *                            |Documentação via GitHub Sprint 1|                  |                   |Documentação via GitHub Sprint 1|
+|  Product Backlog  |   Sprint Backlog (Tarefas com base no requisito 19)  |   A fazer    |     Em andamento     |     Pronto    | Membro |
+|:----------------:|:-------------------------------------:|:-------:|:---------------------:|:----------------:|:----------------:|
+| **19 - WireFrame no Figma**  |  WireFrame no Figma|                  |                   |WireFrame no Figma|Todos os membros|
+| * |Pesquisa do Conteúdo Scrum|                  |                   |Pesquisa do Conteúdo Scrum| Edlaine, Lucas, Samuel|
+| * |Planning Poker|                 |                   |Planning Poker| Todos|
+| * |Marca do empresa|                  |                   |Logo da empresa| Ana Júlia, Marcelly, Vitor|
+| * |Marca do time|                |                   |Marca do time| Ana Júlia, Anielle, Marcelly, Vitor|
+| * |Jira|                  |                   |Jira| Samuel|
+| * |Análise de coloração|                  |                   |Análise de coloração| Diogo, Paulo|
+| * |Backlog|                  |                   |Backlog|Paulo, Samuel|
+| * |Fazer a apresentação|                  |                   |Fazer a apresentação|Samuel|
+| * |Documentação via GitHub Sprint 1|                  |                   |Documentação via GitHub Sprint 1|Samuel|
+
 
 ## Métrica do Time
 <img src="docs\burndow.png">
