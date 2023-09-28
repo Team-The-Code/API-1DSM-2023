@@ -93,7 +93,7 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 |:----------------:|:-------------------------------------:|:-------:|:---------------------:|:----------------:|:----------------:|
 | **19 - WireFrame no Figma**  |  WireFrame no Figma|                  |                   |WireFrame no Figma|Todos os membros|
 | * |Pesquisa do Conteúdo Scrum|                  |                   |Pesquisa do Conteúdo Scrum| Edlaine, Lucas, Samuel|
-| * |Planning Poker|                 |                   |Planning Poker| Todos|
+| * |Planning Poker|                 |                   |Planning Poker| Todos os membros|
 | * |Marca do empresa|                  |                   |Logo da empresa| Ana Júlia, Marcelly, Vitor|
 | * |Marca do time|                |                   |Marca do time| Ana Júlia, Anielle, Marcelly, Vitor|
 | * |Jira|                  |                   |Jira| Samuel|
