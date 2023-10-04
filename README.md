@@ -107,6 +107,14 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 <img src="docs\burndow.png">
 </p>
 
+## Retrospectiva da Sprint 1
+|O que funcionou bem| O que poderia melhorar|
+|:-----------------:|:---------------------:|
+|Wireframe;|Comunicação entre os membros|
+|Daily; |Mais informações sobre a API|
+|Direcionamento Final|Planejamento |
+|                   |Direcionamento inicial|
+
 ### Sprint 2 
 | Item | Funcionalidade             |
 | :--: | :------------------------------------------------------- |
