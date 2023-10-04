@@ -1,0 +1,743 @@
+.ciclo {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .ciclo .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1440px;
+    height: 7236px;
+    position: relative;
+  }
+  
+  .ciclo .margem-rodape {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 576px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 70px 90px;
+    position: absolute;
+    top: 6660px;
+    left: 0;
+    background-color: #000000;
+  }
+  
+  .ciclo .rodape {
+    display: flex;
+    flex-direction: column;
+    width: 1279px;
+    height: 506px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin-top: -35px;
+    margin-bottom: -35px;
+    margin-left: -9.5px;
+    margin-right: -9.5px;
+  }
+  
+  .ciclo .rodape-2 {
+    display: flex;
+    width: 1184px;
+    height: 200px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .ciclo .element-unify {
+    position: relative;
+    width: 568px;
+    height: 300px;
+    margin-top: -51px;
+    margin-bottom: -49px;
+    font-family: "Roboto Serif-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #6f6f6f;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .ciclo .links-redes-sociais {
+    display: flex;
+    width: 317px;
+    align-items: flex-start;
+    gap: 45px;
+    position: relative;
+  }
+  
+  .ciclo .frame {
+    position: relative;
+    width: 108px;
+    height: 99px;
+    background-color: #6f6f6f;
+  }
+  
+  .ciclo .component {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    top: -25px;
+    left: -21px;
+    background-color: #37e37233;
+    border-radius: 75px;
+  }
+  
+  .ciclo .overlap-group {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    
+  }
+  
+  .ciclo .ellipse {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .ciclo .text-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Bree Serif-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .ciclo .text-wrapper-2 {
+    position: absolute;
+    top: 0;
+    left: 73px;
+    font-family: "Bree Serif-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .ciclo .rectangle {
+    position: absolute;
+    width: 6px;
+    height: 2px;
+    top: 34px;
+    left: 64px;
+    background-color: #143047;
+  }
+  
+  .ciclo .rectangle-2 {
+    position: absolute;
+    width: 6px;
+    height: 2px;
+    top: 42px;
+    left: 78px;
+    background-color: #143047;
+  }
+  
+  .ciclo .icones-rede-sociais {
+    position: absolute;
+    width: 164px;
+    height: 164px;
+    top: -29px;
+    left: 153px;
+    background-image: url(./img/145785857-2.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .ciclo .vector {
+    position: relative;
+    width: 1184px;
+    height: 1px;
+    object-fit: cover;
+  }
+  
+  .ciclo .rodape-3 {
+    display: flex;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    gap: 261px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .ciclo .link-colunas {
+    display: inline-flex;
+    flex-direction: column;
+    height: 142px;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-left: -264.5px;
+  }
+  
+  .ciclo .text-wrapper-3 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #6f6f6f;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 30px;
+    text-decoration: underline;
+  }
+  
+  .ciclo .text-wrapper-4 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #6f6f6f;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 30px;
+    text-decoration: underline;
+  }
+  
+  .ciclo .link {
+    display: inline-flex;
+    flex-direction: column;
+    height: 150px;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .ciclo .link-2 {
+    display: inline-flex;
+    flex-direction: column;
+    height: 145px;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-right: -264.5px;
+  }
+  
+  .ciclo .overlap {
+    position: absolute;
+    width: 1382px;
+    height: 2926px;
+    top: 398px;
+    left: 96px;
+  }
+  
+  .ciclo .artigo {
+    display: flex;
+    flex-direction: column;
+    width: 1166px;
+    height: 2926px;
+    align-items: flex-start;
+    gap: 118px;
+    position: absolute;
+    top: 0;
+    left: 216px;
+  }
+  
+  .ciclo .titulo {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1121px;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: -46px 67px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .ciclo .SCRUM-o-que-scrum-e {
+    position: relative;
+    width: 1100px;
+    height: 174px;
+  }
+  
+  .ciclo .texto {
+    display: flex;
+    flex-direction: column;
+    width: 1110px;
+    align-items: flex-end;
+    gap: 187px;
+    padding: 0px 80px 0px 0px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-bottom: -108px;
+  }
+  
+  .ciclo .sprint-cycle-c-wrapper {
+    display: flex;
+    width: 1246px;
+    height: 662px;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    margin-left: -216px;
+    border-radius: 12px;
+    backdrop-filter: blur(4px) brightness(100%);
+    -webkit-backdrop-filter: blur(4px) brightness(100%);
+  }
+  
+  .ciclo .sprint-cycle-c {
+    position: relative;
+    width: 749px;
+    height: 643px;
+    object-fit: cover;
+  }
+  
+  .ciclo .p {
+    position: relative;
+    width: 841px;
+    height: 585px;
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    color: #1e1e1e;
+    font-size: 36px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .ciclo .segundo-paragrafo {
+    position: relative;
+    width: 841px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #1e1e1e;
+    font-size: 36px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .ciclo .text-wrapper-5 {
+    position: relative;
+    width: 841px;
+    height: 430px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #1e1e1e;
+    font-size: 36px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .ciclo .text-wrapper-6 {
+    position: absolute;
+    width: 355px;
+    height: 85px;
+    top: 1054px;
+    left: 390px;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .ciclo .text-wrapper-7 {
+    position: absolute;
+    width: 288px;
+    height: 72px;
+    top: 1842px;
+    left: 390px;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .ciclo .text-wrapper-8 {
+    position: absolute;
+    width: 288px;
+    height: 72px;
+    top: 2533px;
+    left: 390px;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .ciclo .frame-2 {
+    display: flex;
+    flex-direction: column;
+    width: 288px;
+    align-items: flex-start;
+    gap: 32px;
+    padding: 100px 0px 1000px;
+    position: absolute;
+    top: 999px;
+    left: 6px;
+    overflow-y: scroll;
+  }
+  
+  .ciclo .hover {
+    position: relative;
+    width: 313px;
+    height: 41px;
+    margin-right: -25px;
+  }
+  
+  .ciclo .metodologia-gil {
+    position: absolute;
+    width: 313px;
+    top: -1px;
+    left: 0;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #6f6f6f;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .ciclo .frame-3 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 31px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-right: -25px;
+  }
+  
+  .ciclo .metodologia-gil-wrapper {
+    width: 313px;
+    position: relative;
+    height: 41px;
+  }
+  
+  .ciclo .div-wrapper {
+    width: 133px;
+    position: relative;
+    height: 41px;
+  }
+  
+  .ciclo .metodologia-gil-2 {
+    width: 133px;
+    position: absolute;
+    top: -1px;
+    left: 0;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #6f6f6f;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .ciclo .text-wrapper-9 {
+    position: relative;
+    width: 133px;
+    height: 41px;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #6f6f6f;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .ciclo .text-wrapper-10 {
+    position: relative;
+    width: 171px;
+    height: 41px;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #6f6f6f;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .ciclo .SCRUM-o-que-scrum-e-wrapper {
+    position: absolute;
+    width: 1236px;
+    height: 230px;
+    top: 2px;
+    left: 0;
+  }
+  
+  .ciclo .SCRUM-o-que-scrum-e-2 {
+    position: absolute;
+    width: 1236px;
+    top: -1px;
+    left: 0;
+    font-family: "Roboto Serif-Bold", Helvetica;
+    font-weight: 700;
+    color: #1e1e1e;
+    font-size: 96px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .ciclo .span {
+    font-family: "Roboto Serif-Bold", Helvetica;
+    font-weight: 700;
+    color: #1e1e1e;
+    font-size: 96px;
+    letter-spacing: 0;
+  }
+  
+  .ciclo .text-wrapper-11 {
+    font-size: 64px;
+  }
+  
+  .ciclo .c-ATEGORIA {
+    display: flex;
+    width: 162px;
+    height: 43px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 311px;
+    left: 122px;
+    background-color: #9993a6;
+    border-radius: 80px;
+  }
+  
+  .ciclo .artefatos-SCRUM {
+    position: relative;
+    width: fit-content;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #1e1e1e;
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .ciclo .SCRUM-o-que-scrum-e-3 {
+    position: absolute;
+    width: 451px;
+    height: 31px;
+    top: 317px;
+    left: 312px;
+  }
+  
+  .ciclo .SCRUM-o-que-scrum-e-4 {
+    position: absolute;
+    top: -1px;
+    left: 0;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #1e1e1e;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .ciclo .text-wrapper-12 {
+    top: 3746px;
+    position: absolute;
+    width: 841px;
+    left: 501px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #1e1e1e;
+    font-size: 36px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .ciclo .text-wrapper-13 {
+    top: 4506px;
+    position: absolute;
+    width: 841px;
+    left: 501px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #1e1e1e;
+    font-size: 36px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .ciclo .text-wrapper-14 {
+    top: 5312px;
+    position: absolute;
+    width: 841px;
+    left: 501px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #1e1e1e;
+    font-size: 36px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .ciclo .cabealho-menu {
+    display: flex;
+    width: 1203px;
+    height: 179px;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 166px;
+    background-color: #ffffff;
+    overflow-y: scroll;
+  }
+  
+  .ciclo .logo {
+    display: inline-flex;
+    height: 212px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .ciclo .overlap-group-wrapper {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: #37e37233;
+    border-radius: 75px;
+  }
+  
+  .ciclo .menu {
+    display: flex;
+    width: 687px;
+    height: 212px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    position: relative;
+  }
+  
+  .ciclo .inicio {
+    position: relative;
+    width: 95px;
+    height: 53px;
+    background-color: #ffffff;
+  }
+  
+  .ciclo .text-wrapper-15 {
+    position: absolute;
+    width: 95px;
+    height: 53px;
+    top: -1px;
+    left: 0;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #1e1e1e;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .ciclo .text-wrapper-16 {
+    position: absolute;
+    width: 288px;
+    height: 72px;
+    top: 3661px;
+    left: 487px;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .ciclo .text-wrapper-17 {
+    position: absolute;
+    width: 288px;
+    height: 72px;
+    top: 4434px;
+    left: 487px;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .ciclo .text-wrapper-18 {
+    position: absolute;
+    width: 288px;
+    height: 72px;
+    top: 5240px;
+    left: 487px;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .ciclo .boto {
+    display: flex;
+    flex-direction: column;
+    width: 391px;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 6293px;
+    left: 1146px;
+  }
+  
+  .ciclo .inicio-wrapper {
+    position: relative;
+    width: 165px;
+    height: 70px;
+    background-color: #9a9999;
+    border-radius: 100px;
+  }
+  
+  .ciclo .inicio-2 {
+    position: absolute;
+    width: 165px;
+    height: 70px;
+    top: -1px;
+    left: 0;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
