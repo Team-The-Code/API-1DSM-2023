@@ -1,0 +1,90 @@
+
+.content {
+    padding: 0 15%;
+    margin-top: 5%;
+    font-size: 30px;
+    text-align: left;
+}
+#UnifyLogo {
+    margin-left: 12%;
+}
+.logoName {
+    width: 100%;
+    font-weight: bolder;
+    font-size:45px;
+    font-family: "Bree Serif", "Courier New", monospace;
+    letter-spacing: -3px;
+}
+.nav-menu {
+    margin-right: 100px;
+    margin-left: auto;
+}
+.nav-menu ul {
+    list-style-type: none;    
+}
+.nav-menu ul li {
+    display: inline-block;
+}
+.nav-menu ul li a{
+    color: black;
+    font-size: 30px;
+    padding: 15px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.centralize {
+    width: 100%;
+    text-align: center;
+}
+#rodape {
+    background-color: black; 
+    width: 100%; 
+    height: 100vh; 
+    margin-top: 40%;
+    color: rgb(168, 166, 166); 
+    font-size: 24px;
+}
+#divisor {
+    margin-bottom: 7%; 
+    margin-top: 5%;
+}
+.copyright {
+    margin-left: 20%;
+    padding-top: 10%;
+    margin-bottom: 5%;
+    width: fit-content;
+    height: fit-content;
+}
+footer hr {
+    width: 80%;
+}
+.logos {
+    height: fit-content;
+    margin-left: 25%;
+    margin-top: 5%;
+    display: flex;
+}
+.nav-footer {
+    margin-right: 100px;
+
+    width: 100%;
+    text-align: center;
+}
+.nav-footer ul {
+    list-style-type: none;    
+}
+.nav-footer ul li {
+    display: inline-block;
+    padding: 0 120px;
+}
+.nav-footer ul li a{
+    color: rgb(168, 166, 166);
+    font-size: 30px;
+    padding: 15px;
+    list-style-type: none;
+}
