@@ -11,12 +11,8 @@
   
 }
 .nav-cabecalho{
-  background-color:rgb(247, 242, 242);
-  background-size: 80vw;
-  padding: 10px;
-  border-radius: 30px;
   /* position: fixed; */
-  width: 70vw;
+  width: 75.8vw;
   margin-left: 15vw;
   display: flex;
   justify-content: space-between;
@@ -28,15 +24,22 @@
   text-decoration: none;
   display: flex;
   margin: auto 0;
+  list-style: none;
 }
 .nav-links{
   display: flex;
+  text-decoration: none;
+  list-style: none;
 }
 .nav-links > li {
   text-decoration: none;
   list-style: none;
+  border-style: none;
 }
 a{
+  border-style: none;
+  border: none;
+  list-style: none;
   text-decoration: none;
   color: rgb(19, 17, 17);
   padding-left: 7vw;
@@ -72,23 +75,25 @@ a{
 p{
   text-align: justify;
 }
-.rodape{
-  padding: auto;
-  background-color: black;
-  height: 10vw;
-}
+
 .nav-lateral{
   position: fixed;
-  padding-bottom: 2vw;
-  
+  padding-bottom: 10vw;
+
 }
 .nav-lateral > ul {
-  position: absolute;
-  height: auto;
+  position: fixed;
+  margin-bottom: 30vw;
+  height: 20vw;
   margin-left: 10vw;
-  padding-left: auto;
 
 }
 .corpo-superior-1{
   display: block;
+}
+.rodape{
+  position:static;
+  padding: auto;
+  background-color: black;
+  height: 25vh;
 }
