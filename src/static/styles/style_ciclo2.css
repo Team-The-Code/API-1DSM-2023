@@ -11,6 +11,12 @@
   
 }
 .nav-cabecalho{
+<<<<<<< HEAD
+=======
+  background-size: 80vw;
+  padding: 10px;
+  border-radius: 30px;
+>>>>>>> 55855545f1b13626740dacf4598c4985860de239
   /* position: fixed; */
   width: 75.8vw;
   margin-left: 15vw;
