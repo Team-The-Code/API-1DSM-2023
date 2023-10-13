@@ -1,4 +1,12 @@
 
+* {
+    font-family: Roboto;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;   
+}
+
+
 .content {
     padding: 0 15%;
     margin-top: 5%;
@@ -6,41 +14,55 @@
     text-align: left;
 }
 #UnifyLogo {
-    margin-left: 12%;
+    margin-left: 10%;
+    margin-top: 1%;
 }
-.logoName {
+
+.navbar {
     width: 100%;
-    font-weight: bolder;
-    font-size:45px;
-    font-family: "Bree Serif", "Courier New", monospace;
-    letter-spacing: -3px;
+    height: 145px;
+    background: #000000;
+    color: #ffffff;
+    position: fixed;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: -6%;
+   
 }
+
 .nav-menu {
     margin-right: 100px;
     margin-left: auto;
+   
 }
 .nav-menu ul {
-    list-style-type: none;    
+    list-style-type: none; 
+    margin-top: 4%;   
 }
 .nav-menu ul li {
     display: inline-block;
 }
-.nav-menu ul li a{
-    color: black;
-    font-size: 30px;
-    padding: 15px;
+.nav-menu ul li a {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    padding: 50px;
     text-decoration: none;
     list-style-type: none;
 }
-.navbar {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+.nav-menu ul li a:hover {
+    cursor: pointer;
+    color: #544FA9;
 }
+
 .centralize {
     width: 100%;
     text-align: center;
+    margin-bottom: 10%;
+    padding-top: 10%;
+    
 }
+
 #rodape {
     background-color: black; 
     width: 100%; 
@@ -48,45 +70,30 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 20vh;
-    color: rgb(168, 166, 166); 
-    font-size: 24px;
+    color: rgb(255, 255, 255); 
+    font-size: 22px;
+    
 }
-#divisor {
-    margin-bottom: 7%; 
-    margin-top: 5%;
-}
+
 .copyright {
-    margin-left: 20%;
+    margin-left: 15%;
     padding-top: 10%;
     margin-bottom: 5%;
     width: fit-content;
     height: fit-content;
 }
-footer hr {
-    width: 80%;
-}
+
+
 .logos {
     height: fit-content;
-    margin-left: 25%;
+    margin-left: 35%;
     margin-top: 5%;
     display: flex;
 }
-.nav-footer {
+/* .nav-footer {
     margin-right: 100px;
 
     width: 100%;
     text-align: center;
-}
-.nav-footer ul {
-    list-style-type: none;    
-}
-.nav-footer ul li {
-    display: inline-block;
-    padding: 0 120px;
-}
-.nav-footer ul li a{
-    color: rgb(168, 166, 166);
-    font-size: 30px;
-    padding: 15px;
-    list-style-type: none;
-}
+} */
+
