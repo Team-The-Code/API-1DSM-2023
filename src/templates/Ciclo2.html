@@ -1,30 +1,28 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ciclo 2</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"/>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="../static/styles/style_ciclo2.css">
-    <link rel="shortcut icon" href="../static/public/favicon-16x16.png">
-    </head>
+    <link rel="stylesheet" href="teste.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
 <body>
-<!-- cabeçalho -->
-<div class="cabecalho">
-    <nav class="nav-cabecalho">
-        <h1 class="logo"><img src="../static/public/unifi.png" alt="logounify" width="150" height="150"></h1>
-        <div class="links">
-            <ul class="nav-links">
-                <li><h2><a href="#">Inicio</a></h2></li>
-                <li><h2><a href="#">Sobre</a></h2></li>
-                <li><h2><a href="#">Contato</a></h2></li>
+    <!-- cabeçalho -->
+    <header>  
+        <nav class="nav-bar">
+            <div class="logos">
+                <img src="LogoUnify.png" alt="log">
+            </div>
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
             </ul>
-        </div>
-    </nav>
-</div>
-<!-- corpo -->
+
+        </nav>
+    </header>
+    <!-- corpo -->
 <div >
     <div class="corpo-superior"> <!-- Definindo o espaço da introdução ao conteúdo do ciclo 2, com formação do botão, data e o titulo -->
         <button class="btn-ciclo2">Ciclo 2</button>
@@ -33,12 +31,54 @@
     <div class="nav-lateral-div">
         <nav class="nav-lateral">
             <ul>
-                <a href="#Processos-SCRUM"><span><li>Processos SCRUM</li></span></a>
-                <a href="#Planning-Poker"><span><li>Planning Poker</li></span></a>
-                <a href="#Backlog"><span><li>Backlog</li></span></a>
-                <a href="#Sprint-Planning"><span><li>Sprint Planning</li></span></a>
-                <a href="#Daily"><span><li>Daily</li></span></a>
-            </a>
+                <li class="item-menu">
+                    <a href="m">
+                        <span class="icons"><i class="bi bi-person-video3"></i>
+                        </span>
+                        <span class="txt-link pg-primary">Processos Scrum</span>
+                    </a>
+                </li>
+                <hr>
+                <li class="item-menu">
+                    <a href="m">
+                        <span class="icons"><i class="bi bi-valentine2"></i>
+                        </span>
+                        <span class="txt-link">Planning Poker</span>
+                    </a>
+                </li>
+                <hr>
+                <li class="item-menu">
+                    <a href="m">
+                        <span class="icons"><i class="bi bi-list-columns-reverse"></i>
+                        </span>
+                        <span class="txt-link">Sprint Planning</span>
+                    </a>
+                </li>
+                <hr>
+                <li class="item-menu">
+                    <a href="m">
+                        <span class="icons"><i class="bi bi-journal-check"></i>
+                        </span>
+                        <span class="txt-link">Backlog</span>
+                    </a>
+                </li>
+                <hr>
+                <li class="item-menu">
+                        <a href="m">
+                            <span class="icon"><i class="bi bi-graph-down-arrow"></i>
+                            </span>
+                            <span class="txt-link">Daily</span>
+                        </a>
+                </li>
+                <hr>
+                <li class="item-menu">
+                    <a href="m">
+                        <span class="icon"><i class="bi bi-door-open-fill"></i>
+                        </span>
+                        <span class="txt-link">DOR/DOD</span>
+                    </a>
+                </li>
+                <hr>
             </ul>
         </nav>
     </div>
@@ -49,36 +89,25 @@
     </div>
     <div id="Processos-SCRUM" class="corpo-titulo">
         <h4>Processos SCRUM</h4>
-        <p>O Processo SCRUM é iniciado quando o PO (Product Owner), adquire os requisitos do cliente e faz um product backlog com os itens necessários e úteis que o cliente deseja.
-            Logo após isso, é feito uma sprint backlog, onde todos os itens, serão dividos igualmente entre a quantidade de sprints que serão realizadas na duração de duas a quatro semanas cada.
-            Então, a sprint é iniciada com reuniões diárias de 15 minutos, havendo discussões se há impedimentos e o que cada um está trabalhando atualmente para agilizar o processo e garantir o transparecimento na sprint. Em todas essas reuniões, o Scrum Master aplica sua função para o Dev Team, gerando organização e rendimento nos trabalhos.
+        <p>O Processo SCRUM é iniciado quando o PO (Product Owner), adquire os requisitos do cliente e faz um product backlog com os itens necessários e úteis que o cliente deseja.<br>
+            Logo após isso, é feito uma sprint backlog, onde todos os itens, serão dividos igualmente entre a quantidade de sprints que serão realizadas na duração de duas a quatro semanas cada.<br>
+            Então, a sprint é iniciada com reuniões diárias de 15 minutos, havendo discussões se há impedimentos e o que cada um está trabalhando atualmente para agilizar o processo e garantir o transparecimento na sprint. Em todas essas reuniões, o Scrum Master aplica sua função para o Dev Team, gerando organização e rendimento nos trabalhos.<br>
             Após todas as sprints, a equipe entrega o MVP( Minimum Viable Product), ou o produto completo que agrade o cliente e satisfaça o que foi pedido, finalizando o trabalho e partindo em busca do próximo cliente.
         </p>
     </div>
     <div id="Planning-Poker" class="corpo-titulo">
         <h4>Planning Poker</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus voluptate, sapiente aspernatur amet corrupti soluta facere tempora repudiandae aliquid eius delectus accusantium reiciendis saepe ab nulla atque id voluptates est!
-        Quo rerum architecto a porro neque doloribus voluptatibus magni alias vitae libero nesciunt sequi, dolore recusandae voluptates, pariatur minima at! Asperiores blanditiis voluptatum quas. Quisquam sequi saepe dolores doloribus et.
-        Voluptatibus atque suscipit aperiam maiores, sint mollitia et iste? Dignissimos recusandae accusamus ratione suscipit officiis molestiae commodi nemo aliquid libero, facere assumenda labore aperiam eius explicabo magni, vero amet vel.
-        Alias tempore veniam odit necessitatibus, cumque eaque nobis? Neque, nobis esse. Sapiente tempora non amet rerum incidunt nam, consequatur perferendis placeat, porro quas sunt possimus beatae libero harum. Voluptate, repellat.
-        Expedita explicabo optio quia repellendus cumque, nam recusandae vitae, perspiciatis odit nobis aliquid quisquam? Repellat recusandae quos omnis accusamus sunt rem labore ut aspernatur, ducimus maiores deserunt quasi quisquam modi!
-        Porro molestias, provident numquam magnam dolorum earum voluptas cupiditate culpa dolore amet libero incidunt est aliquam aut voluptatem ex cumque exercitationem ratione animi. Sunt, necessitatibus quas quia qui eveniet exercitationem!
-        Facilis, ex. Modi pariatur iste voluptates adipisci expedita quaerat animi esse quo est maiores, porro numquam tempora rerum asperiores id eveniet. Saepe voluptatem fugit vel possimus laborum aliquam quibusdam eligendi.
-        Et rem consequuntur perferendis reiciendis ipsum architecto, qui dolores sequi consectetur laboriosam maiores, deserunt veniam debitis impedit fugit laborum fugiat sit nulla. Neque impedit, sed officia omnis sequi libero facere?
-        Iusto commodi tempore natus vitae nihil porro cumque similique eveniet nostrum inventore, animi, nulla fuga ullam quas. Iure, itaque natus veniam, enim culpa, minus adipisci laboriosam fugit esse magnam reiciendis?</p>
+        <p> Para um bom entendimento do planning poker, é necessário entender, que essa tarefas tem como fato a mensuração de esforço que será atribuído por cada tarefa, sendo está fundamental no desenvolvimento da sprint, e após tendo como foco o entendimento mutuo da equipe para definição final de esforço.<br>
+            A dinâmica funciona de uma forma simples, usa-se a escala de Fibonacci, no qual tem um baralho com a numeração 1, 2, 3, 5, 8,13,21,34 e assim por diante, desse modo assim que o PO, definir a tarefa que será feita, os membro pegam esse baralho e escolhe um valor respectivo sobre seu entendimento, e é revelado, desse modo, quando um membro que colocou a atribuição de esforço como 1 e outro como 13, possam assim explicar seus respectivos argumentos, e desse modo solucionar duvidas de outros membros da equipe de desenvolvimento, e no final mutuamente definir o grau de esforço geral da equipe.<br>
+            As principais vantagem desse método, é a união da equipe, evitar uma grande variação de estimativas, maior entendimento do que será realizado, ajuda na organização do backlog e definição da métrica do time perante a Sprint iniciada.
+            </p>
 
     </div>
     <div id="Backlog" class="corpo-titulo">
-        <h4>Backlog</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repudiandae distinctio voluptate adipisci nesciunt maxime eveniet? Inventore magnam nostrum a eligendi aliquid deleniti dicta delectus veritatis, recusandae consequatur! Aut, incidunt!
-        Eveniet tempore necessitatibus optio illo deleniti ab quasi. Consequuntur voluptatibus tempora eos recusandae eum itaque neque veritatis earum eligendi, libero fugit, commodi corporis! Perspiciatis ipsa suscipit id! Maiores, minus sint!
-        Nulla eum id suscipit ratione in accusantium quaerat itaque! Doloremque quod, sunt officiis tenetur adipisci quos ratione, repudiandae quis, architecto voluptas eaque reiciendis. Iusto, id voluptate sapiente sint dicta rerum!
-        Repellendus hic aliquam aspernatur cupiditate. Corrupti voluptatem quia quo cumque labore? Repellendus voluptatibus asperiores perspiciatis ut similique, culpa suscipit quo aliquam optio perferendis sint minima quod exercitationem soluta, voluptate animi!
-        Molestias rem inventore excepturi, aspernatur in ducimus pariatur? Eum omnis ex repudiandae ipsa eos fuga doloribus consequatur praesentium est hic quasi tempore atque quibusdam, autem totam quia nemo porro illum!
-        Maxime totam, sequi magni quo doloribus asperiores vel error culpa excepturi earum eum accusantium quas aliquid delectus, fugit a deserunt impedit sunt cum iste fuga? Facere suscipit fuga nesciunt eaque!
-        Recusandae dolore quam nemo, eaque dolorem culpa, placeat labore aspernatur amet nobis, cupiditate aperiam soluta accusamus corrupti excepturi quo itaque voluptas! Officia, vero. Facere earum voluptatem non voluptates quam dicta.
-        Ut odit deserunt molestias saepe labore, culpa animi aliquam tenetur ex harum qui rem vitae? Expedita exercitationem similique dolore? Doloribus officia corporis cupiditate aut perspiciatis excepturi repellendus veritatis quod nulla?
-        Expedita sed eaque tempora officiis aperiam. Et tenetur architecto numquam corrupti perspiciatis distinctio quidem aut quia, voluptates odit sequi cupiditate exercitationem cumque libero eius. Labore dolore quibusdam numquam veniam sed!</p>
+        <h4>Product Backlog</h4>
+        <p>Product Backlog ou backlog do produto, é terminado pela mineração de informações com o cliente, de modo a tanto entregar um produto modelo ao cliente, e tanto ter um entendimento geral sobre o desenvolvimento por meio da equipe, sendo está tarefa do Product Owner, alinhar os valores do cliente e da equipe, dessa forma suprindo as necessidades e vontades do cliente.<br>
+            Os processos da Montagem de um Backlog, primeiramente ocorre a reunião com o cliente onde é levantado os requisitos fundamentais na montagem do produto, sendo a entrega de valor ao cliente fundamental nessa primeira reunião, e o entendimento geral sobre o projeto. A partir desse momento, é montado o Product Backlog, sendo este um documento que está amplamente aberto a modificações durante todas as Sprints, visto que, a coleta de dados não é algo imutável, mas sim, um fluxo de informações que complementa e atualiza novas visões sobre o todo do produto. Após a análise de requisitos, é montada a história do usuário sobre o produto, tendo como foco, como o usuário vai ter acesso as informações, como será as interações e o que será necessário para concluir tais funções por meio de tarefas claras e objetivas a equipe de desenvolvimento. Visto assim, a equipe de desenvolvimento como foco dessa parte do projeto, sendo este o que montarão a aplicação na parte prática. Concluindo assim, a importância de um projeto com muita descrição e entendimento de todo as parte no  desenvolvimento do produto, e assim, definindo as sprints no qual será desenvolvida  todo o projeto e aliado com o planning poker, entender as métricas e esforço da equipe perante ao projeto e o tempo de construção total da aplicação.
+        </p>
     </div>
     <div id="Sprint-Planning" class="corpo-titulo">
         <h4>Sprint Planning</h4>
@@ -103,13 +132,26 @@
         Libero, in laudantium. Non repellendus sapiente voluptas, consectetur dolorem illo deleniti tempore sit quaerat hic, perspiciatis similique? Laudantium sint cumque, voluptatum corrupti expedita repellendus doloremque adipisci nobis beatae, provident vel.
         Officia, eius minima dolorum aspernatur libero quas unde nemo, recusandae sit voluptate nam a cupiditate et corporis. Sed laboriosam, placeat itaque vel quo, consequatur unde, neque fugiat eos error odio.
         Similique dicta exercitationem optio voluptatum incidunt nihil accusantium, eligendi unde saepe expedita commodi praesentium architecto velit aperiam culpa a debitis? Dicta provident autem exercitationem ducimus, molestias iusto suscipit facere cupiditate!</p>
+    </div>
+    <div id="Sprint Backlog" class="corpo-titulo">
+        <h4>Sprint Backlog</h4>
+        <p>A Sprint Backlog tem como função a organização de tarefas de modo a entregar valor ao cliente, visto que, é fundamental o alinhamento entre o que será entregue pela equipe e o que o cliente quer receber, sendo assim, o Sprint Backlog é uma solução de estar sempre atualizando o cliente com o foco de colher críticas, elogios e opiniões para atingir o objetivo do projeto.<br>
+            Usualmente a Sprints tem data de início e fim, como um bom projeto, tem que ter começo meio e fim, desse modo, a Sprint segue essa visão.  Trazendo assim divisões na entrega do produto total. .<br>
+            Entendendo assim esse objetivo, o desenvolvimento da Sprint backlog é a divisão do Backlog total, sendo o filtro a entrevistado com o cliente, conduzindo o projeto nos valores e regras de negócio do produto que será desenvolvido, como a entrega da Sprint é a solução para o cliente, dividir em períodos é fundamental para estar sempre melhorando o projeto e também estruturar a equipe a seguir um caminho claro e com valor pré-determinados, mas com vontade de estar se adaptando as adversidades do projeto. .<br>
+            Geralmente tem duração de duas semanas a um mês, e sua função é o desenvolvimento de uma parte do projeto de modo a entregar algo visual ao cliente e trazer mais transparência no processo total do desenvolvimento de software.
+            
+        </p>
+    </div>
 </div>
 
-</div>
-<!-- rodapé -->
-<div class="rodape">
+    <!-- rodapé -->
+    <footer>
+        <a>©2023 - 2024&nbsp;&nbsp;Unify.</a>
+        <div class="logos-1">
+            <img  src="LogoUnify.png" width="160px" height="160px">
+            <img  src="145785857-2-3.png" width="160px" height="160px">
+        </div>
+    </footer>
     
-</div>
 </body>
-
 </html>
