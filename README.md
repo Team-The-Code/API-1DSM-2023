@@ -152,8 +152,8 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 | 16 | **Conteúdo Sprint Planning** | 02 |
 | 17 | **Apresentação via GitHub** | 05 |
 | 18 | **Conteúdo Sprint Backlog** | 03 |
-|: -- :|:-------------------------:|:-----:|
-|: -- :|   **Total Story Point** | 52|
+|:--:|:-------------------------:|:-----:|
+||   **Total Story Point** | 52|
 
 ### Quadro Kanban Sprint 1
 
@@ -169,14 +169,14 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 |**9.Sprint Backlog**|**Criar um Sistema de Avaliação** |||||
 |**15.Planning Poker**|**Conteúdo de Cargos/Funções no SCRUM**|||18||
 | **16.Kanban** |**História SCRUM**|||||
-|:--------------:|**Metodologia Ágil**|||||
-|:--------------:|**Kanban**|||||
-|:--------------:|**Conteúdo sobre definição de Sprint**|||||
-|:--------------:|**Conteúdo MVP**|||||
-|:--------------:|**Conteúdo Product Backlog**||||||
-|:--------------:|**Conteúdo Sprint Planning**|||||
-|:--------------:|**Apresentação via GitHub**|||||
-|:--------------:|**Conteúdo Sprint Backlog**|||||
+||**Metodologia Ágil**|||||
+||**Kanban**|||||
+||**Conteúdo sobre definição de Sprint**|||||
+||**Conteúdo MVP**|||||
+||**Conteúdo Product Backlog**||||||
+||**Conteúdo Sprint Planning**|||||
+||**Apresentação via GitHub**|||||
+||**Conteúdo Sprint Backlog**|||||
 
 
 
