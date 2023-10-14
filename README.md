@@ -72,6 +72,8 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 | :--: | :------------------------- |
 |  01  | **WireFrame da Aplicação**|<br>
 
+### Tarefas na Sprint 
+
 |   Tarefas  |         Story Point         |
 |:-------------------------:|:-----:|
 | **Pesquisa de conteúdo SCRUM**| 02 |
@@ -84,10 +86,10 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 | **Documentação no GitHub** | 05 |
 | **Backlog** | 05 |
 | **Fazer a apresentação** | 02 |
-|||
+|:-------------------------:|:-----:|
 |   **Total Story Point** | 34|
 
-### Quadro Kanban 
+### Quadro Kanban Sprint 1
 
 |  Product Backlog  |   Sprint Backlog (Tarefas com base no requisito 19)  |   A fazer    |     Em andamento     |     Pronto    | Membro |
 |:----------------:|:-------------------------------------:|:-------:|:---------------------:|:----------------:|:----------------:|
@@ -128,6 +130,54 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 |  08  |**9.Sprint Backlog**|
 |  09  |**15.Planning Poker**|
 |  10  | **16.Kanban** |
+
+### Tarefas na Sprint 
+| ID Tarefa |   Tarefas  |         Story Point         |
+|:--:|:-------------------------:|:-----:|
+| 01 | **Desenvolver um Sistema deve ser limpo e sem poluição de informação**| 0 |
+| 02 | **Conteúdo do Processo SCRUM**| 03 |
+| 03 |**Conteúdo do Planning Poker**| 02 |
+| 04 |**Página de Início** | 02 |
+| 05 | **Página de Sobre** | 03 |
+| 06 | **Página de Contato** | 02 |
+| 07 | **Layout página dos Ciclos 1 e 2**| 03 |
+| 08 | **Criar um Sistema de Avaliação** | 05 |
+| 09 | **Conteúdo de Cargos/Funções no SCRUM** | 03 |
+| 10 | **História SCRUM** | 02 |
+| 11 | **Metodologia Ágil** | 03 |
+| 12 | **Kanban** | 02 |
+| 13 | **Conteúdo sobre definição de Sprint** | 02 |
+| 14 | **Conteúdo MVP** | 02 |
+| 15 | **Conteúdo Product Backlog** | 08 |
+| 16 | **Conteúdo Sprint Planning** | 02 |
+| 17 | **Apresentação via GitHub** | 05 |
+| 18 | **Conteúdo Sprint Backlog** | 03 |
+|: -- :|:-------------------------:|:-----:|
+|: -- :|   **Total Story Point** | 52|
+
+### Quadro Kanban Sprint 1
+
+|  Product Backlog  |   Sprint Backlog 2 (tarefas)|   A fazer (ID Tarefa)  |     Em andamento (ID Tarefa)    |     Pronto  (ID Tarefa)  | Membro |
+|:----------------:|:-------------------------------------:|:-------:|:---------------------:|:----------------:|:----------------:|
+|**1.Apresentação via GitHub**|**Desenvolver um Sistema deve ser limpo e sem poluição de informação**|08|12|01||
+|**2.Sistema deve ser limpo e sem poluição de informação**|**Conteúdo do Processo SCRUM**|09|13|02||
+|**3.Criar um Sistema de Avaliação**|**Conteúdo do Planning Poker**|10|14|03||
+|**4.Processo Scrum**| **Página de Início** |11|15|04||
+|**6.Product Backlog e Sprint Backlog**|**Página de Sobre** ||16|05||
+|**7.Sprint**|**Página de Contato**||17|06||
+|**8.Sprint Planning**|**Layout página dos Ciclos 1 e 2**|||07||
+|**9.Sprint Backlog**|**Criar um Sistema de Avaliação** |||||
+|**15.Planning Poker**|**Conteúdo de Cargos/Funções no SCRUM**|||18||
+| **16.Kanban** |**História SCRUM**|||||
+|:--------------:|**Metodologia Ágil**|||||
+|:--------------:|**Kanban**|||||
+|:--------------:|**Conteúdo sobre definição de Sprint**|||||
+|:--------------:|**Conteúdo MVP**|||||
+|:--------------:|**Conteúdo Product Backlog**||||||
+|:--------------:|**Conteúdo Sprint Planning**|||||
+|:--------------:|**Apresentação via GitHub**|||||
+|:--------------:|**Conteúdo Sprint Backlog**|||||
+
 
 
 ### Sprint 3 
