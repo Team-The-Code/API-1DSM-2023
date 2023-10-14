@@ -86,7 +86,7 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 | **Documentação no GitHub** | 05 |
 | **Backlog** | 05 |
 | **Fazer a apresentação** | 02 |
-|:-------------------------:|:-----:|
+|||
 |   **Total Story Point** | 34|
 
 ### Quadro Kanban Sprint 1
