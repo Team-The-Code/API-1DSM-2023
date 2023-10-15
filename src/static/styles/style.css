@@ -1,3 +1,5 @@
+
+/* menu lateral */
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
 *{
     margin:0;
@@ -63,8 +65,10 @@ ul li.item-menu a .icon > i{
     padding-top: 30px;
 }
 
-
-
+/* rodapé */
+main{
+    height: 80vh;
+}
 #footer {
     /* position: absolute; */
     height:25vh;
@@ -78,13 +82,13 @@ ul li.item-menu a .icon > i{
 #logos{
     display: flex;
     justify-content: right;
-    padding-top: 60px;
+    padding-top: 40px;
     height: 140px;
-    align-items: center;
+    align-items:center;
 }
 
-#logos > div img{
-    padding-right: 30px;
+#logos > img{
+    padding-left: 30px;
 }
 
 #footer a {
