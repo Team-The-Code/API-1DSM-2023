@@ -138,3 +138,29 @@ main{
     cursor: pointer;
     color: #f1f1f1;
 }
+
+
+/* texto */
+
+.corpo-titulo{
+    font-size:1vw;
+    font-weight: 600;
+    font-family:roboto;
+    padding-left: 1px;
+    padding-top: 60px;
+}
+h2{
+    font-size: 3vw;
+    font-weight: 700;
+    font-family: roboto;
+    padding-left: 500px;
+    padding-top: 20px;
+}
+
+p{
+    font-size:1.5vw;
+    font-weight: 400;
+    font-family:roboto;
+    padding-left: 200px;
+    padding-top: 40px; 
+}
