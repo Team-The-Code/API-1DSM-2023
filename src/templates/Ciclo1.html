@@ -1,354 +1,289 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ciclo 1</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" />
-
+    <link rel="stylesheet" href="../static/styles/style.css">
+    <script href="../static/styles/script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+
         * {
-            margin: 0;
             padding: 0;
-            box-sizing: border-box;
-            list-style: none;
-            font-family: Arial, Helvetica, sans-serif;
-
+            margin: 0;
+            font-family: 'Inter', sans-serif;
         }
 
-        .cabecalho {
-            height: 30vh;
-
+        header {
+            background-color: #24252a;
+            box-shadow: 0px 3px 10px #464646;
         }
 
-        .nav-cabecalho {
-            background-color: #fff;
-            background-size: 80vw;
-            padding: 10px;
-            border-radius: 30px;
-            width: 80vw;
-            margin-left: 10vw;
+        .nav-bar {
             display: flex;
             justify-content: space-between;
-            position: fixed;
+            padding: 1.5rem 6rem;
         }
 
         .logo {
-            margin-top: 3.5vh;
-        }
-
-        .links {
-            text-decoration: none;
             display: flex;
-            margin: auto 0;
+            align-items: center;
+            background-image: url("../static/public/unifi.png");
+            background-size: cover;
+            height: 120px;
+            width: 120px;
         }
 
-        .nav-links {
+        .logo img {
+            width: 100px;
+            height: 100px;
+        }
+
+        .nav-list {
             display: flex;
+            align-items: center;
         }
 
-        .nav-links>li {
-            text-decoration: none;
+        .nav-list ul {
+            display: flex;
+            justify-content: center;
             list-style: none;
         }
 
-        a {
+        .nav-item {
+            margin: auto 25px;
+
+        }
+
+        .nav-link {
             text-decoration: none;
-            color: rgb(19, 17, 17);
-            padding-left: 7vw;
-            opacity: 0.9;
-        }
-
-        .corpo-central {
-            display: flex;
-            width: 80vw;
-            margin-left: 10vw;
-            margin-top: 7vw;
-        }
-
-        .bt-ciclo1 {
-            padding: 10px 40px 10px 40px;
-            border-radius: 20px;
-            border: none;
-            background-color: rgb(165, 170, 170);
-            font-family: Arial, Helvetica, sans-serif;
-            font-weight: bolder;
-        }
-
-        .bt-atividade {
-            padding: 10px 40px 10px 40px;
-            border-radius: 20px;
-            border: none;
-            background-color: rgb(165, 170, 170);
-            font-family: Arial, Helvetica, sans-serif;
-            font-weight: bolder;
-            margin-right: -60vw;
-            margin-top: 50px;
-        }
-
-        .data {
-            margin: auto auto auto 10px;
-            font-family: Arial, Helvetica, sans-serif;
-            font-weight: bold;
-        }
-
-        .corpo-titulo {
-            margin: auto;
-            text-align: center;
-            width: 70vw;
-            margin-left: 20vw;
-            margin-top: 0vw;
-            margin-bottom: 7vh;
-        }
-
-        .destaque {
-            font-weight: bold;
-        }
-
-        p {
-            text-align: justify;
-        }
-
-        .rodape {
-            padding: auto;
-            background-color: black;
-            height: 10vw;
-            
-        }
-
-        #footer {
-            height: 70vh;
-            background-color: #000;
+            font-size: 1.15rem;
             color: #fff;
-
+            font-weight: 400;
         }
 
-        #logos {
-            display: flex;
-            justify-content: right;
-            margin-right: 280px;
-            padding-top: 60px;
+        .login-button button {
+            border: none;
+            background-color: #0187a7;
+            padding: 10px 15px;
+            border-radius: 5px;
         }
 
-        #logos>div img {
-            padding-right: 20px;
+        .login-button button a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: 500;
+            font-size: 1rem;
         }
 
-        #footer a {
-            font-size: 2.1rem;
-            display: flex;
-            text-align: center;
-            margin-left: 190px;
-            margin-top: -80px;
-
+        .mobile-menu-icon {
+            display: none;
         }
 
-        .nav-lateral {
-            position: fixed;
-            padding-bottom: 2vw;
-            padding-top: 0vw;
-           
-
+        .mobile-menu {
+            display: none;
         }
 
-        .nav-lateral>ul {
-            position: absolute;
-            height: auto;
-            margin-left: 10vw;
-            padding-left: auto;
+        @media screen and (max-width: 730px) {
+            .nav-bar {
+                padding: 1.5rem 4rem;
+            }
 
-        }
+            .nav-item {
+                display: none;
+            }
 
-        .corpo-central-1 {
-            display: block;
-        }
+            .login-button {
+                display: none;
+            }
+
+            .mobile-menu-icon {
+                display: block;
+            }
+
+            .mobile-menu-icon button {
+                background-color: transparent;
+                border: none;
+                cursor: pointer;
+            }
+
+            .mobile.menu ul {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                padding-bottom: 1rem;
+            }
+
+            .mobile-menu .nav-item {
+                display: block;
+                padding-top: 1.2rem;
+            }
+
+            .mobile-menu .login-button {
+                display: block;
+                padding: 1rem 2rem;
+            }
+
+            .mobile-menu .login-button button {
+                width: 100%;
+            }
+
+            .open {
+                display: block;
+            }
+             }
+            img {
+                padding-left: 450px;
+            }
+            img .logo{
+                padding-right: 70px;
+            }
+            h1{
+                font-size:5vw;
+                font-weight: 600;
+                font-family:roboto;
+                padding-left: 700px;
+                padding-top: 60px;
+            }
     </style>
 </head>
 
 <body>
-    <div class="cabecalho">
-        <nav class="nav-cabecalho">
-            <h1 class="logo"><img src="img/logo.png" alt="" width="150" height="160"></h1>
-            <div class="links">
-                <ul class="nav-links">
-                    <li>
-                        <h2><a href="#">Inicio</a></h2>
-                    </li>
-                    <li>
-                        <h2><a href="#">Sobre</a></h2>
-                    </li>
-                    <li>
-                        <h2><a href="#">Contato</a></h2>
-                    </li>
-                </ul>
-            </div>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <img src="../static/public/unifi.png"></div>
+                <div class="nav-list">
+                    <ul>
+                        <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="mobile-menu-icon">
+                    <button onclick="menuShow()"><img class="icon" src="../static/public//menu_white_36dp.svg"></button>
+                </div>
         </nav>
-    </div>
-
-    <div>
-        <div class="corpo-central">
-
-            <button class="bt-ciclo1">Ciclo 1</button>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+            </ul>
+        </div>
+    </header>
+    <nav class="menu-lateral">
+        <div class="btn-expandir">
+            <i class="bi bi-view-list"></i>
+        </div>
+        <ul>
+            <li class="item-menu">
+                <a href="m">
+                    <span class="icon"><i class="bi bi-person-video3"></i>
+                    </span>
+                    <span class="txt-link">Metodologia ágil</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="m">
+                    <span class="icon"><i class="bi bi-valentine2"></i>
+                    </span>
+                    <span class="txt-link">MVP</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="m">
+                    <span class="icon"><i class="bi bi-list-columns-reverse"></i>
+                    </span>
+                    <span class="txt-link">História Scrum</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="m">
+                    <span class="icon"><i class="bi bi-journal-check"></i>
+                    </span>
+                    <span class="txt-link">Cargos</span>
+                </a>
+            </li>
             
-        </div>
-        <div>
-            <nav class="nav-lateral">
-                <ul>
-                    <a href="#Metodologia ágil"><span>
-                            <li>Metodologia ágil</li>
-                        </span></a>
-                    <a href="#MVP"><span>
-                            <li>MVP</li>
-                        </span></a>
-                    <a href="#História SCRUM"><span>
-                            <li>História SCRUM</li>
-                        </span></a>
-                    <a href="#Cargos"><span>
-                            <li>Cargos</li>
-                        </span></a>
-                    </a>
-                </ul>
-            </nav>
-        </div>
+        </ul>
+    </nav>
+    <script src="JS/script.js"></script>
+    <div id="meio">
+        <h1>SCRUM</h1>
+        <h2>Como iniciar no método SCRUM</h2></div>
+    <img src="../static/public/sprint-cycle-c-1-1.png">
+    <div id="texto">
         <div class="corpo-titulo">
-            <h1> SCRUM</h1>
+            <h1>Processos Scrum</h1>
             <h2>Como Iniciar no método SCRUM</h2>
-            <img src="img/sprint-cycle-c-1-1.png" alt="Processo Scrum">
         </div>
-        <div id="Metodologia ágil" class="corpo-titulo">
-            <h4>Metodologia ágil</h4>
-            <p> Uma metodologia ágil é um conceito de gerenciamento de projetos que promove mais dinamismo ao processo.
-                Os gestores conseguem ter uma visão mais simples e prática das tarefas realizadas pela sua equipe,
-                deixando
-                de lado os processos lentos de entrega, otimizando todas as etapas produtivas.
-                Essas metodologias são baseadas em ciclos curtos de trabalho, em que cada entrega é revisada de tempos
-                em tempos
-                sem que nada seja deixado de lado por muito tempo.
-                Na prática, portanto, as metodologias ágeis proporcionam a criação de fluxos de trabalho mais simples e
-                eficientes para todos.
-                As muitas metodologias que existem, como o próprio<span class="destaque"> Scrum</span>, seguem o mesmo
-                princípio que é detalhado no
-                Manifesto Ágil, uma documentação que direciona as prioridades desses métodos de trabalho:
-                Profissionais e suas interações acima de procedimentos e ferramentas;
-                Funcionamento e eficiência acima de documentação abrangente; Colaboração com o cliente acima da
-                negociação e contrato;
-                Capacidade de resposta a mudanças acima de um plano preestabelecido.
-                Tudo o que está nessa lista acima deve ser visto como prioridade. Não significa que os outros elementos
-                não tenham a sua importância, mas é preciso priorizar esses elementos específicos, o que vai garantir
-                todo esse dinamismo e melhor
-                funcionamento dos fluxos de trabalho.
+        <div  id ="Metodologia ágil" class="corpo-titulo">
+            <h2>Metodologia ágil</h2>
+            <p>Uma metodologia ágil é um conceito de gerenciamento de projetos que promove mais dinamismo ao processo, é um conjunto de estratégias e práticas 
+            para o desenvolvimento e gestão de projetos, que busca dar maior velocidade à conclusão de processos e tarefas. Os gestores conseguem ter uma visão 
+            mais simples e prática das tarefas realizadas pela sua equipe, deixando de lado os processos lentos de entrega, otimizando todas as etapas produtivas. 
+            Essa metodologia começou a ser implementada na área de softwares, mas se expandiu às atividades de inúmeras empresas em todo o mundo. As metodologias ágeis 
+            trabalham a partir de ciclos rápidos e curtos, que costumam ser medidos em semanas, ou meses, e entregam resultados ao final de cada ciclo, em que cada entrega 
+            é revisada de tempos em tempos sem que nada seja deixado de lado por muito tempo, enquanto um projeto tradicional poderia levar anos até chegar na fase de entrega. 
+            Na prática, portanto, as metodologias ágeis proporcionam a criação de fluxos de trabalho mais simples e eficientes para todos. As muitas metodologias que existem, como o próprio SCRUM, seguem o mesmo princípio 
+            que é detalhado no Manifesto Ágil, uma documentação que direciona as prioridades desses métodos de trabalho: Profissionais e suas interações acima de procedimentos 
+            e ferramentas; Funcionamento e eficiência acima de documentação abrangente; Colaboração com o cliente acima da negociação e contrato; Capacidade de resposta a mudanças acima de um plano preestabelecido. 
+            Tudo o que está nessa lista acima deve ser visto como prioridade. Não significa que os outros elementos não tenham a sua importância, mas é preciso priorizar esses elementos específicos, o que vai garantir todo esse dinamismo 
+            e melhor funcionamento dos fluxos de trabalho. As metodologias ágeis defendem que, acima de tudo, devemos buscar a satisfação do cliente por meio de entregas contínuas que agregam valor, mantendo uma comunicação constante entre os membros da equipe.
             </p>
         </div>
         <div id="MVP" class="corpo-titulo">
-            <h4>MVP</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus voluptate, sapiente aspernatur amet
-                corrupti soluta facere tempora repudiandae aliquid eius delectus accusantium reiciendis saepe ab nulla
-                atque id voluptates est!
-                Quo rerum architecto a porro neque doloribus voluptatibus magni alias vitae libero nesciunt sequi,
-                dolore recusandae voluptates, pariatur minima at! Asperiores blanditiis voluptatum quas. Quisquam sequi
-                saepe dolores doloribus et.
-                Voluptatibus atque suscipit aperiam maiores, sint mollitia et iste? Dignissimos recusandae accusamus
-                ratione suscipit officiis molestiae commodi nemo aliquid libero, facere assumenda labore aperiam eius
-                explicabo magni, vero amet vel.
-                Alias tempore veniam odit necessitatibus, cumque eaque nobis? Neque, nobis esse. Sapiente tempora non
-                amet rerum incidunt nam, consequatur perferendis placeat, porro quas sunt possimus beatae libero harum.
-                Voluptate, repellat.
-                Expedita explicabo optio quia repellendus cumque, nam recusandae vitae, perspiciatis odit nobis aliquid
-                quisquam? Repellat recusandae quos omnis accusamus sunt rem labore ut aspernatur, ducimus maiores
-                deserunt quasi quisquam modi!
-                Porro molestias, provident numquam magnam dolorum earum voluptas cupiditate culpa dolore amet libero
-                incidunt est aliquam aut voluptatem ex cumque exercitationem ratione animi. Sunt, necessitatibus quas
-                quia qui eveniet exercitationem!
-                Facilis, ex. Modi pariatur iste voluptates adipisci expedita quaerat animi esse quo est maiores, porro
-                numquam tempora rerum asperiores id eveniet. Saepe voluptatem fugit vel possimus laborum aliquam
-                quibusdam eligendi.
-                Et rem consequuntur perferendis reiciendis ipsum architecto, qui dolores sequi consectetur laboriosam
-                maiores, deserunt veniam debitis impedit fugit laborum fugiat sit nulla. Neque impedit, sed officia
-                omnis sequi libero facere?
-                Iusto commodi tempore natus vitae nihil porro cumque similique eveniet nostrum inventore, animi, nulla
-                fuga ullam quas. Iure, itaque natus veniam, enim culpa, minus adipisci laboriosam fugit esse magnam
-                reiciendis?</p>
-
+            <h2>MVP</h2>
+            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, vel voluptas. Et ab labore omnis reprehenderit aliquam autem? Quod molestiae aliquid dolorem at, quisquam soluta recusandae sint tempore fugiat iste!
+                Aliquam reiciendis quidem ipsam unde itaque soluta ex consequuntur laboriosam neque eius, culpa ea quae architecto beatae officiis numquam, id in pariatur, minus dignissimos! At ducimus et laborum illum perferendis!
+                Vitae, nemo culpa aliquid placeat provident dolor quia ratione nisi, odio obcaecati dolorum delectus, quis sit soluta inventore deleniti! Sunt quasi ea recusandae corporis minus. Autem alias natus aliquid laboriosam?
+                Eos expedita vero, iste neque deleniti qui blanditiis est magnam quod consequatur perferendis. Neque hic facere magnam nulla enim voluptates voluptatibus accusantium sed. Vel rem ad itaque libero deserunt quam.
+                At placeat quibusdam illum ex perferendis aliquid maiores cupiditate magni dignissimos! Exercitationem vitae expedita molestiae sequi ab necessitatibus sunt natus praesentium, distinctio dolores tempora accusantium facere autem iste, ducimus consequatur.
+                Doloremque officia error ex. Cumque culpa nisi aspernatur deserunt voluptate vero exercitationem facere esse quod! Nesciunt, quaerat dicta repellendus quia ducimus sunt, laboriosam nisi nobis, iusto animi quos explicabo id.
+                Aliquid cum voluptatibus eligendi molestias praesentium nemo. Ducimus dignissimos qui ratione, quibusdam, delectus iste exercitationem id nostrum corporis fugiat cupiditate, excepturi rem? Aliquam dolor aspernatur sed, delectus suscipit recusandae vitae.
+                Eum similique quibusdam, dolore iure tempore est sunt consequuntur voluptate quod voluptatum iusto quaerat cumque accusamus nisi maxime vitae culpa, vero magni error! Ab eius ut consequuntur in quidem nostrum.
+                Quaerat architecto dolores placeat nulla vitae blanditiis similique ducimus quia nesciunt corporis recusandae ut porro soluta accusantium voluptate velit hic, distinctio commodi tempora illo incidunt facilis? Doloribus quae ipsam possimus!
+                </p>
+    
         </div>
-        <div id="História Scrum" class="corpo-titulo">
-            <h4>História Scrum</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repudiandae distinctio voluptate adipisci
-                nesciunt maxime eveniet? Inventore magnam nostrum a eligendi aliquid deleniti dicta delectus veritatis,
-                recusandae consequatur! Aut, incidunt!
-                Eveniet tempore necessitatibus optio illo deleniti ab quasi. Consequuntur voluptatibus tempora eos
-                recusandae eum itaque neque veritatis earum eligendi, libero fugit, commodi corporis! Perspiciatis ipsa
-                suscipit id! Maiores, minus sint!
-                Nulla eum id suscipit ratione in accusantium quaerat itaque! Doloremque quod, sunt officiis tenetur
-                adipisci quos ratione, repudiandae quis, architecto voluptas eaque reiciendis. Iusto, id voluptate
-                sapiente sint dicta rerum!
-                Repellendus hic aliquam aspernatur cupiditate. Corrupti voluptatem quia quo cumque labore? Repellendus
-                voluptatibus asperiores perspiciatis ut similique, culpa suscipit quo aliquam optio perferendis sint
-                minima quod exercitationem soluta, voluptate animi!
-                Molestias rem inventore excepturi, aspernatur in ducimus pariatur? Eum omnis ex repudiandae ipsa eos
-                fuga doloribus consequatur praesentium est hic quasi tempore atque quibusdam, autem totam quia nemo
-                porro illum!
-                Maxime totam, sequi magni quo doloribus asperiores vel error culpa excepturi earum eum accusantium quas
-                aliquid delectus, fugit a deserunt impedit sunt cum iste fuga? Facere suscipit fuga nesciunt eaque!
-                Recusandae dolore quam nemo, eaque dolorem culpa, placeat labore aspernatur amet nobis, cupiditate
-                aperiam soluta accusamus corrupti excepturi quo itaque voluptas! Officia, vero. Facere earum voluptatem
-                non voluptates quam dicta.
-                Ut odit deserunt molestias saepe labore, culpa animi aliquam tenetur ex harum qui rem vitae? Expedita
-                exercitationem similique dolore? Doloribus officia corporis cupiditate aut perspiciatis excepturi
-                repellendus veritatis quod nulla?
-                Expedita sed eaque tempora officiis aperiam. Et tenetur architecto numquam corrupti perspiciatis
-                distinctio quidem aut quia, voluptates odit sequi cupiditate exercitationem cumque libero eius. Labore
-                dolore quibusdam numquam veniam sed!</p>
+        <div id="História scrum" class="corpo-titulo">
+            <h2>História scrum</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, vel voluptas. Et ab labore omnis reprehenderit aliquam autem? Quod molestiae aliquid dolorem at, quisquam soluta recusandae sint tempore fugiat iste!
+                Aliquam reiciendis quidem ipsam unde itaque soluta ex consequuntur laboriosam neque eius, culpa ea quae architecto beatae officiis numquam, id in pariatur, minus dignissimos! At ducimus et laborum illum perferendis!
+                Vitae, nemo culpa aliquid placeat provident dolor quia ratione nisi, odio obcaecati dolorum delectus, quis sit soluta inventore deleniti! Sunt quasi ea recusandae corporis minus. Autem alias natus aliquid laboriosam?
+                Eos expedita vero, iste neque deleniti qui blanditiis est magnam quod consequatur perferendis. Neque hic facere magnam nulla enim voluptates voluptatibus accusantium sed. Vel rem ad itaque libero deserunt quam.
+                At placeat quibusdam illum ex perferendis aliquid maiores cupiditate magni dignissimos! Exercitationem vitae expedita molestiae sequi ab necessitatibus sunt natus praesentium, distinctio dolores tempora accusantium facere autem iste, ducimus consequatur.
+                Doloremque officia error ex. Cumque culpa nisi aspernatur deserunt voluptate vero exercitationem facere esse quod! Nesciunt, quaerat dicta repellendus quia ducimus sunt, laboriosam nisi nobis, iusto animi quos explicabo id.
+                Aliquid cum voluptatibus eligendi molestias praesentium nemo. Ducimus dignissimos qui ratione, quibusdam, delectus iste exercitationem id nostrum corporis fugiat cupiditate, excepturi rem? Aliquam dolor aspernatur sed, delectus suscipit recusandae vitae.
+                Eum similique quibusdam, dolore iure tempore est sunt consequuntur voluptate quod voluptatum iusto quaerat cumque accusamus nisi maxime vitae culpa, vero magni error! Ab eius ut consequuntur in quidem nostrum.
+                Quaerat architecto dolores placeat nulla vitae blanditiis similique ducimus quia nesciunt corporis recusandae ut porro soluta accusantium voluptate velit hic, distinctio commodi tempora illo incidunt facilis? Doloribus quae ipsam possimus!
+            </p>
         </div>
         <div id="Cargos" class="corpo-titulo">
-            <h4>Cargos</h4>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, vel voluptas. Et ab labore omnis
-                reprehenderit aliquam autem? Quod molestiae aliquid dolorem at, quisquam soluta recusandae sint tempore
-                fugiat iste!
-                Aliquam reiciendis quidem ipsam unde itaque soluta ex consequuntur laboriosam neque eius, culpa ea quae
-                architecto beatae officiis numquam, id in pariatur, minus dignissimos! At ducimus et laborum illum
-                perferendis!
-                Vitae, nemo culpa aliquid placeat provident dolor quia ratione nisi, odio obcaecati dolorum delectus,
-                quis sit soluta inventore deleniti! Sunt quasi ea recusandae corporis minus. Autem alias natus aliquid
-                laboriosam?
-                Eos expedita vero, iste neque deleniti qui blanditiis est magnam quod consequatur perferendis. Neque hic
-                facere magnam nulla enim voluptates voluptatibus accusantium sed. Vel rem ad itaque libero deserunt
-                quam.
-                At placeat quibusdam illum ex perferendis aliquid maiores cupiditate magni dignissimos! Exercitationem
-                vitae expedita molestiae sequi ab necessitatibus sunt natus praesentium, distinctio dolores tempora
-                accusantium facere autem iste, ducimus consequatur.
-                Doloremque officia error ex. Cumque culpa nisi aspernatur deserunt voluptate vero exercitationem facere
-                esse quod! Nesciunt, quaerat dicta repellendus quia ducimus sunt, laboriosam nisi nobis, iusto animi
-                quos explicabo id.
-                Aliquid cum voluptatibus eligendi molestias praesentium nemo. Ducimus dignissimos qui ratione,
-                quibusdam, delectus iste exercitationem id nostrum corporis fugiat cupiditate, excepturi rem? Aliquam
-                dolor aspernatur sed, delectus suscipit recusandae vitae.
-                Eum similique quibusdam, dolore iure tempore est sunt consequuntur voluptate quod voluptatum iusto
-                quaerat cumque accusamus nisi maxime vitae culpa, vero magni error! Ab eius ut consequuntur in quidem
-                nostrum.
-                Quaerat architecto dolores placeat nulla vitae blanditiis similique ducimus quia nesciunt corporis
-                recusandae ut porro soluta accusantium voluptate velit hic, distinctio commodi tempora illo incidunt
-                facilis? Doloribus quae ipsam possimus!
-            </p>
-            <button class="bt-atividade">Atividade</button>
+            <h2>Cargos</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, vel voluptas. Et ab labore omnis reprehenderit aliquam autem? Quod molestiae aliquid dolorem at, quisquam soluta recusandae sint tempore fugiat iste!
+            Aliquam reiciendis quidem ipsam unde itaque soluta ex consequuntur laboriosam neque eius, culpa ea quae architecto beatae officiis numquam, id in pariatur, minus dignissimos! At ducimus et laborum illum perferendis!
+            Vitae, nemo culpa aliquid placeat provident dolor quia ratione nisi, odio obcaecati dolorum delectus, quis sit soluta inventore deleniti! Sunt quasi ea recusandae corporis minus. Autem alias natus aliquid laboriosam?
+            Eos expedita vero, iste neque deleniti qui blanditiis est magnam quod consequatur perferendis. Neque hic facere magnam nulla enim voluptates voluptatibus accusantium sed. Vel rem ad itaque libero deserunt quam.
+            At placeat quibusdam illum ex perferendis aliquid maiores cupiditate magni dignissimos! Exercitationem vitae expedita molestiae sequi ab necessitatibus sunt natus praesentium, distinctio dolores tempora accusantium facere autem iste, ducimus consequatur.
+            Doloremque officia error ex. Cumque culpa nisi aspernatur deserunt voluptate vero exercitationem facere esse quod! Nesciunt, quaerat dicta repellendus quia ducimus sunt, laboriosam nisi nobis, iusto animi quos explicabo id.
+            Aliquid cum voluptatibus eligendi molestias praesentium nemo. Ducimus dignissimos qui ratione, quibusdam, delectus iste exercitationem id nostrum corporis fugiat cupiditate, excepturi rem? Aliquam dolor aspernatur sed, delectus suscipit recusandae vitae.
+            Eum similique quibusdam, dolore iure tempore est sunt consequuntur voluptate quod voluptatum iusto quaerat cumque accusamus nisi maxime vitae culpa, vero magni error! Ab eius ut consequuntur in quidem nostrum.
+            Quaerat architecto dolores placeat nulla vitae blanditiis similique ducimus quia nesciunt corporis recusandae ut porro soluta accusantium voluptate velit hic, distinctio commodi tempora illo incidunt facilis? Doloribus quae ipsam possimus!</p>
         </div>
-
-
-
-
+        
     </div>
-
-    <div class="rodape">
-        <footer id="footer">
-
-            <div id="logos">
-                <div><img src="./img/logo.png" alt="" width="160px" height="160px"></div>
-                <img src="./img/145785857-2-3.png" alt="" width="160px" height="160px">
-            </div>
-            <a>©2023 - 2024&nbsp;&nbsp;Unify.</a>
-
-        </footer>
-    </div>
+    <footer id="footer">
+        <div id="logos">
+            <img src="../static/public/LogoUnify.png"/>
+            <img src="../static/public/145785857-2_resized.png"/>
+        </div>
+        <a>©2023 - 2024&nbsp;&nbsp;Unify.</a>
+    </footer>
 </body>
 
 </html>
