@@ -121,10 +121,10 @@ const questions = [
     {
         question: "Pergunta 1",
         answer: [
-            {text: "Resposta 1", correct: false},
+            {text: "Resposta 1", correct: true},
             {text: "Resposta 2", correct: false},
             {text: "Resposta 3", correct: false},
-            {text: "Resposta 4", correct: true},
+            {text: "Resposta 4", correct: false},
             {text: "Resposta 5", correct: false}
         ]
     },
@@ -142,9 +142,9 @@ const questions = [
         question: "Pergunta 3",
         answer: [
             {text: "Resposta 1", correct: false},
-            {text: "Resposta 2", correct: false},
+            {text: "Resposta 2", correct: true},
             {text: "Resposta 3", correct: false},
-            {text: "Resposta 4", correct: true},
+            {text: "Resposta 4", correct: false},
             {text: "Resposta 5", correct: false}
         ]
     },
@@ -153,8 +153,8 @@ const questions = [
         answer: [
             {text: "Resposta 1", correct: false},
             {text: "Resposta 2", correct: false},
-            {text: "Resposta 3", correct: false},
-            {text: "Resposta 4", correct: true},
+            {text: "Resposta 3", correct: true},
+            {text: "Resposta 4", correct: false},
             {text: "Resposta 5", correct: false}
         ]
     },
@@ -164,8 +164,8 @@ const questions = [
             {text: "Resposta 1", correct: false},
             {text: "Resposta 2", correct: false},
             {text: "Resposta 3", correct: false},
-            {text: "Resposta 4", correct: true},
-            {text: "Resposta 5", correct: false}
+            {text: "Resposta 4", correct: false},
+            {text: "Resposta 5", correct: true}
         ]
     },
 
