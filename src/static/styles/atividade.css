@@ -13,9 +13,15 @@ a {
 }
 
     /*Botão*/
+.btn-container{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: center;
+}
 .btn {
-    margin-top: 20%;
-    margin-left: 40%;
+    margin:auto;
     padding: 10px 40px;
     font-size: 1.2rem;
     color: #000;

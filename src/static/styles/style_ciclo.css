@@ -6,6 +6,7 @@
     padding:0;
     box-sizing: border-box;
     font-family:"Outfit", sans-serif;
+    text-decoration: none;
 }
 
 nav.menu-lateral{
@@ -172,4 +173,14 @@ p{
     padding-left: 10%;
     padding-right:;
     padding-top: 40px; 
+}
+/* botão */
+.btn-ativit{
+    padding: 40px;
+    margin-left: 80%;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    background-color: grey;
+    font-size: 2rem;
+    
 }

@@ -58,6 +58,16 @@ a {
     display: flex;
     list-style: none;
 }
+#navbar-itens > li > a {
+    cursor: pointer;
+    color: #f1f1f1;
+
+}
+#navbar-itens > li >a:hover{
+    cursor: pointer;
+    color: #544FA9;
+
+}
 
 #navbar-itens li {
     font-size: 1.2rem;
