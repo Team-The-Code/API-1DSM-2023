@@ -14,13 +14,16 @@ body {
     display: inline-block;
     padding: 30px 70px;
     font-size: 1.5rem;
-    text-transform: uppercase;
     background: #111;
     color: #fff;
     border-radius: 50px;
     transition: background 500ms ease;
 }
 
+li > a{
+    color: #fff;
+    text-decoration: none;
+}
 .btn:hover {
     cursor: pointer;
     background-color: #c9fbff34;
@@ -55,19 +58,18 @@ body {
 #navbar-itens {
     display: flex;
     list-style: none;
-    text-transform: uppercase;
 }
-
+#navbar-itens >li >a:hover {
+    cursor: pointer;
+    color: #544FA9;
+}
 #navbar-itens li {
     font-size: 1.2rem;
     margin-top: 70px;
     padding: 40px;
 }
 
-#navbar-itens li:hover {
-    cursor: pointer;
-    color: #544FA9;
-}
+
 
     /*header*/
 #showcase{
