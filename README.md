@@ -27,16 +27,18 @@ Projeto desenvolvido por alunos do 1º semestre do curso de Desenvolviento de So
 * Figma:<a href="https://www.figma.com/proto/WamIDDE9ZgLUanlkHOClT3/Untitled?type=design&node-id=1-2&t=JapPxWvDgM2Vw1s7-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2&hotspot-hints=0&mode=design">Clique Aqui!</a>
 * Vídeo:<a href="https://www.youtube.com/watch?v=ZdZHI50Kp0w">Clique aqui!</a>
 
-<span id="entregas"></span>
+<span id="sprint_1"></span>
 
 ##  🎯 Entregas
 O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separadas em 3 entregas com sprints de 23 dias de duração cada uma. <br>
 
 | Sprint| Período | Status |
 |:-----:|:----------:|:---------:|
-| 01 |   04/09/2023 – 27/09/2023 | Entregue :heavy_check_mark: | 
-| 02 |   02/10/2022 - 25/10/2023 | Pendente :hourglass:|    
-| 03 |   30/10/2022 - 22/11/2023 | Pendente :hourglass:| 
+<a></a>
+| 01 |   04/09/2023 – 27/09/2023 | <a href="#sprint_1">Entrega</a> :heavy_check_mark: | 
+| 02 |   02/10/2022 - 25/10/2023 | <a href="#sprint_2">Entrega</a> :heavy_check_mark::|    
+| 03 |   30/10/2022 - 22/11/2023 | <a href="#sprint_3">Pendente</a> :hourglass:| 
+
 <span id="backlogs"></span>
 
 ###   Backlogs
@@ -108,8 +110,13 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 |**3.Criar um Sistema de Avaliação**|**Como usuário, eu quero acessar as atividades do ciclo 3, para assimilar Artefato Scrum;**|
 ||**Protótipo**|
 |**20.Protótipo**|**Como cliente, eu quero acessar o Figma, para ter acesso ao protótipo;**|
+<br>
+
+
 
 ### Backlog das sprints
+
+<span id="sprint_1"></span>
 
 ### Sprint 1
 | Item | Funcionalidade                  |
@@ -132,6 +139,7 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 | **Fazer a apresentação** | 02 |
 |||
 |   **Total Story Point** | 34|
+<br>
 
 ### Quadro Kanban Sprint 1
 
@@ -147,11 +155,12 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 | * |Backlog|                  |                   |X|Paulo, Samuel|
 | * |Fazer a apresentação|                  |                   |X|Samuel|
 | * |Documentação via GitHub Sprint 1|                  |                   |X|Samuel|
-
+<br>
 
 ## Métrica do Time
 <img src="docs\burndow.png">
 </p>
+<br>
 
 ## Retrospectiva da Sprint 1
 |O que funcionou bem| O que poderia melhorar|
@@ -160,6 +169,13 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 |**Daily;** |**Mais informações sobre a API;**|
 |**Direcionamento Final.**|**Planejamento;** |
 |                   |**Direcionamento inicial.**|
+
+
+
+<br>
+<hr>
+<br>
+ <span id="sprint_2"></span>
 
 ### Sprint 2 
 | Item | Funcionalidade             |
@@ -225,6 +241,11 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 ||**Conteúdo do Burndown**|||X|Anielle|
 
 
+<br>
+<hr>
+<br>
+
+<span id="sprint_3"></span>
 
 ### Sprint 3 
 | Item | Funcionalidade             |
