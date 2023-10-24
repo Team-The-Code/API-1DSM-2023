@@ -36,7 +36,7 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 |:-----:|:----------:|:---------:|
 <a></a>
 | 01 |   04/09/2023 – 27/09/2023 | <a href="#sprint_1">Entrega</a> :heavy_check_mark: | 
-| 02 |   02/10/2022 - 25/10/2023 | <a href="#sprint_2">Entrega</a> :heavy_check_mark::|    
+| 02 |   02/10/2022 - 25/10/2023 | <a href="#sprint_2">Entrega</a> :heavy_check_mark:|    
 | 03 |   30/10/2022 - 22/11/2023 | <a href="#sprint_3">Pendente</a> :hourglass:| 
 
 <span id="backlogs"></span>
@@ -159,6 +159,7 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 
 ## Métrica do Time
 <img src="docs\burndow.png">
+<a href="https://fatecspgov-my.sharepoint.com/:x:/g/personal/samuel_melo01_fatec_sp_gov_br/EdaOzGv42etEobBS_tVXclcBUppPU8fuM0YsYYENf8jjag?e=hHKZby">Acesso</a>
 </p>
 <br>
 
@@ -240,6 +241,11 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 ||**Criar um sistema de avaliação**|||X|Samuel|
 ||**Conteúdo do Burndown**|||X|Anielle|
 
+## Métrica do Time
+<img src="docs/burndow2.png">
+<a href="https://fatecspgov-my.sharepoint.com/:x:/g/personal/samuel_melo01_fatec_sp_gov_br/EYnohnRVS1RElEp5XfIx-g0BqAQGv49jlyUkXVcIENBtTw?e=tjrOJV">Acesso</a>
+</p>
+<br>
 
 <br>
 <hr>
