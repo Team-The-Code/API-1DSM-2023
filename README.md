@@ -74,10 +74,10 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 |**2.Sistema deve ser limpo e sem poluição de informação**|**Como usuário, preciso acessar com facilidade o site, para melhor experiência**|
 |**3.Criar um Sistema de Avaliação**|**Como usuário, quero acessar as atividades, para testar conhecimento**|
 ||**Tela de Início**|
-|**2**|**Como usuário, quero ter acessar um site com informações claras, para melhor experiência;**|
-|**2**|**Como usuário, eu quero acessar a tela de início, para entrar no curso;**|
-|**2**|**Como usuário, eu quero acessar a tela de sobre, para ter acesso a informações da empresa;**|
-|**2**|**Como usuário, eu quero acessar a tela de contato, para ter acesso a informações da equipe;**|
+|**2.Sistema deve ser limpo e sem poluição de informação**|**Como usuário, quero ter acessar um site com informações claras, para melhor experiência;**|
+|**2.Sistema deve ser limpo e sem poluição de informação**|**Como usuário, eu quero acessar a tela de início, para entrar no curso;**|
+|**2.Sistema deve ser limpo e sem poluição de informação**|**Como usuário, eu quero acessar a tela de sobre, para ter acesso a informações da empresa;**|
+|**2.Sistema deve ser limpo e sem poluição de informação**|**Como usuário, eu quero acessar a tela de contato, para ter acesso a informações da equipe;**|
 ||**Tela do Ciclo 1**|
 |**Introdução**|**Como usuário, eu quero acessar a tela do ciclo 1, para aprender história Scrum;**|
 |**Introdução**|**Como usuário, eu quero acessar a tela do ciclo 1, para aprender metodologia ágil;**|
@@ -137,16 +137,16 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 
 |  Product Backlog  |   Sprint Backlog (Tarefas com base no requisito 19)  |   A fazer    |     Em andamento     |     Pronto    | Membro |
 |:----------------:|:-------------------------------------:|:-------:|:---------------------:|:----------------:|:----------------:|
-| **19 - WireFrame no Figma**  |  WireFrame no Figma|                  |                   |WireFrame no Figma|Todos os membros|
-| * |Pesquisa do Conteúdo Scrum|                  |                   |Pesquisa do Conteúdo Scrum| Edlaine, Lucas, Samuel|
-| * |Planning Poker|                 |                   |Planning Poker| Todos os membros|
-| * |Marca do empresa|                  |                   |Logo da empresa| Ana Júlia, Marcelly, Vitor|
-| * |Marca do time|                |                   |Marca do time| Ana Júlia, Anielle, Marcelly, Vitor|
-| * |Jira|                  |                   |Jira| Samuel|
-| * |Análise de coloração|                  |                   |Análise de coloração| Diogo, Paulo|
-| * |Backlog|                  |                   |Backlog|Paulo, Samuel|
-| * |Fazer a apresentação|                  |                   |Fazer a apresentação|Samuel|
-| * |Documentação via GitHub Sprint 1|                  |                   |Documentação via GitHub Sprint 1|Samuel|
+| **19 - WireFrame no Figma**  |  WireFrame no Figma|                  |                   |X|Todos os membros|
+| * |Pesquisa do Conteúdo Scrum|                  |                   |X| Edlaine, Lucas, Samuel|
+| * |Planning Poker|                 |                   |X| Todos os membros|
+| * |Marca do empresa|                  |                   |X| Ana Júlia, Marcelly, Vitor|
+| * |Marca do time|                |                   |X| Ana Júlia, Anielle, Marcelly, Vitor|
+| * |Jira|                  |                   |X| Samuel|
+| * |Análise de coloração|                  |                   |X| Diogo, Paulo|
+| * |Backlog|                  |                   |X|Paulo, Samuel|
+| * |Fazer a apresentação|                  |                   |X|Samuel|
+| * |Documentação via GitHub Sprint 1|                  |                   |X|Samuel|
 
 
 ## Métrica do Time
@@ -174,54 +174,52 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 |  07  |**9.Sprint Planning**|
 |  08  |**10.Sprint Backlog**|
 |  09  |**16.Planning Poker**|
-|  10  | **17.Kanban** |
 
 ### Tarefas na Sprint 
-| ID Tarefa |   Tarefas  |         Story Point         |
-|:--:|:-------------------------:|:-----:|
-| 01 | **Desenvolver um Sistema deve ser limpo e sem poluição de informação**| 0 |
-| 02 | **Conteúdo do Processo SCRUM**| 03 |
-| 03 |**Conteúdo do Planning Poker**| 02 |
-| 04 |**Página de Início** | 02 |
-| 05 | **Página de Sobre** | 03 |
-| 06 | **Página de Contato** | 02 |
-| 07 | **Layout página dos Ciclos 1 e 2**| 03 |
-| 08 | **Criar um Sistema de Avaliação** | 05 |
-| 09 | **Conteúdo de Cargos/Funções no SCRUM** | 03 |
-| 10 | **História SCRUM** | 02 |
-| 11 | **Metodologia Ágil** | 03 |
-| 12 | **Kanban** | 02 |
-| 13 | **Conteúdo sobre definição de Sprint** | 02 |
-| 14 | **Conteúdo MVP** | 02 |
-| 15 | **Conteúdo Product Backlog** | 08 |
-| 16 | **Conteúdo Sprint Planning** | 02 |
-| 17 | **Apresentação via GitHub** | 05 |
-| 18 | **Conteúdo Sprint Backlog** | 03 |
-||||
-||   **Total Story Point** | 52|
+|   Tarefas  |         Story Point         |
+:-------------------------:|:-----:|
+| **Desenvolver um Sistema deve ser limpo e sem poluição de informação**| 0 |
+| **Conteúdo do Processo SCRUM**| 03 |
+|**Conteúdo do Planning Poker**| 02 |
+|**Página de Início** | 02 |
+| **Página de Sobre** | 03 |
+| **Página de Contato** | 02 |
+| **Layout página dos Ciclos 1,2 e 3**| 03 |
+| **Criar um Sistema de Avaliação** | 05 |
+| **Conteúdo de Cargos/Funções no SCRUM** | 03 |
+| **História SCRUM** | 02 |
+| **Metodologia Ágil** | 03 |
+| **Conteúdo sobre definição de Sprint** | 02 |
+| **Conteúdo MVP** | 02 |
+| **Conteúdo Product Backlog** | 08 |
+| **Conteúdo Sprint Planning** | 02 |
+| **Apresentação via GitHub** | 05 |
+| **Conteúdo Sprint Backlog** | 03 |
+|||
+|   **Total Story Point** | 50|
 
 ### Quadro Kanban Sprint 1
 
-|  Product Backlog  |   Sprint Backlog 2 (tarefas)|   A fazer (ID Tarefa)  |     Em andamento (ID Tarefa)    |     Pronto  (ID Tarefa)  | Membro |
+|  Product Backlog  |   Sprint Backlog 2 (tarefas)|   A fazer   |     Em andamento    |     Pronto    | Membro |
 |:----------------:|:-------------------------------------:|:-------:|:---------------------:|:----------------:|:----------------:|
-|**1.Apresentação via GitHub**|**Desenvolver um Sistema deve ser limpo e sem poluição de informação**|08|12|01||
-|**2.Sistema deve ser limpo e sem poluição de informação**|**Conteúdo do Processo SCRUM**|09|13|02||
-|**3.Criar um Sistema de Avaliação**|**Conteúdo do Planning Poker**|10|14|03||
-|**4.Processo Scrum**| **Página de Início** |11|15|04||
-|**6.Product Backlog e Sprint Backlog**|**Página de Sobre** ||16|05||
-|**7.Sprint**|**Página de Contato**||17|06||
-|**8.Sprint Planning**|**Layout página dos Ciclos 1 e 2**|||07||
-|**9.Sprint Backlog**|**Criar um Sistema de Avaliação** |||||
-|**15.Planning Poker**|**Conteúdo de Cargos/Funções no SCRUM**|||18||
-| **16.Kanban** |**História SCRUM**|||||
-||**Metodologia Ágil**|||||
-||**Kanban**|||||
-||**Conteúdo sobre definição de Sprint**|||||
-||**Conteúdo MVP**|||||
-||**Conteúdo Product Backlog**||||||
-||**Conteúdo Sprint Planning**|||||
-||**Apresentação via GitHub**|||||
-||**Conteúdo Sprint Backlog**|||||
+|**1.Apresentação via GitHub**|**Desenvolver um Sistema deve ser limpo e sem poluição de informação**|||X|Todos os Membros|
+|**2.Sistema deve ser limpo e sem poluição de informação**|**Conteúdo do Processo SCRUM**|||X|Vitor|
+|**3.Criar um Sistema de Avaliação**|**Conteúdo do Planning Poker**|||X|Samuel|
+|**4.Processo Scrum**| **Página de Início** |||X|Marcelly|
+|**5.Burndown**|**Página de Sobre** |||X|Lucas|
+|**6.Product Backlog**|**Página de Contato**|||X|Anniele|
+|**9.Sprint Planning**|**Layout página dos Ciclos 1,2 e 3**|||X|Ana Júlia, Edlaine, Marcelly, Samuel|
+|**10.Sprint Backlog**|**Conteúdo de Cargos/Funções no SCRUM**|||X|Vitor Cezar|
+|**11.Sprint Review**|**História SCRUM**|||X|Ana Júlia|
+|**12.Dayli**  |**Metodologia Ágil**|||X|Ana Júlia|
+|**16.Planning Poker**|**MVP**|||X|Paulo|
+|**19.MVP**|**Conteúdo sobre definição de Sprint**|||X|Marcelly|
+||**Conteúdo Product Backlog**|||X|Samuel|
+||**Conteúdo Sprint Planning**|||X|Samuel|
+||**Apresentação via GitHub**|||X|Samuel|
+||**Conteúdo Sprint Backlog**|||X|Samuel|
+||**Conteúdo Sprint Review**|||X|Anielle|
+||**Criar um sistema de avaliação**|||X|Samuel|
 
 
 
@@ -230,7 +228,7 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 | :--: | :------------------------------------------------------- |
 |  01  | **5.Burndown**|
 |  02  | **10.Sprint Review**|
-|  03  | **11.Daily** |
+|  03  | **11.Kanban** |
 |  04  | **12.Retrospectiva**|
 |  05  | **13.DOR**|
 |  06  | **14.DOD**|
@@ -259,7 +257,6 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 |   Scrum Master| Samuel Lucas Vieira de Melo|[GitHub](https://github.com/SamuelLucasVieira)|
 |   Dev Team| Ana Júlia Tette Lopes Afonso |[GitHub](https://github.com/AnaBarbancho)|
 |   Dev Team| Anielle Wesla Macedo Xavier |[GitHub](https://github.com/Anielle-Ws)|
-|   Dev Team| Diego José da Conceição|[GitHub](https://github.com/diegojose94)|
 |   Dev Team| Edlaine de Paula Souza |[GitHub](https://github.com/edlaine-souza)|
 |   Dev Team| Lucas de Andrade Brito |[GitHub](https://github.com/Outc0d3)|
 |   Dev Team|  Marcelly Cristini Santos de Souza|[GitHub](https://github.com/Marcelly-cris)|
