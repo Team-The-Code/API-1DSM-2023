@@ -195,10 +195,12 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 | **Conteúdo Sprint Planning** | 02 |
 | **Apresentação via GitHub** | 05 |
 | **Conteúdo Sprint Backlog** | 03 |
+| **Conteúdo Sprint Review** | 03 |
+| **Conteúdo do Burndown** | 03 |
 |||
-|   **Total Story Point** | 50|
+|   **Total Story Point** | 56|
 
-### Quadro Kanban Sprint 1
+### Quadro Kanban Sprint 2
 
 |  Product Backlog  |   Sprint Backlog 2 (tarefas)|   A fazer   |     Em andamento    |     Pronto    | Membro |
 |:----------------:|:-------------------------------------:|:-------:|:---------------------:|:----------------:|:----------------:|
@@ -209,7 +211,7 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 |**5.Burndown**|**Página de Sobre** |||X|Lucas|
 |**6.Product Backlog**|**Página de Contato**|||X|Anniele|
 |**9.Sprint Planning**|**Layout página dos Ciclos 1,2 e 3**|||X|Ana Júlia, Edlaine, Marcelly, Samuel|
-|**10.Sprint Backlog**|**Conteúdo de Cargos/Funções no SCRUM**|||X|Vitor Cezar|
+|**10.Sprint Backlog**|**Conteúdo de Cargos/Funções no SCRUM**|||X|Vitor|
 |**11.Sprint Review**|**História SCRUM**|||X|Ana Júlia|
 |**12.Dayli**  |**Metodologia Ágil**|||X|Ana Júlia|
 |**16.Planning Poker**|**MVP**|||X|Paulo|
@@ -220,20 +222,19 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 ||**Conteúdo Sprint Backlog**|||X|Samuel|
 ||**Conteúdo Sprint Review**|||X|Anielle|
 ||**Criar um sistema de avaliação**|||X|Samuel|
+||**Conteúdo do Burndown**|||X|Anielle|
 
 
 
 ### Sprint 3 
 | Item | Funcionalidade             |
 | :--: | :------------------------------------------------------- |
-|  01  | **5.Burndown**|
-|  02  | **10.Sprint Review**|
-|  03  | **11.Kanban** |
-|  04  | **12.Retrospectiva**|
-|  05  | **13.DOR**|
-|  06  | **14.DOD**|
-|  07  | **17.Artefato Scrum**|
-|  08  | **18.MVP**|
+|  01  | **11.Kanban** |
+|  02  | **12.Retrospectiva**|
+|  03  | **13.DOR**|
+|  04  |  **14.DOD**|
+|  05  | **17.Artefato Scrum**|
+
 
 <span id="tecnologias"></span>
 
