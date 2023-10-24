@@ -116,7 +116,7 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 
 ### Backlog das sprints
 
-<span id="sprint_1"></span>
+<span id="sprint_1"> </span>
 
 ### Sprint 1
 | Item | Funcionalidade                  |
