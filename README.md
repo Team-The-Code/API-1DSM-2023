@@ -27,7 +27,6 @@ Projeto desenvolvido por alunos do 1º semestre do curso de Desenvolviento de So
 * Figma:<a href="https://www.figma.com/proto/WamIDDE9ZgLUanlkHOClT3/Untitled?type=design&node-id=1-2&t=JapPxWvDgM2Vw1s7-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2&hotspot-hints=0&mode=design">Clique Aqui!</a>
 * Vídeo:<a href="https://www.youtube.com/watch?v=ZdZHI50Kp0w">Clique aqui!</a>
 
-<span id="sprint_1"></span>
 
 ##  🎯 Entregas
 O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separadas em 3 entregas com sprints de 23 dias de duração cada uma. <br>
@@ -116,7 +115,7 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 
 ### Backlog das sprints
 
-<span id="sprint_1"></span>
+<span id="sprint_1"> </span>
 
 ### Sprint 1
 | Item | Funcionalidade                  |
