@@ -155,7 +155,7 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 <br>
 
 ## Métrica do Time
-<img src="docs\burndown.png">
+<img src="./docs/burndown.png">
 <a href="https://fatecspgov-my.sharepoint.com/:x:/g/personal/samuel_melo01_fatec_sp_gov_br/EdaOzGv42etEobBS_tVXclcBUppPU8fuM0YsYYENf8jjag?e=hHKZby">Acesso</a>
 </p>
 <br>
@@ -241,7 +241,7 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 ||**Conteúdo do Burndown**|||X|Anielle|
 
 ## Métrica do Time
-<img src="docs/burndown2.png.png">
+<img src="./docs/burndown2.png">
 <a href="https://fatecspgov-my.sharepoint.com/:x:/g/personal/samuel_melo01_fatec_sp_gov_br/EYnohnRVS1RElEp5XfIx-g0BqAQGv49jlyUkXVcIENBtTw?e=tjrOJV">Acesso</a>
 </p>
 <br>
