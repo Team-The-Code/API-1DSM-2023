@@ -55,17 +55,16 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 |**7.Sprint Backlog** | 2 |
 |**8.Sprint**|2|
 |**9.Sprint Planning**| 2 |  
-|**10.Sprint Backlog**| 2 |
-|**11.Sprint Review**| 2 |
-|**12.Daily**|3|
-|**13.Retrospectiva**|3|
-|**14.DOR**|3|
-|**15.DOD**|3|
-|**16.Planning Poker**|2|
-|**17.Kanban**|3|
-|**18.Artefato Scrum**|3|
-|**19.MVP**|2|
-|**20.Protótipo**|1|
+|**10.Sprint Review**| 2 |
+|**11.Daily**|3|
+|**12.Retrospectiva**|3|
+|**13.DOR**|3|
+|**14.DOD**|3|
+|**15.Planning Poker**|2|
+|**16.Kanban**|3|
+|**17.Artefato Scrum**|3|
+|**18.MVP**|2|
+|**19.Protótipo**|1|
 
 #### User Story
 
@@ -91,24 +90,23 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 |**9.Sprint Planning**|**Como usuário, eu preciso acessar a tela do ciclo 2, para aprender Sprint Planning;**|
 |**7.Sprint Backlog**|**Como usuário, eu preciso acessar a tela do ciclo 2, para aprender Sprint Backlog;**|
 |**16.Planning Poker**|**Como usuário, eu preciso acessar a tela do ciclo 2, para aprender Planning Poker;**|
-|**12.Daily**|**Como usuário, eu preciso acessar a tela do ciclo 2, para aprender Daily;**|
-|**11.Sprint Review**|**Como usuário, eu preciso acessar a tela do ciclo 2, para aprender Sprint Review;**|
+|**11.Daily**|**Como usuário, eu preciso acessar a tela do ciclo 2, para aprender Daily;**|
+|**10.Sprint Review**|**Como usuário, eu preciso acessar a tela do ciclo 2, para aprender Sprint Review;**|
 |**5.Burndown**|**Como usuário, eu preciso acessar a tela do ciclo 2, para aprender Burndown;**|
 ||**Telo do Ciclo 3**|
-|**18.Artefatos Scrum**|**Como usuário, eu tenho em vista acessar a tela do ciclo 3, para aprender Artefatos Scrum;**|
+|**17.Artefatos Scrum**|**Como usuário, eu tenho em vista acessar a tela do ciclo 3, para aprender Artefatos Scrum;**|
 |**6.Product Backlog**|**Como usuário, eu tenho em vista acessar a tela do ciclo 3, para aprender Product Backlog;**|
-|**10.Sprint Backlog**|**Como usuário, eu tenho em vista acessar a tela do ciclo 3, para aprender Sprint Backlog;**|
-|**17.Kanban**|**Como usuário, eu tenho em vista acessar a tela do ciclo 3, para aprender o quadro Kanban;**|
-|**14.DOR**|**Como usuário, eu tenho em vista acessar a tela do ciclo 3, para aprender DOD;**|
-|**15.DOD**|**Como usuário, eu tenho em vista acessar a tela do ciclo 3, para aprender DOR;**|
-|**13.Retrospectiva**|**Como usuário, eu tenho em vista acessar a tela do ciclo 3, para aprender Sprint Retrospective;**|
+|**16.Kanban**|**Como usuário, eu tenho em vista acessar a tela do ciclo 3, para aprender o quadro Kanban;**|
+|**13.DOR**|**Como usuário, eu tenho em vista acessar a tela do ciclo 3, para aprender DOD;**|
+|**14.DOD**|**Como usuário, eu tenho em vista acessar a tela do ciclo 3, para aprender DOR;**|
+|**12.Retrospectiva**|**Como usuário, eu tenho em vista acessar a tela do ciclo 3, para aprender Sprint Retrospective;**|
 ||**Atividades entre Ciclo**|
 |**3.Criar um Sistema de Avaliação**|**Como usuário, eu quero acessar as atividades do ciclo 1, para assimilar Definição do Scrum;**|
 |**3.Criar um Sistema de Avaliação**|**Como usuário, eu quero acessar as atividades do ciclo 2, para assimilar Valores Scrum;**|
 |**3.Criar um Sistema de Avaliação**|**Como usuário, eu quero acessar as atividades do ciclo 3, para assimilar Artefato Scrum;**|
 |**3.Criar um Sistema de Avaliação**|**Como usuário, eu quero acessar as atividades do ciclo 3, para assimilar Artefato Scrum;**|
 ||**Protótipo**|
-|**20.Protótipo**|**Como cliente, eu quero acessar o Figma, para ter acesso ao protótipo;**|
+|**19.Protótipo**|**Como cliente, eu quero acessar o Figma, para ter acesso ao protótipo;**|
 <br>
 
 
@@ -180,16 +178,17 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 ### Sprint 2 
 | Item | Funcionalidade             |
 | :--: | :------------------------------------------------------- |
-|  01  |**1.Apresentação via GitHub** |
+|  01  |**1.Apresentação via GitHub**   |
 |  02  |**2.Sistema deve ser limpo e sem poluição de informação**|
 |  03  |**3.Criar um Sistema de Avaliação**|
 |  04  |**4.Processo Scrum**|
-|  05  |**6.Product Backlog  Sprint Backlog**|
-|  05  |**7.Sprint Backlog**|
-|  06  |**8.Sprint**|
+|  05  |**5.Burndown**|
+|  06  |**8.Sprint** |
 |  07  |**9.Sprint Planning**|
-|  08  |**10.Sprint Backlog**|
-|  09  |**16.Planning Poker**|
+|  08  |**10.Sprint Review**|
+|  09  |**15.Planning Poker**|
+|  10  |**18.MVP**|
+
 
 ### Tarefas na Sprint 
 |   Tarefas  |         Story Point         |
