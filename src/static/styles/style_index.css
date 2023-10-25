@@ -114,7 +114,6 @@ a {
 
     /*Rodapé*/
     #footer {
-        height: 30vh;
         background-color: #000;
         color: #fff;
         background-size: cover;
@@ -124,7 +123,7 @@ a {
         display: flex;
         justify-content: right;
         margin-right: 200px;
-        padding-top: 60px;
+        
     }
     
     #logos > div img{
@@ -221,13 +220,13 @@ a {
     }
 
     #footer img {
-        width: 130px;
-        height: 130px;
+        width: 150px;
+        height: 150px;
     }
 
     #logos > div img{
-        width: 145px;
-        height: 120px;
+        width: 150px;
+        height: 150px;
     }
 }
 
@@ -284,8 +283,8 @@ a {
     }
 
     #logos > div img{
-        width: 145px;
-        height: 120px;
+        width: 150px;
+        height: 150px;
     
     }
 }   

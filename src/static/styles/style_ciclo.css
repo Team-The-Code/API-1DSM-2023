@@ -5,10 +5,140 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-family:"Outfit", sans-serif;
+    font-family:'Inter', sans-serif;
     text-decoration: none;
 }
 
+header {
+    background-color: #24252a;
+    box-shadow: 0px 3px 20px #464646;
+    padding: 20px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 14%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    background-image: url("../public/unifi.png");
+    background-size: cover;
+    height: 120px;
+    width: 120px;
+}
+
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    margin-right: 6%
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    
+}
+
+.nav-item {
+    margin: auto 25px;
+
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+.login-button button {
+    border: none;
+    background-color: #0187a7;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.login-button button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width: 730px) {
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .login-button {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile.menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+
+    .mobile-menu .login-button button {
+        width: 100%;
+    }
+
+    .open {
+        display: block;
+    }
+     }
+    img {
+        padding-left: 450px;
+    }
+    img .logo{
+        padding-right: 70px;
+    }
+    h1{
+        font-size:5vw;
+        font-weight: 600;
+        margin:auto;
+        text-align: center;
+        padding-top: 60px;
+    }
 
 nav.menu-lateral{
     width:80px;
@@ -29,7 +159,7 @@ nav.menu-lateral:hover{
 .btn-expandir{
     width: 100%;
     padding-left: 10px;
-    margin-top: -10px;
+    margin-top: -30px;
 }
 .btn-expandir > i{
     color:#fff;
@@ -37,7 +167,7 @@ nav.menu-lateral:hover{
     cursor:pointer;
 }
 ul{
-    height:100%;
+    
     list-style-type: none;
 }
 ul li.item-menu{
@@ -49,10 +179,9 @@ ul li.item-menu:hover{
 ul li.item-menu a{
     color:#fff;
     text-decoration: none;
-    font-size: 20px;
-    padding:20px 4%;
+    font-size: 15px;
+    padding-left: 1.5%;
     display:flex;
-    margin-bottom: 20px;
     line-height: 40px;
 }
 ul li.item-menu a .txt-link{
@@ -87,7 +216,7 @@ main{
     display: flex;
     justify-content: right;
     padding-top: 100px;
-    padding-right: 200px;
+    padding-right: 6%;
     height: 140px;
     align-items:center;
 }
