@@ -155,7 +155,7 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 <br>
 
 ## Métrica do Time
-<img src="docs\burndow.png">
+<img src="docs\burndown.png">
 <a href="https://fatecspgov-my.sharepoint.com/:x:/g/personal/samuel_melo01_fatec_sp_gov_br/EdaOzGv42etEobBS_tVXclcBUppPU8fuM0YsYYENf8jjag?e=hHKZby">Acesso</a>
 </p>
 <br>
@@ -183,11 +183,12 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 |  03  |**3.Criar um Sistema de Avaliação**|
 |  04  |**4.Processo Scrum**|
 |  05  |**5.Burndown**|
-|  06  |**8.Sprint** |
-|  07  |**9.Sprint Planning**|
-|  08  |**10.Sprint Review**|
-|  09  |**15.Planning Poker**|
-|  10  |**18.MVP**|
+|  06  |**6.Product Backlog**|
+|  07  |**8.Sprint** |
+|  08  |**9.Sprint Planning**|
+|  09  |**10.Sprint Review**|
+|  10  |**15.Planning Poker**|
+|  11  |**18.MVP**|
 
 
 ### Tarefas na Sprint 
@@ -240,7 +241,7 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 ||**Conteúdo do Burndown**|||X|Anielle|
 
 ## Métrica do Time
-<img src="docs/burndow2.png">
+<img src="docs/burndown2.png.png">
 <a href="https://fatecspgov-my.sharepoint.com/:x:/g/personal/samuel_melo01_fatec_sp_gov_br/EYnohnRVS1RElEp5XfIx-g0BqAQGv49jlyUkXVcIENBtTw?e=tjrOJV">Acesso</a>
 </p>
 <br>
