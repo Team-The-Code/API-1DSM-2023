@@ -50,6 +50,10 @@ li > a{
     color: #fff;
     text-decoration: none;
 }
+li > a:hover{
+    cursor: pointer;
+    color: #544FA9;
+}
 .logo {
     width: 50px;
     height: 50px;
