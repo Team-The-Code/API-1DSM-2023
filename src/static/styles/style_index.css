@@ -113,71 +113,33 @@ a {
 }
 
     /*Rodapé*/
-#footer {
-    height: 25vh;
-    background-color: #000;
-    color: #fff;
-    background-size: cover;
-}
-
-#logos{
-    display: flex;
-    justify-content: right;
-    margin-right: 200px;
-    padding-top: 60px;
-}
-
-#logos > div img{
-    padding-right: 30px;
-}
-
-#footer a {
-    font-size: 1.4rem;
-    display: flex;
-    text-align: center;
-    margin-left: 200px;
-    margin-top: -80px;
+    #footer {
+        height: 30vh;
+        background-color: #000;
+        color: #fff;
+        background-size: cover;
+    }
     
-}
+    #logos{
+        display: flex;
+        justify-content: right;
+        margin-right: 200px;
+        padding-top: 60px;
+    }
+    
+    #logos > div img{
+        padding-right: 30px;
+    }
+    
+    #footer a {
+        font-size: 1.4rem;
+        display: flex;
+        text-align: center;
+        margin-left: 200px;
+        margin-top: -80px;
+        
+    }
 
-#linha{
-    display: flex;
-    justify-content: center;
-    padding-top: 10%;
-}
-
-#link{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-
-#link ul{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    list-style: none;
-    padding-top: 60px;
-    color: grey;
-}
-
-#link li{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    font-size: 1.4rem;
-    padding-bottom: 20px;
-}
-
-#link > div {
-    padding-right: 5%;
-}
-
-#link li:hover{
-    cursor: pointer;
-    color: #f1f1f1;
-}
 
 /*Mobile*/
 @media (max-width: 425px){

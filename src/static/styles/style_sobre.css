@@ -63,6 +63,7 @@ li > a{
     cursor: pointer;
     color: #544FA9;
 }
+
 #navbar-itens li {
     font-size: 1.2rem;
     margin-top: 70px;
@@ -134,38 +135,33 @@ li > a{
 }
 
     /*Rodapé*/
-#footer {
-    height: 25vh;
-    background-color: #000;
-    color: #fff;
-    background-size: cover;
-}
-
-#logos{
-    display: flex;
-    justify-content: right;
-    margin-right: 200px;
-    padding-top: 60px;
-}
-
-#logos > div img{
-    padding-right: 30px;
-}
-
-#footer a {
-    font-size: 1.4rem;
-    display: flex;
-    text-align: center;
-    margin-left: 200px;
-    margin-top: -80px;
+    #footer {
+        height: 30vh;
+        background-color: #000;
+        color: #fff;
+        background-size: cover;
+    }
     
-}
+    #logos{
+        display: flex;
+        justify-content: right;
+        margin-right: 200px;
+        padding-top: 60px;
+    }
+    
+    #logos > div img{
+        padding-right: 30px;
+    }
+    
+    #footer a {
+        font-size: 1.4rem;
+        display: flex;
+        text-align: center;
+        margin-left: 200px;
+        margin-top: -80px;
+        
+    }
 
-#linha{
-    display: flex;
-    justify-content: center;
-    padding-top: 10%;
-}
 
 
 

@@ -81,9 +81,6 @@ li > a{
     align-items: center;
     padding-top: 200px;
     padding-bottom: 150px;
-
-    /*overlay*/
-
 }
 
 #showcase-container {
@@ -123,40 +120,32 @@ li > a{
 }
 
     /*Rodapé*/
-#footer {
-    height: 25vh;
-    background-color: #000;
-    color: #fff;
-    background-size: cover;
-}
-
-#logos{
-    display: flex;
-    justify-content: right;
-    margin-right: 200px;
-    padding-top: 60px;
-}
-
-#logos > div img{
-    padding-right: 30px;
-}
-
-#footer a {
-    font-size: 1.4rem;
-    display: flex;
-    text-align: center;
-    margin-left: 200px;
-    margin-top: -80px;
+    #footer {
+        height: 30vh;
+        background-color: #000;
+        color: #fff;
+        background-size: cover;
+    }
     
-}
-
-#linha{
-    display: flex;
-    justify-content: center;
-    padding-top: 10%;
-}
-
-
+    #logos{
+        display: flex;
+        justify-content: right;
+        margin-right: 200px;
+        padding-top: 60px;
+    }
+    
+    #logos > div img{
+        padding-right: 30px;
+    }
+    
+    #footer a {
+        font-size: 1.4rem;
+        display: flex;
+        text-align: center;
+        margin-left: 200px;
+        margin-top: -80px;
+        
+    }
 
 /*Mobile*/
 @media (max-width: 425px){
