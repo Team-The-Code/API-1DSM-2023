@@ -55,7 +55,10 @@ header {
     color: #fff;
     font-weight: 400;
 }
-
+.nav-link:hover {
+    cursor: pointer;
+    color: #8C71C6;
+}
 .login-button button {
     border: none;
     background-color: #0187a7;
