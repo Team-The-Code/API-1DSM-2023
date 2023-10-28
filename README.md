@@ -22,10 +22,14 @@ Conforme desafio apresentado pelo cliente, o desenvolvimento de uma aplicação 
 Projeto desenvolvido por alunos do 1º semestre do curso de Desenvolviento de Software Multiplatafora, da FATEC Prof Francisco Moura em Jacareí. <br> Consiste na criação de uma plataforma de curso simples para o aprendizado do SCRUM. Front-end desenvolvido em linguagem de marcação HTML e estilo CSS em conjunto com JavaScript, framework utilizado Bootstrap.
 >Status do projeto: Em desenvolvimento :hourglass:
 
-## Como executar a aplicação do Figma e Video
+## Como executar a aplicação:
 
 * Figma:<a href="https://www.figma.com/proto/WamIDDE9ZgLUanlkHOClT3/Untitled?type=design&node-id=1-2&t=JapPxWvDgM2Vw1s7-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2&hotspot-hints=0&mode=design">Clique Aqui!</a>
-* Vídeo:<a href="https://www.youtube.com/watch?v=ZdZHI50Kp0w">Clique aqui!</a>
+* Vídeo Sprint 1:<a href="https://www.youtube.com/watch?v=ZdZHI50Kp0w">Clique aqui!</a>
+* Vídeo Sprint 2:<a href="https://www.youtube.com/watch?v=mlz_nk9haQA">Clique aqui!</a>
+* Aplicação/Site:<a href="https://team-the-code.github.io/EquipeTheCode.github.io/">Clique aqui!</a>
+
+
 
 
 ##  🎯 Entregas
@@ -245,6 +249,14 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 <a href="https://fatecspgov-my.sharepoint.com/:x:/g/personal/samuel_melo01_fatec_sp_gov_br/EYnohnRVS1RElEp5XfIx-g0BqAQGv49jlyUkXVcIENBtTw?e=tjrOJV">Acesso</a>
 </p>
 <br>
+
+## Retrospectiva da Sprint 2
+|O que funcionou bem| O que poderia melhorar|
+|:-----------------:|:---------------------:|
+| **Apresentação do Trabalho;**|**Organização para todos apresentar;**|
+|**GitHub da equipe, todos commitaram;** |**Planejamento nas tarefas;**|
+|**Interação de todos da equipe com o Produto;**|**Pouca conversa com o cliente;** |
+|                   |**Direcionamento de trabalho na aplicação.**|
 
 <br>
 <hr>
