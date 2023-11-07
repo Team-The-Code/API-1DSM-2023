@@ -10,8 +10,8 @@
 }
 
 header {
-    background-color: #24252a;
-    box-shadow: 0px 3px 20px #464646;
+    background-color: #000;
+    box-shadow: 0px 3px 20px #000;
     padding: 20px;
 }
 
@@ -24,10 +24,10 @@ header {
 .logo {
     display: flex;
     align-items: center;
-    background-image: url("../public/unifi.png");
+    background-image: url("../public/MicrosoftTeams-image.png");
     background-size: cover;
-    height: 120px;
-    width: 120px;
+    height: 70px;
+    width: 130px;
 }
 
 
@@ -57,7 +57,7 @@ header {
 }
 .nav-link:hover {
     cursor: pointer;
-    color: #8C71C6;
+    color: #ff3b93;
 }
 .login-button button {
     border: none;
@@ -146,9 +146,9 @@ header {
 nav.menu-lateral{
     width:80px;
     height: 100%;
-    background-color: #202020;
+    background-color: #000;
     padding:40px 0 40px 1%;
-    box-shadow: 3px 0 0 #8C71C6;
+    box-shadow: 3px 0 0 #ff3b93;
     position:fixed;
     top:0;
     left:0;
@@ -177,7 +177,7 @@ ul li.item-menu{
     transition: 0.2s; ;
 }
 ul li.item-menu:hover{
-    background-color: #8C71C6;
+    background-color: #ff3b93;
 }
 ul li.item-menu a{
     color:#fff;
@@ -212,9 +212,17 @@ main{
     background-color: #000;
     color: #fff;
     background-size: cover;
-    margin-top: 12%;
-}
+  
 
+}
+.roda{
+    margin: 250px;
+    border: 1px solid grey;
+    margin-top: 300px;
+    margin-bottom:50px;
+    margin-right: 12%;
+    margin-left: 19%;
+}
 #logos{
     display: flex;
     justify-content: right;
@@ -232,7 +240,7 @@ main{
     font-size: 1.4rem;
     display: flex;
     text-align: center;
-    margin-left: 300px;
+    margin-left: 100px;
     margin-top: -30px;
     
 }
@@ -249,6 +257,12 @@ main{
     padding-top: 2%;
     align-items: center;
     text-align: justify;
+    background-color: #000;
+    color:#fff
+    
+}
+h1{
+    padding-top: 200px;
 }
 h2{
     font-size: 3vw;
@@ -257,10 +271,15 @@ h2{
     padding-left: 6%;
     padding-right: 6%;
     font-family: roboto;
-    padding-top: 20px;
+    padding-top: 50px;
 
 }
-
+#banner{
+    background-image: url('../public/MicrosoftTeams-image2.png');
+    background-color: rgba(49, 42, 42, 0.514);
+    background-blend-mode: color;
+    height: 40vw;
+}
 p{
     position: relative;
     font-size:1.5vw;
@@ -268,6 +287,9 @@ p{
     font-family:roboto;
     padding-left: 10%;
     padding-top: 40px; 
+}
+body{
+    background-color: #000;
 }
 /* botão */
 .btn-ativit{
