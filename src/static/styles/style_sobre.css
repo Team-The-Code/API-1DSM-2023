@@ -61,7 +61,7 @@ li > a{
 }
 #navbar-itens >li >a:hover {
     cursor: pointer;
-    color: #544FA9;
+    color: #ff3b93;
 }
 
 #navbar-itens li {

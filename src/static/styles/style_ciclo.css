@@ -291,6 +291,23 @@ p{
 body{
     background-color: #000;
 }
+#banner2{
+    background-image: url('../public/oi2.jpg');
+    background-color: rgba(49, 42, 42, 0.514);
+    background-blend-mode: color;
+    height: 40vw;
+    background-size: cover;
+}
+#banner3{
+    background-image: url('../public/oi3.jpg');
+    background-color: rgba(49, 42, 42, 0.514);
+    background-blend-mode: color;
+    height: 40vw;
+    background-size: cover;
+}
+
+
+
 /* botão */
 .btn-ativit{
     padding: 10px 40px;

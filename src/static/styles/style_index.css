@@ -64,7 +64,7 @@ a {
 }
 #navbar-itens > li >a:hover{
     cursor: pointer;
-    color: #544FA9;
+    color: #ff3b93;
 
 }
 
@@ -114,11 +114,22 @@ a {
 
     /*Rodapé*/
     #footer {
+        /* position: absolute; */
+        height: 25vh;
         background-color: #000;
         color: #fff;
         background-size: cover;
-    }
+      
     
+    }
+    .roda{
+        margin: 250px;
+        border: 1px solid grey;
+        margin-top: 300px;
+        margin-bottom:50px;
+        margin-right: 12%;
+        margin-left: 19%;
+    }
     #logos{
         display: flex;
         justify-content: right;

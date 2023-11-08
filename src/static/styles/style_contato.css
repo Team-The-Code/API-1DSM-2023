@@ -52,7 +52,7 @@ li > a{
 }
 li > a:hover{
     cursor: pointer;
-    color: #544FA9;
+    color: #ff3b93;
 }
 .logo {
     width: 50px;
