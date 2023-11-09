@@ -32,8 +32,8 @@ a {
 
 .btn:hover {
     cursor: pointer;
-	border-color: #8C71C6;
-	color: #8C71C6;
+	border-color: #ff3b93;
+	color: #ff3b93;
 }
 
 a{
@@ -44,7 +44,7 @@ a{
 #navbar {
     width: 100%;
     height: 130px;
-    background: #24252a;
+    background: #000;
     color: #ffffff;
 }
 
@@ -76,7 +76,7 @@ a{
 
 #navbar-itens li:hover {
     cursor: pointer;
-    color: #544FA9;
+    color: #ff3b93;
 }
 
     /*header*/
@@ -86,9 +86,9 @@ a{
         
         #showcase {
             background-color: white;
-            color: black;
+            color: #fff;
             height: 100vh;
-            
+            background-image: url("../public/oi5.png");
         }
 
         #showcase h1 {
