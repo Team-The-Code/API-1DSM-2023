@@ -19,15 +19,16 @@ a {
     font-size: 1.5rem;
     background: #111;
     color: #fff;
+    border: 1px solid grey;
     border-radius: 50px;
     transition: background 500ms ease;
 }
 
 .btn:hover {
     cursor: pointer;
-    background-color: #c9fbff34;
-	border-color: #000;
-	color: #000;
+    background-color: #000;
+	border-color: #ff3b93;
+	color: #fff;
 }
 
     /*Cabeçalho*/
@@ -37,6 +38,7 @@ a {
     background: #000000;
     color: #ffffff;
     position: fixed;
+    
 }
 
 #navbar-container {
@@ -81,7 +83,7 @@ a {
 
     /*header*/
 #showcase{
-    background-image: url("../public/grafico.png");
+    background-image: url("../public/Inserir\ um\ título\ \(1\).png");
     background-repeat:no-repeat;
     background-size: cover;
     height: 100vh;
@@ -90,26 +92,34 @@ a {
     justify-content: center;
     padding-top: 200px;
 
-    /*overlay*/
-
-    background-color: rgba(58, 3, 58, 0.267);
-    background-blend-mode: color;
+   
 }
 
-#showcase-container {
+#showcase-container .btn{
+    margin-top: 150%;
     color: #fff;
     text-align: center;
 }
 
-#showcase-container h2{
-    padding-bottom: 100px;
-    font-size: 8.10rem;
+#showcase h1{
+    text-decoration: none ;
+    font-size: 11.10rem;
+    font-weight: 500;
+    display: inline-block;
+    color: #f1b;
+    padding: 16px 64px;
+    margin-top: -30%;
+    margin-right: 80%;
+    text-shadow: 0 0 8px hsl(0 0% 100%/0.3), 0 0 32px;
+  
+
 }
 
-#showcase-container p {
+#showcase p {
+    margin-left: 4%;
+    padding-top: 10%;
     font-size: 3.10rem;
-    padding: 7px 0;
-    padding-bottom: 100px;
+    color: #fff
 }
 
     /*Rodapé*/
