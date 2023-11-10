@@ -59,7 +59,7 @@ a{
 
 .logo {
     width: 50px;
-    height: 50px;
+    height: 10px;
 }
 
 #navbar-itens {
@@ -88,9 +88,11 @@ a{
             background-color: white;
             color: #fff;
             height: 100vh;
-            background-image: url("../public/oi5.png");
-        }
+            background-image: url("../public/question-mark-2492009.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
 
+        }
         #showcase h1 {
             display: flex;
             justify-content: center;
@@ -189,33 +191,48 @@ a{
             background-color: rgba(41, 41, 41, 0.253);
         }
     /*Rodapé*/
-#footer {
-    height: 30vh;
-    background-color: #000;
-    color: #fff;
-    background-size: cover;
-}
-
-#logos{
-    display: flex;
-    justify-content: right;
-    margin-right: 200px;
-    padding-top: 60px;
-}
-
-#logos > div img{
-    padding-right: 30px;
-}
-
-#footer a {
-    font-size: 1.4rem;
-    display: flex;
-    text-align: center;
-    margin-left: 200px;
-    margin-top: -80px;
+    main{
+        height: 80vh;
+    }
     
-}
-
+    #footer {
+        /* position: absolute; */
+        height: 25vh;
+        background-color: #000;
+        color: #fff;
+        background-size: cover;
+      
+    
+    }
+    .roda{
+        margin: 250px;
+        border: 1px solid grey;
+        margin-top: 300px;
+        margin-bottom:50px;
+        margin-right: 12%;
+        margin-left: 19%;
+    }
+    #logos{
+        display: flex;
+        justify-content: right;
+        padding-top: 100px;
+        padding-right: 6%;
+        height: 140px;
+        align-items:center;
+    }
+    
+    #logos > img{
+        padding-left: 30px;
+    }
+    
+    #footer a {
+        font-size: 1.4rem;
+        display: flex;
+        text-align: center;
+        margin-left: 100px;
+        margin-top: -30px;
+        
+    }
 /*Mobile*/
 @media (max-width: 425px){
     #navbar{

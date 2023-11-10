@@ -270,7 +270,7 @@ h2{
     font-weight: 700;
     padding-left: 6%;
     padding-right: 6%;
-    font-family: sans-serif;
+    font-family: roboto;
     padding-top: 50px;
 
 }
@@ -284,7 +284,7 @@ p{
     position: relative;
     font-size:1.5vw;
     font-weight: 400;
-    font-family:sans-serif;
+    font-family:roboto;
     padding-left: 10%;
     padding-top: 40px; 
 }
