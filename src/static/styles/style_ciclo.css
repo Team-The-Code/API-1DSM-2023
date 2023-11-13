@@ -1,15 +1,16 @@
 
 /* menu lateral */
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
-*{
-    margin:0;
-    padding:0;
+
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family:'Inter', sans-serif;
+    font-family: 'Inter', sans-serif;
     text-decoration: none;
 }
 
-header {
+.a1 {
     background-color: #000;
     box-shadow: 0px 3px 20px #000;
     padding: 20px;
@@ -24,29 +25,26 @@ header {
 .logo {
     display: flex;
     align-items: center;
-    background-image: url("../public/MicrosoftTeams-image.png");
+    background-image: url("../public/Component\ 1\ \(4\)\ 1.svg");
     background-size: cover;
     height: 70px;
     width: 130px;
 }
 
-
 .nav-list {
     display: flex;
     align-items: center;
-    margin-right: 6%
+    margin-right: 6%;
 }
 
 .nav-list ul {
     display: flex;
     justify-content: center;
     list-style: none;
-    
 }
 
 .nav-item {
     margin: auto 25px;
-
 }
 
 .nav-link {
@@ -55,10 +53,12 @@ header {
     color: #fff;
     font-weight: 400;
 }
+
 .nav-link:hover {
     cursor: pointer;
     color: #ff3b93;
 }
+
 .login-button button {
     border: none;
     background-color: #0187a7;
@@ -128,143 +128,147 @@ header {
     .open {
         display: block;
     }
-     }
-    img {
-        padding-left: 450px;
-    }
-    img .logo{
-        padding-right: 70px;
-    }
-    h1{
-        font-size:5vw;
-        font-weight: 600;
-        margin:auto;
-        text-align: center;
-        padding-top: 60px;
-    }
+}
 
-nav.menu-lateral{
-    width:80px;
+img {
+    max-width: 100%; /* Make images responsive */
+    height: auto;
+}
+
+h1 {
+    font-size: 5vw;
+    font-weight: 600;
+    margin: auto;
+    text-align: center;
+    padding-top: 60px;
+}
+
+nav.menu-lateral {
+    width: 80px;
     height: 100%;
     background-color: #000;
-    padding:40px 0 40px 1%;
+    padding: 40px 0 40px 1%;
     box-shadow: 3px 0 0 #ff3b93;
-    position:fixed;
-    top:0;
-    left:0;
+    position: fixed;
+    top: 0;
+    left: 0;
     overflow: hidden;
     transition: 0.2s;
 }
-nav.menu-lateral:hover{
-    width: 250px;
 
+nav.menu-lateral:hover {
+    width: 250px;
 }
-.btn-expandir{
+
+.btn-expandir {
     width: 100%;
     padding-left: 10px;
     margin-top: -30px;
 }
-.btn-expandir > i{
-    color:#fff;
-    font-size:35px;
-    cursor:pointer;
+
+.btn-expandir > i {
+    color: #fff;
+    font-size: 35px;
+    cursor: pointer;
 }
-ul{
-    
+
+ul {
     list-style-type: none;
 }
-ul li.item-menu{
-    transition: 0.2s; ;
+
+ul li.item-menu {
+    transition: 0.2s;
 }
-ul li.item-menu:hover{
+
+ul li.item-menu:hover {
     background-color: #ff3b93;
 }
-ul li.item-menu a{
-    color:#fff;
+
+ul li.item-menu a {
+    color: #fff;
     text-decoration: none;
     font-size: 15px;
     padding-left: 1.5%;
-    display:flex;
+    display: flex;
     line-height: 40px;
 }
-ul li.item-menu a .txt-link{
+
+ul li.item-menu a .txt-link {
     margin-left: 30px;
     padding-top: 30px;
 }
-ul li.item-menu a .icon > i{
+
+ul li.item-menu a .icon > i {
     font-size: 30px;
     margin-left: 10px;
 }
 
-.icon{
+.icon {
     padding-top: 30px;
     padding-bottom: 40px;
 }
 
 /* rodapé */
-main{
+main {
     height: 80vh;
 }
 
 #footer {
-    /* position: absolute; */
     height: 25vh;
     background-color: #000;
     color: #fff;
     background-size: cover;
-  
-
 }
-.roda{
+
+.roda {
     margin: 250px;
     border: 1px solid grey;
     margin-top: 300px;
-    margin-bottom:50px;
+    margin-bottom: 50px;
     margin-right: 12%;
     margin-left: 19%;
 }
-#logos{
+
+#logos {
     display: flex;
     justify-content: right;
     padding-top: 100px;
     padding-right: 6%;
     height: 140px;
-    align-items:center;
+    align-items: center;
 }
 
-#logos > img{
+#logos > img {
     padding-left: 30px;
 }
-
+#logos .fto{
+    height: 150%;
+}
 #footer a {
     font-size: 1.4rem;
     display: flex;
     text-align: center;
     margin-left: 100px;
     margin-top: -30px;
-    
 }
 
 /* texto */
 
-.corpo-titulo{
-    font-size:1vw;
+.corpo-titulo {
+    font-size: 1vw;
     padding-bottom: 5%;
     font-weight: 600;
     font-family: sans-serif;
     padding-left: 6%;
     padding-right: 6%;
-    padding-top: 2%;
+    padding-top: 10%;
     align-items: center;
     text-align: justify;
     background-color: #000;
-    color:#fff
-    
+    color: #fff;
 }
-h1{
-    padding-top: 200px;
-}
-h2{
+
+h2 {
     font-size: 3vw;
     text-align: center;
     font-weight: 700;
@@ -272,24 +276,12 @@ h2{
     padding-right: 6%;
     font-family: roboto;
     padding-top: 50px;
-
 }
 #banner{
     background-image: url('../public/MicrosoftTeams-image2.png');
     background-color: rgba(49, 42, 42, 0.514);
     background-blend-mode: color;
     height: 40vw;
-}
-p{
-    position: relative;
-    font-size:1.5vw;
-    font-weight: 400;
-    font-family:roboto;
-    padding-left: 10%;
-    padding-top: 40px; 
-}
-body{
-    background-color: #000;
 }
 #banner2{
     background-image: url('../public/oi2.jpg');
@@ -306,21 +298,32 @@ body{
     background-size: cover;
 }
 
+p {
+    position: relative;
+    font-size: 1.5vw;
+    font-weight: 400;
+    font-family: roboto;
+    padding-left: 10%;
+    padding-top: 40px;
+}
 
+body {
+    background-color: #000;
+}
 
 /* botão */
-.btn-ativit{
-    padding: 10px 40px;
-    margin-left: 80%;
+.btn-ativit {
+    padding: 10px 5%;
+    margin-left: 5%;
     margin-bottom: 20px;
     border-radius: 50px;
     font-size: 2rem;
     background-color: white;
 }
 
-.btn-ativit:hover{
+.btn-ativit:hover {
     color: #ff3b93;
-    border-color:#ff3b93;
+    border-color: #ff3b93;
 }
 
 a {

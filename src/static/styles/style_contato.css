@@ -124,31 +124,47 @@ li > a:hover{
 }
 
     /*Rodapé*/
+    main {
+        height: 80vh;
+    }
+    
     #footer {
-        height: 30vh;
+        height: 25vh;
         background-color: #000;
         color: #fff;
         background-size: cover;
     }
     
-    #logos{
+    .roda {
+        margin: 250px;
+        border: 1px solid grey;
+        margin-top: 300px;
+        margin-bottom: 50px;
+        margin-right: 12%;
+        margin-left: 19%;
+    }
+    
+    #logos {
         display: flex;
         justify-content: right;
-        margin-right: 200px;
-        padding-top: 60px;
+        padding-top: 100px;
+        padding-right: 6%;
+        height: 140px;
+        align-items: center;
     }
     
-    #logos > div img{
-        padding-right: 30px;
+    #logos > img {
+        padding-left: 30px;
     }
-    
+    #logos .fto{
+        height: 150%;
+    }
     #footer a {
         font-size: 1.4rem;
         display: flex;
         text-align: center;
-        margin-left: 200px;
-        margin-top: -80px;
-        
+        margin-left: 100px;
+        margin-top: -30px;
     }
 
 /*Mobile*/
