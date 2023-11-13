@@ -32,55 +32,50 @@ a {
 }
 
     /*Cabeçalho*/
-#navbar {
-    width: 100%;
-    height: 130px;
-    background: #000000;
-    color: #ffffff;
-    position: fixed;
+
+    .nav-bar {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 14%;
+    }
     
-}
-
-#navbar-container {
-    width: 80%;
-    height: 50%;
-    align-items: center;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-}
-
-.logo {
-    width: 50px;
-    height: 50px;
-}
-
-#navbar-itens {
-    display: flex;
-    list-style: none;
-}
-#navbar-itens > li > a {
-    cursor: pointer;
-    color: #f1f1f1;
-
-}
-#navbar-itens > li >a:hover{
-    cursor: pointer;
-    color: #ff3b93;
-
-}
-
-#navbar-itens li {
-    font-size: 1.2rem;
-    margin-top: 70px;
-    padding: 40px;
-}
-
-#navbar-itens li:hover {
-    cursor: pointer;
-    color: #544FA9;
-}
-
+    .logo {
+        display: flex;
+        align-items: center;
+        background-image: url("../public/MicrosoftTeams-image.png");
+        background-size: cover;
+        height: 70px;
+        width: 130px;
+    }
+    
+    
+    .nav-list {
+        display: flex;
+        align-items: center;
+        margin-right: 6%
+    }
+    
+    .nav-list ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        
+    }
+    
+    .nav-item {
+        margin: auto 25px;
+    
+    }
+    .nav-link {
+        text-decoration: none;
+        font-size: 1.15rem;
+        color: #fff;
+        font-weight: 400;
+    }
+    .nav-link:hover {
+        cursor: pointer;
+        color: #ff3b93;
+    }
     /*header*/
 #showcase{
     background-image: url("../public/Inserir\ um\ título\ \(1\).png");
@@ -110,7 +105,7 @@ a {
     padding: 16px 64px;
     margin-top: -30%;
     margin-right: 80%;
-    text-shadow: 0 0 8px hsl(0 0% 100%/0.3), 0 0 32px;
+    text-shadow: 0 0 8px hsl(0 0% 100%/0.3), 0 0 12px;
   
 
 }
@@ -123,6 +118,10 @@ a {
 }
 
     /*Rodapé*/
+    main{
+        height: 80vh;
+    }
+    
     #footer {
         /* position: absolute; */
         height: 25vh;
@@ -143,20 +142,22 @@ a {
     #logos{
         display: flex;
         justify-content: right;
-        margin-right: 200px;
-        
+        padding-top: 100px;
+        padding-right: 6%;
+        height: 140px;
+        align-items:center;
     }
     
-    #logos > div img{
-        padding-right: 30px;
+    #logos > img{
+        padding-left: 30px;
     }
     
     #footer a {
         font-size: 1.4rem;
         display: flex;
         text-align: center;
-        margin-left: 200px;
-        margin-top: -80px;
+        margin-left: 100px;
+        margin-top: -30px;
         
     }
 

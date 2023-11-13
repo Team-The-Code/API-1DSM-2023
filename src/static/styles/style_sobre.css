@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #000;
+    background-image: linear-gradient(70deg,rgb(188, 12, 109) 40%,black 40%);
     font-family: Roboto;
 }
 
@@ -37,7 +37,6 @@ li > a{
     height: 130px;
     background: #000000;
     color: #ffffff;
-    position: fixed;
     
 }
 
@@ -74,12 +73,12 @@ li > a{
 
     /*header*/
 #showcase{
-    background-color: #fff;
+    background-color: #000;
     background-repeat:no-repeat;
     background-size: cover;
     margin-bottom: auto;
     align-items: center;
-    padding-top: 200px;
+    padding-top: 100px;
     padding-bottom: 100px;
 
     /*overlay*/
@@ -90,19 +89,14 @@ li > a{
 #showcase-container {
     color: black;
     text-align: center;
+    background: #000;
 }
 
-#showcase-container h1{
-    padding-bottom: 100px;
+h1{
+    padding-left: 450px;
     margin-bottom: 10px;
     font-size: 8.10rem;
-}
-#showcase-container h2{
-    padding: 100px;
-    padding-bottom: 100px;
-    font-size: 7.10rem;
-    margin-bottom: 10px;
-
+    color: #fff;
 }
 #showcase-container h3{
     padding-bottom: 100px;
@@ -110,7 +104,7 @@ li > a{
     margin-bottom: 10px;
     font-size: 3.10rem;
     margin: auto;
-
+    color:#fff
 }
 #showcase-container-body{
     width: 60%;
@@ -135,33 +129,48 @@ li > a{
 }
 
     /*Rodapé*/
+    main{
+        height: 80vh;
+    }
+    
     #footer {
-        height: 30vh;
+        /* position: absolute; */
+        height: 25vh;
         background-color: #000;
         color: #fff;
         background-size: cover;
-    }
+      
     
+    }
+    .roda{
+        margin: 250px;
+        border: 1px solid grey;
+        margin-top: 300px;
+        margin-bottom:50px;
+        margin-right: 12%;
+        margin-left: 19%;
+    }
     #logos{
         display: flex;
         justify-content: right;
-        margin-right: 200px;
-        padding-top: 60px;
+        padding-top: 100px;
+        padding-right: 6%;
+        height: 140px;
+        align-items:center;
     }
     
-    #logos > div img{
-        padding-right: 30px;
+    #logos > img{
+        padding-left: 30px;
     }
     
     #footer a {
         font-size: 1.4rem;
         display: flex;
         text-align: center;
-        margin-left: 200px;
-        margin-top: -80px;
+        margin-left: 100px;
+        margin-top: -30px;
         
     }
-
 
 
 
@@ -318,4 +327,59 @@ li > a{
     #showcase {
         width: 103%
     }
+}
+
+/* cards */
+.container{
+    display:flex;
+    justify-content:space-between;
+    
+
+}
+.container2{
+    display:flex;
+
+}
+.container3{
+    display:flex;
+
+}
+.container6{
+    display:flex;
+    justify-content:space-between;
+
+}
+.container7{
+    left:10px
+}
+.card{
+    width: 250px;
+    height: 300px;
+    border-radius: 15px;
+    margin-top:100px;
+    background-color: #202020;
+}
+.imagem{
+    display: flex;
+    justify-content: center;
+}
+.mar{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top:20px;
+}
+.text-main{
+    text-align: center;
+    color:#fff;
+    font-family: roboto;
+    font-weight: 600;
+    font-size: 25px;
+}
+.desk{
+    font-family: roboto;
+    color:#fff;
+    font-weight: 200;
+    text-align: center;
+    font-size: 20px;
 }
