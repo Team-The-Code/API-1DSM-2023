@@ -5,10 +5,12 @@
 }
 
 body {
-    background-image: linear-gradient(70deg,rgb(188, 12, 109) 40%,black 40%);
-    font-family: Roboto;
-}
+    background-image: url("../public/13\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: roboto;
 
+}
     /*Botão*/
 .btn {
     display: inline-block;
@@ -52,6 +54,7 @@ li > a{
 .logo {
     width: 50px;
     height: 50px;
+    padding-top: 25px;
 }
 
 #navbar-itens {
