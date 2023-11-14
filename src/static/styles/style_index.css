@@ -5,9 +5,16 @@
 }
 
 body {
-    background-color: #000;
-    font-family: sans-serif;
+        background-image: url("../public/Inserir\ um\ título\ \(1\).png");
+        background-repeat:no-repeat;
+        background-size: cover;
+        background-color: #000;
+        font-family: Roboto;
+        background-color: #00000048;
+        background-blend-mode: color;
 }
+
+
 a {
     text-decoration: none;
 }
@@ -34,10 +41,10 @@ a {
     /*Cabeçalho*/
 
     .nav-bar {
+        height: 10vh;
+        background-color: #000;
         display: flex;
         justify-content: space-between;
-        margin-left: 14%;
-        height: 100px;
     }
     
     .logo {
@@ -48,13 +55,15 @@ a {
         height: 70px;
         width: 130px;
         margin-top: 0.4%;
+        margin-left: 14%;
+
     }
     
     
     .nav-list {
         display: flex;
         align-items: center;
-        margin-right: 6%
+        margin-right: 11%
     }
     
     .nav-list ul {
@@ -80,9 +89,7 @@ a {
     }
     /*header*/
 #showcase{
-    background-image: url("../public/Inserir\ um\ título\ \(1\).png");
-    background-repeat:no-repeat;
-    background-size: cover;
+    padding-right: 30%;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -92,11 +99,13 @@ a {
    
 }
 
-#showcase-container .btn{
-    margin-top: 150%;
+#showcase .btn{
     color: #fff;
     text-align: center;
+    margin-left: 10%;
+    margin-top: 5%;
 }
+
 
 #showcase h1{
     text-decoration: none ;
@@ -106,15 +115,16 @@ a {
     color: #f1b;
     padding: 16px 64px;
     margin-top: -30%;
-    margin-right: 80%;
+    margin-right: 70%;
     text-shadow: 0 0 8px hsl(0 0% 100%/0.3), 0 0 12px;
+    margin-left: 5%;
   
 
 }
 
 #showcase p {
-    margin-left: 4%;
-    padding-top: 10%;
+    margin-left: 10%;
+    padding-top: 6%;
     font-size: 3.10rem;
     color: #fff
 }
@@ -132,11 +142,10 @@ a {
     }
     
     .roda {
-        margin: 250px;
         border: 1px solid grey;
-        margin-top: 300px;
+        margin-top: 100px;
         margin-bottom: 50px;
-        margin-right: 12%;
+        margin-right: 19%;
         margin-left: 19%;
     }
     
