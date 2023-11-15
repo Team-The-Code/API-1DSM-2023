@@ -79,312 +79,314 @@ a{
     color: #ff3b93;
 }
 
-    /*header*/
-    button  {
-        cursor: pointer;
-        }
-        
-        #showcase {
-            background-color: white;
-            color: #fff;
-            height: 100vh;
-            background-image: url("../public/question-mark-2492009.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
+/*header*/
+button  {
+cursor: pointer;
+}
 
-        }
-        #showcase h1 {
-            margin-bottom: 5px;
-            display: flex;
-            justify-content: center;
-            font-size: 2.8rem;
-           
-        }
+#showcase {
+    background-color: white;
+    color: #fff;
+    height: 100vh;
+    background-image: url("../public/question-mark-2492009.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 
-        #showcase p {
-            display: flex;
-            justify-content: center;
-            font-size: 2.8rem;
-            padding-bottom: 2%;
-        }
-
-        #showcase .container {
-           margin:auto;
-        }
-
-
-        
-        /*Atividade*/
-        
-        .container {
-            /*fundo*/
-            background-color: rgba(161, 184, 247, 0.397);
-            width: 90%;
-            max-width: 800px;
-            /*borda*/
-            border: 1px solid rgb(161, 184, 247);;
-            border-radius: 6px;
-            padding: 16px;
-           
-            /*elementos*/
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            align-items: center;
-        }
-        
-        /*Pergunta*/
-        .question-container {
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            gap: 24px;
-        }
-        
-        .question {
-            /*Texto*/
-            font-size: 24px;
-            font-weight: bold;
-            text-align: center;
-        }
-        
-        /*Respostas*/
-        .answers-container {
-            width: 100%;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 16px;
-        }
-        
-        .next-question {
-            margin-top: 32px;
-        }
-        
-        .button {
-            font-size: 16px;
-            font-weight: bold;
-            border: 0;
-            border-radius: 6px;
-            height: 48px;
-            padding: 0 32px;
-            transition: 0.2s;
-        }
-        
-        .button:not(:disabled):hover{
-            filter: brightness(0.8);
-        }
-        
-        .answer:disabled {
-            cursor: not-allowed;
-        }
-        
-        .hide {
-            display: none;
-        }
-        
-        .correct {
-            background-color: rgb(157, 250, 157);
-        }
-        
-        .incorrect {
-            background-color: rgba(41, 41, 41, 0.253);
-        }
-    /*Rodapé*/
-    main{
-        height: 80vh;
-    }
+}
+#showcase h1 {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: 2.8rem;
     
-    #footer {
-        /* position: absolute; */
-        height: 25vh;
-        background-color: #000;
-        color: #fff;
-        background-size: cover;
-      
+}
+
+#showcase p {
+    display: flex;
+    justify-content: center;
+    font-size: 2.8rem;
+    padding-bottom: 2%;
+}
+
+#showcase .container {
+    margin:auto;
+}
+
+
+
+/*Atividade*/
+
+.container {
+    /*fundo*/
+    background-color: rgba(161, 184, 247, 0.397);
+    width: 90%;
+    max-width: 800px;
+    /*borda*/
+    border: 1px solid rgb(161, 184, 247);;
+    border-radius: 6px;
+    padding: 16px;
     
-    }
-    .roda{
-        margin: 250px;
-        border: 1px solid grey;
-        margin-top: 300px;
-        margin-bottom:50px;
-        margin-right: 12%;
-        margin-left: 19%;
-    }
-    #logos{
-        display: flex;
-        justify-content: right;
-        padding-top: 100px;
-        padding-right: 6%;
-        height: 140px;
-        align-items:center;
-    }
-    
-    #logos > img{
-        padding-left: 30px;
-    }
-    
-    #footer a {
-        font-size: 1.4rem;
-        display: flex;
-        text-align: center;
-        margin-left: 100px;
-        margin-top: -30px;
-        
-    }
+    /*elementos*/
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Pergunta*/
+.question-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.question {
+    /*Texto*/
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*Respostas*/
+.answers-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.next-question {
+    margin-top: 32px;
+}
+
+.button {
+    font-size: 16px;
+    font-weight: bold;
+    border: 0;
+    border-radius: 10px;
+    height: 48px;
+    padding: 0 32px;
+    transition: 0.2s;
+    backface-visibility: ;
+}
+
+.button:not(:disabled):hover{
+    filter: brightness(0.8);
+}
+
+.answer:disabled {
+    cursor: not-allowed;
+}
+
+.hide {
+    display: none;
+}
+
+.correct {
+    background-color: rgb(157, 250, 157);
+}
+
+.incorrect {
+    background-color: rgba(41, 41, 41, 0.253);
+}
+/*Rodapé*/
+main{
+height: 80vh;
+}
+
+#footer {
+    /* position: absolute; */
+    height: 25vh;
+    background-color: #000;
+    color: #fff;
+    background-size: cover;
+
+
+}
+.roda{
+    margin: 250px;
+    border: 1px solid grey;
+    margin-top: 300px;
+    margin-bottom:50px;
+    margin-right: 12%;
+    margin-left: 19%;
+}
+#logos{
+    display: flex;
+    justify-content: right;
+    padding-top: 100px;
+    padding-right: 6%;
+    height: 140px;
+    align-items:center;
+}
+
+#logos > img{
+    padding-left: 30px;
+}
+
+#footer a {
+    font-size: 1.4rem;
+    display: flex;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: -30px;
+
+}
 /*Mobile*/
 @media (max-width: 425px){
-    #navbar{
-        width: 500px;
-        height: 250px;
-    }
+#navbar{
+    width: 500px;
+    height: 250px;
+}
 
-    #navbar-container {
-        padding: 10px 0;
-    }
-    
-    #navbar-itens {
-        flex-direction: column;
-        text-align: center;
-        width: 100%;
-        padding: 10%;
-    }
+#navbar-container {
+    padding: 10px 0;
+}
 
-    #navbar ul{
-        padding-top: 200px;
-        padding-right: 80px;
-        align-items: center;
-    }
+#navbar-itens {
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    padding: 10%;
+}
 
-    #navbar-itens li{
-        margin-top: -20%;
-    }
+#navbar ul{
+    padding-top: 200px;
+    padding-right: 80px;
+    align-items: center;
+}
 
-    .logo {
-        padding-top: 30px;
-        width: 100px;
-    }
+#navbar-itens li{
+    margin-top: -20%;
+}
 
-    #showcase{
-        padding-top: 0%;
-        width: 100vw;
-        height: 100vh;
-        background-size: cover;
-    }
+.logo {
+    padding-top: 30px;
+    width: 100px;
+}
 
-    .btn {
-        padding: 20px 50px;
-        font-size: 1.0rem;
-    }
-    
+#showcase{
+    padding-top: 0%;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
 
-    #showcase-container{
-        padding-top: 50%;
-    }
+.btn {
+    padding: 20px 50px;
+    font-size: 1.0rem;
+}
 
-    #showcase-container h2 {
-        padding-top: 30px;
-        padding-bottom: 20px;
-        font-size: 2.8rem;
-    }
 
-    #showcase-container p {
-        padding-top: 10px;
-        font-size: 2.1rem;
-    }
+#showcase-container{
+    padding-top: 50%;
+}
 
-    #footer{
-        height: 30vh;
-    }
+#showcase-container h2 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 2.8rem;
+}
 
-    #logos{
-        display: flex;
-        justify-content: right;
-        padding-left: 90%;
-        padding-top: 50px;
-        padding-bottom: 120px;
-    }
+#showcase-container p {
+    padding-top: 10px;
+    font-size: 2.1rem;
+}
 
-    #footer a {
-        font-size: 1.2rem;
-        margin-right: -100px;
-        flex-direction: column;    
-    }
+#footer{
+    height: 30vh;
+}
 
-    #footer img {
-        width: 130px;
-        height: 130px;
-    }
+#logos{
+    display: flex;
+    justify-content: right;
+    padding-left: 90%;
+    padding-top: 50px;
+    padding-bottom: 120px;
+}
 
-    #logos > div img{
-        width: 145px;
-        height: 120px;
-    }
+#footer a {
+    font-size: 1.2rem;
+    margin-right: -100px;
+    flex-direction: column;    
+}
+
+#footer img {
+    width: 130px;
+    height: 130px;
+}
+
+#logos > div img{
+    width: 145px;
+    height: 120px;
+}
 }
 
 @media(max-width: 900px) {
-    #navbar-itens li {
-        padding-right: 0px;
-    }
-    #showcase {
-        padding-top: 10px;
-    }
-    #footer a{
-        margin-left: 20px;
-    }
+#navbar-itens li {
+    padding-right: 0px;
+}
+#showcase {
+    padding-top: 10px;
+}
+#footer a{
+    margin-left: 20px;
+}
 
-    #logos {
-        margin-right: 20px;
-    }
+#logos {
+    margin-right: 20px;
+}
 }
 
 @media(max-width: 600px) {
 
-    #navbar-itens li {
-        font-size: 0.9rem;
-        padding-right: 0px;
-    }
-    #showcase {
-        height: 120vh;
-        padding-top: 0px;
-    }
+#navbar-itens li {
+    font-size: 0.9rem;
+    padding-right: 0px;
+}
+#showcase {
+    height: 120vh;
+    padding-top: 0px;
+}
 
-    #showcase-container h2 {
-        padding-bottom: 50px;
-        font-size: 5.10rem;
-    }
+#showcase-container h2 {
+    padding-bottom: 50px;
+    font-size: 5.10rem;
+}
 
-    #showcase-container p {
-        font-size: 2.10rem;
-    }
+#showcase-container p {
+    font-size: 2.10rem;
+}
 
-    #logos {
-        margin-right: 20px;
-    }
+#logos {
+    margin-right: 20px;
+}
 
-    #footer a {
-        font-size: 1.1rem;
-        margin-left: -200px;
-        margin-bottom: 50px;
-        flex-direction: column;    
-    }
+#footer a {
+    font-size: 1.1rem;
+    margin-left: -200px;
+    margin-bottom: 50px;
+    flex-direction: column;    
+}
 
-    #footer img {
-        width: 130px;
-        height: 130px;
-    }
+#footer img {
+    width: 130px;
+    height: 130px;
+}
 
-    #logos > div img{
-        width: 145px;
-        height: 120px;
-    
-    }
+#logos > div img{
+    width: 145px;
+    height: 120px;
+
+}
 }   
 
 @media(max-width:360px){
-    #showcase {
-        width: 103%
-    }
+#showcase {
+    width: 103%
+}
 }

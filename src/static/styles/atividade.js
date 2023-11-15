@@ -29,8 +29,8 @@ function displayNextQuestion(){
         return finishGame()
     }
 
-    $questionText.textContent = questions[currentQuestionAtividade].question
-    $questionText2.textContent = questions[currentQuestionAtividade].conteudo
+    $questionText.textContent = questions[currentQuestionAtividade].conteudo
+    $questionText2.textContent = questions[currentQuestionAtividade].question
 
     questions[currentQuestionAtividade].answer.forEach(answer =>{
         const newAnswer = document.createElement("button")
@@ -151,59 +151,68 @@ function finishGame() {
 
 const questions = [
     {
-        question: "Metodologia Agil",
-        conteudo: "Texto",
+        question: "Metodologia Agil - Scrum Master",
+        conteudo: "Qual é a função do Scrum Master em uma equipe ágil que utiliza a metodologia Scrum?",
         answer: [
-            {text: "Resposta 1", correct: true},
-            {text: "Resposta 2", correct: false},
-            {text: "Resposta 3", correct: false},
-            {text: "Resposta 4", correct: false},
-            {text: "Resposta 5", correct: false}
+            {text: "Gerenciar o backlog de produtos", correct: false},
+            {text: "Desenvolver código e funcionalidades do produto", correct: false},
+            {text: "Facilitar o processo Scrum e remover impedimentos", correct: true},
+            {text: "Definir as metas de lançamento do produto", correct: false},
+            
         ]
     },
     {
-        question: "Pergunta 2",
-        conteudo: "Texto",
+        question: "Metodologia ágil- Product Owner",
+        conteudo: "Qual é a função principal do Product Owner em uma equipe ágil que utiliza a metodologia Scrum?",
         answer: [
-            {text: "Resposta 1", correct: false},
-            {text: "Resposta 2", correct: false},
-            {text: "Resposta 3", correct: false},
-            {text: "Resposta 4", correct: true},
-            {text: "Resposta 5", correct: false}
+            {text: "Definir a arquitetura técnica do produto", correct: false},
+            {text: "Priorizar o backlog do produto e representar os interesses do cliente", correct: true},
+            {text: "Facilitar as reuniões diárias da equipe de desenvolvimento", correct: false},
+            {text: "Garantir que as tarefas diárias estejam de acordo com o plano do projeto", correct: false},
+           
         ]
     },
     {
-        question: "Pergunta 3",
-        conteudo: "Texto",
+        question: "Metodologia ágil- Dev Team",
+        conteudo: "Qual é a principal responsabilidade do time de desenvolvimento em uma equipe ágil que segue a metodologia Scrum?",
         answer: [
-            {text: "Resposta 1", correct: false},
-            {text: "Resposta 2", correct: true},
-            {text: "Resposta 3", correct: false},
-            {text: "Resposta 4", correct: false},
-            {text: "Resposta 5", correct: false}
+            {text: "Definir as metas de lançamento do produto", correct: false},
+            {text: "Priorizar o backlog de produtos e representar os interesses do cliente", correct: false},
+            {text: "Desenvolver, testar e entregar as funcionalidades do produto", correct: true},
+            {text: "Facilitar as reuniões de retrospectiva da equipe", correct: false},
+         
         ]
     },
     {
-        question: "Pergunta 4",
-        conteudo: "Texto",
+        question: "História Scrum - Scrum Master",
+        conteudo: "Na história do Scrum, qual motivo pelo qual a função do Scrum Master foi introduzida?",
         answer: [
-            {text: "Resposta 1", correct: false},
-            {text: "Resposta 2", correct: false},
-            {text: "Resposta 3", correct: true},
-            {text: "Resposta 4", correct: false},
-            {text: "Resposta 5", correct: false}
+            {text: "Para liderar o desenvolvimento de software", correct: false},
+            {text: "Para representar os interesses do cliente. ", correct: false},
+            {text: "Para facilitar o processo Scrum e remover impedimentos. ", correct: true},
+            {text: "Para definir as metas de lançamento do produto", correct: false},
+           
         ]
     },
     {
-        question: "Pergunta 5",
-        conteudo: "Texto",
+        question: "História Scrum - Product Owner",
+        conteudo: "Qual é a função central desempenhada pelo Product Owner na história Scrum?",
         answer: [
-            {text: "Resposta 1", correct: false},
-            {text: "Resposta 2", correct: false},
-            {text: "Resposta 3", correct: false},
-            {text: "Resposta 4", correct: false},
-            {text: "Resposta 5", correct: true}
+            {text: "Definir a arquitetura técnica do produto", correct: false},
+            {text: "Gerenciar o cronograma de desenvolvimento da equipe", correct: false},
+            {text: "Priorizar o backlog do produto e representar os interesses do cliente", correct: true},
+            {text: "Facilitar as reuniões de planejamento de sprint", correct: false}
         ]
     },
+    {
+        question: "História Scrum - Dev Team",
+        conteudo: "Na história do Scrum, qual é o principal papel desempenhado pelo time de desenvolvimento?",
+        answer: [
+            {text: "Definir as metas de lançamento do produto", correct: false},
+            {text: "Priorizar o backlog do produto e representar os interesses do cliente", correct: false},
+            {text: "Executar a criação, teste e entrega das funcionalidades do produto. ", correct: true},
+            {text: "Facilitar as reuniões de retrospectiva da equipe", correct: false}
+        ]
+    }
 
 ]

@@ -3,6 +3,7 @@ const $starGameButton = document.querySelector(".start-quiz")
 const $questionsContainer = document.querySelector(".question-container")
 const $answersContainer = document.querySelector(".answers-container")
 const $questionText = document.querySelector(".question")
+const $questionText2 = document.querySelector(".texto")
 const $nextQuestionButton = document.querySelector(".next-question")
 const $next = document.querySelector(".btn")
 
@@ -28,7 +29,9 @@ function displayNextQuestion(){
         return finishGame()
     }
 
-    $questionText.textContent = questions[currentQuestionAtividade].question
+    $questionText.textContent = questions[currentQuestionAtividade].conteudo
+    $questionText2.textContent = questions[currentQuestionAtividade].question
+
     questions[currentQuestionAtividade].answer.forEach(answer =>{
         const newAnswer = document.createElement("button")
         newAnswer.classList.add("button", "answer")
@@ -85,7 +88,7 @@ function finishGame() {
 
     let message = ""
     switch (true) {
-        case (performance <= 90):
+        case (performance >= 90):
         message = "Excelente"
          break
 
@@ -101,13 +104,42 @@ function finishGame() {
         message = "Pode melhorar"
     }
 
-    $questionsContainer.textContent = 
-   "Voce acertou " + totalCorrect + " de " + totalQuestions + " questões!" +
-    " Nota: " + performance 
-
-    $next.classList.remove("hide")
+    if(performance <= 5 ){
+        $questionsContainer.innerHTML = 
+        `
+        <p class="final-message">
+          Você acertou ${totalCorrect} de ${totalQuestions} questões!
+        </p>
+        <button 
+          onclick=window.location.reload() 
+          class="button"
+        >
+          Refazer teste
+        </button>
+      `
+    
+      }
+        else{
+          $questionsContainer.innerHTML = 
+        `
+          <p class="final-message">
+            Você acertou ${totalCorrect} de ${totalQuestions} questões!
+          </p>
+          <button 
+          onclick=window.location.reload() 
+          class="button"
+        >
+         <a href="./certificado.html"> Voce passou</a>
+        </button>
+          
+        `
+       }
+    
+    
+    
+    
 }
-
+ 
 
 /*Banco de perguntas
   - Propriedades:
@@ -119,17 +151,8 @@ function finishGame() {
 
 const questions = [
     {
-        question: "Pergunta 1",
-        answer: [
-            {text: "Resposta 1", correct: false},
-            {text: "Resposta 2", correct: false},
-            {text: "Resposta 3", correct: false},
-            {text: "Resposta 4", correct: false},
-            {text: "Resposta 5", correct: true}
-        ]
-    },
-    {
-        question: "Pergunta 2",
+        question: "Metodologia Agil",
+        conteudo: "Texto",
         answer: [
             {text: "Resposta 1", correct: true},
             {text: "Resposta 2", correct: false},
@@ -139,7 +162,8 @@ const questions = [
         ]
     },
     {
-        question: "Pergunta 3",
+        question: "Pergunta 2",
+        conteudo: "Texto",
         answer: [
             {text: "Resposta 1", correct: false},
             {text: "Resposta 2", correct: false},
@@ -149,17 +173,30 @@ const questions = [
         ]
     },
     {
+        question: "Pergunta 3",
+        conteudo: "Texto",
+        answer: [
+            {text: "Resposta 1", correct: false},
+            {text: "Resposta 2", correct: true},
+            {text: "Resposta 3", correct: false},
+            {text: "Resposta 4", correct: false},
+            {text: "Resposta 5", correct: false}
+        ]
+    },
+    {
         question: "Pergunta 4",
+        conteudo: "Texto",
         answer: [
             {text: "Resposta 1", correct: false},
             {text: "Resposta 2", correct: false},
-            {text: "Resposta 3", correct: false},
+            {text: "Resposta 3", correct: true},
             {text: "Resposta 4", correct: false},
-            {text: "Resposta 5", correct: true}
+            {text: "Resposta 5", correct: false}
         ]
     },
     {
         question: "Pergunta 5",
+        conteudo: "Texto",
         answer: [
             {text: "Resposta 1", correct: false},
             {text: "Resposta 2", correct: false},
