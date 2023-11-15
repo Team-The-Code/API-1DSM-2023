@@ -308,3 +308,13 @@ li > a:hover{
         width: 103%
     }
 }
+/* corpo */
+.git{
+    width: 17%;
+    height: 25%;
+    padding-right: 3%;
+}
+h4{
+    color:#fff;
+    font-size: 200%;
+}
