@@ -104,7 +104,7 @@ function finishGame() {
         message = "Pode melhorar"
     }
 
-    if(performance <= 5 ){
+    if(performance <= 5){
         $questionsContainer.innerHTML = 
         `
         <p class="final-message">
@@ -213,6 +213,66 @@ const questions = [
             {text: "Executar a criação, teste e entrega das funcionalidades do produto. ", correct: true},
             {text: "Facilitar as reuniões de retrospectiva da equipe", correct: false}
         ]
+    },
+    {
+        question: "Funções - Scrum Master",
+        conteudo: "Dos itens citados abaixo, qual NÃO é de responsabilidade do Scrum Master?",
+        answer: [
+            {text: "Ter contato com o cliente para construir o Backlog", correct: true },
+            {text: "Auxiliar a Dev Team na gestão das Sprints ", correct: false},
+            {text: "Tratar dos impedimentos ao projeto", correct: false },
+            {text: "Dirigir, liderar e aplicar a metodologia Scrum", correct: false},
+        ]
+    },
+    {
+        question: "Funções - Product Owner",
+        conteudo: "Qual item abaixo é responsabilidade do PO (Product Owner)?",
+        answer: [
+            {text: "Ter contato com o cliente e elaborar o Backlog", correct: true},
+            {text: "Treinar a equipe em autogestão", correct: false},
+            {text: "Ajudar o Dev. Team com os Incrementos", correct: false},
+            {text: "Criar um plano para o Sprint", correct: false}
+        ]
+    },
+    {
+        question: "Funções - Dev Team",
+        conteudo: "Dentro do processo SCRUM, qual atividade é realizada pela Dev Team?",
+        answer: [
+            {text: "Elaboração do Backlog", correct: false},
+            {text: "Comunicar os clientes quanto ao projeto", correct: false},
+            {text: "Planejar reuniões diárias ", correct: false},
+            {text: "Adaptar os planos em direção ao Sprint Goal", correct: true}
+        ]
+    },
+    {
+        question: "MVP - Geral",
+        conteudo: "Qual o principal objetivo do MVP?",
+        answer: [
+            {text: "Validar hipóteses e testar viabilidade", correct: true},
+            {text: "Organizar a Equipe de Desenvolvimento", correct: false},
+            {text: "Listar os requisitos do cliente", correct: false},
+            {text: "Auxiliar o Scrum Master na designação de tarefas", correct: false},
+           
+        ]
+    },
+    {
+        question: "MVP - Geral",
+        conteudo: "Em que área o conceito de MVP é amplamente utilizado?",
+        answer: [
+            {text: "Marketing digital", correct: false},
+            {text: "Empreendedorismo e desenvolvimento de produtos", correct: true},
+            {text: "Recursos humanos.", correct: false},
+            {text: "Gerenciamento de pessoas", correct: false}
+        ]
+    },
+    {
+        question: "MVP - Geral",
+        conteudo: "O que o MVP busca oferecer aos clientes??",
+        answer: [
+            {text: "Uma solução complexa para todos os seus problemas", correct: false},
+            {text: "Uma versão simplificada que ainda atenda às suas necessidades básicas", correct: true},
+            {text: "Um produto sem funcionalidade inicial ", correct: false},
+            {text: "Todas as demandas finalizadas desde o início", correct: false}
+        ]
     }
-
 ]
