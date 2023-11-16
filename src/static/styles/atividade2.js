@@ -103,7 +103,7 @@ function finishGame() {
         default:
         message = "Pode melhorar"
     }
-    if(performance >= Math.floor(totalQuestions/2) ){
+    if(totalQuestions < 10 ){
         $questionsContainer.innerHTML = 
         `
         <p class="final-message">
