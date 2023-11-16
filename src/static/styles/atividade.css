@@ -59,7 +59,7 @@ a{
 .img {
     width: 100px;
     height: 100px;
-    margin: auto 0;
+    margin: auto ;
 }
 
 #navbar-itens {
@@ -71,7 +71,7 @@ a{
 }
 
 #navbar-itens li {
-    
+    font-size: 2rem%;
     margin-left: 40px;
     text-align: center;
     
@@ -205,96 +205,36 @@ cursor: pointer;
     background-color: rgba(41, 41, 41, 0.253);
 }
 /*Rodapé*/
-
-
-
-
 .roda{
     width: 80%;
     display: flex;
     align-items: center;
-    margin: auto;
+    margin: 20px auto;
     border: 1px solid grey;
     justify-content: space-around;
-    margin-top: 20px;
-    margin-bottom: 40px;
+    
+    
 }
 .roda > p{
-    margin: auto 0;
+    margin:  auto;
 }
-@media(max-width:190px){
-    
-    .img {
-        width: 20px;
-        height: 50px;
-        margin: auto 0;
-        
-    }
-    #navbar-itens li {
-        border: 1px solid red;
-        font-size: 0.4rem;
-        margin: auto 0;
-    }
-}
-@media(max-width:200px){
-    
-    .img {
-        width: 20px;
-        height: 50px;
-        margin: auto 0;
-        
-    }
-    #navbar-itens li {
-        border: 1px solid red;
-        font-size: 0.4rem;
-        margin: auto 0;
-    }
-}
-@media(max-width:300px){
-    .img {
-        width: 20px;
-        height: 50px;
-        margin: auto 0;
-        
-    }
-    #navbar-itens li {
-        border: 1px solid red;
-        font-size: 0.4rem;
-        margin: auto 0;
-    }
-}
-@media (max-width: 320) {
-    
-    #navbar-itens li {
-        font-size: 0.5rem;
-        margin: auto;
-        padding: 0 40px 0 0;
-    }
-  }
-@media (max-width: 460) {
-    #navbar-itens li {
-        font-size: 0.8rem;
-        padding: 0 20px 0 0;
-        margin-right: 0;
-    }
-  }
-@media(max-width:900){
-    #navbar-itens li {
-        font-size: 0.8rem;
-        margin-top: 70px;
-        padding: 0 40px 0 0;
-    }
-}
-@media (max-width: 1024) {
-    #showcase .container {
-        margin:auto;
-        height: 80%;
-    }
-  }
 
-@media (max-width: 1680) {
-   
-@media (max-width: 2560) {
+
+@media (max-width: 400px) {
+    .copy{
+        font-size: 5px;
+    }
+    #navbar-itens li {
+        font-size: 0.5rem%;
+        text-align: center;
+        margin: auto 5px;
+    }
+    
+    .img {
+        width: 45px;
+        height: 45px;
+        margin: 30px auto  ;
+        
+    }
     
   }
-}
