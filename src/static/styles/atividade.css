@@ -59,6 +59,12 @@ a{
 .img {
     width: 100px;
     height: 100px;
+    margin: auto 0;
+}
+
+.oi {
+    width: 100px;
+    height: 100px;
     margin: auto ;
 }
 
@@ -71,7 +77,7 @@ a{
 }
 
 #navbar-itens li {
-    font-size: 2rem%;
+    font-size: 2rem;
     margin-left: 40px;
     text-align: center;
     
@@ -96,7 +102,6 @@ cursor: pointer;
     color: #fff;
     height: 100%;
     width: 100%;
-    margin-bottom:auto;
     background-image: url("../public/question-mark-2492009.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -168,6 +173,7 @@ cursor: pointer;
     flex-direction: column;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
+
 }
 
 .next-question {
@@ -175,11 +181,11 @@ cursor: pointer;
 }
 
 .button {
-    font-size: 10px;
+    font-size: 1.5vw;
     font-weight: bold;
     border: 0;
     border-radius: 10px;
-    height: 30px;
+    height: 50px;
     padding: 0 32px;
     transition: 0.2s;
     
@@ -225,7 +231,7 @@ cursor: pointer;
         font-size: 5px;
     }
     #navbar-itens li {
-        font-size: 0.5rem%;
+        font-size: 0.5rem;
         text-align: center;
         margin: auto 5px;
     }
@@ -238,3 +244,9 @@ cursor: pointer;
     }
     
   }
+
+  @media (max-width: 450px){
+    .button{
+        font-size: 10px;
+    }
+  } 
