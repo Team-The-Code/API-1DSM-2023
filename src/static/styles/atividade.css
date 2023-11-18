@@ -62,12 +62,6 @@ a{
     margin: auto 0;
 }
 
-.oi {
-    width: 100px;
-    height: 100px;
-    margin: auto ;
-}
-
 #navbar-itens {
     display: flex;
     list-style: none;
@@ -94,9 +88,7 @@ a{
 button  {
 cursor: pointer;
 }
-.copy{
-    color: #fff;
-}
+
 #showcase {
     background-color: white;
     color: #fff;
@@ -223,6 +215,14 @@ cursor: pointer;
 }
 .roda > p{
     margin:  auto;
+}
+.copy{
+    color: #fff;
+}
+.oi {
+    width: 100px;
+    height: 100px;
+    margin: auto ;
 }
 
 
