@@ -104,7 +104,7 @@ function finishGame() {
         message = "Pode melhorar"
     }
 
-    if(performance <= 5){
+    if(performance < 6){
         $questionsContainer.innerHTML = 
         `
         <p class="final-message">
