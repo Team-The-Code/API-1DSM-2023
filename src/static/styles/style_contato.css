@@ -111,48 +111,28 @@ li > a:hover{
 }
 
     /*Rodapé*/
-    main {
-        height: 80vh;
-    }
-    
-    #footer {
-        height: 25vh;
-        background-color: #000;
-        color: #fff;
-        background-size: cover;
-    }
-    
-    .roda {
-        margin: 250px;
-        border: 1px solid grey;
-        margin-top: 300px;
-        margin-bottom: 50px;
-        margin-right: 17%;
-        margin-left: 15%;
-    }
-    
-    #logos {
+    .roda{
+        width: 80%;
         display: flex;
-        justify-content: right;
-        padding-top: 100px;
-        padding-right: 6%;
-        height: 140px;
         align-items: center;
+        margin: 20px auto;
+        border: 1px solid grey;
+        justify-content: space-around;
+        
+        
+    }
+    .roda > p{
+        margin:  auto;
+    }
+    .copy{
+        color: #fff;
+    }
+    .oi {
+        width: 100px;
+        height: 100px;
+        margin: auto ;
     }
     
-    #logos > img {
-        padding-left: 30px;
-    }
-    #logos .fto{
-        height: 150%;
-    }
-    #footer a {
-        font-size: 1.4rem;
-        display: flex;
-        text-align: center;
-        margin-left: 100px;
-        margin-top: -30px;
-    }
 
 /*Mobile*/
 @media (max-width: 425px){
