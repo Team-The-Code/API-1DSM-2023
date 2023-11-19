@@ -5,11 +5,14 @@
 }
 
 body {
-    background-color: #000;
     font-family: Roboto;
+    background-image: url("../public/question-mark-2492009.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 a {
     text-decoration: none;
+    color: #fff;
 }
 
     /*Botão*/
@@ -22,7 +25,7 @@ a {
 .btn {
     margin:auto;
     padding: 10px 40px;
-    font-size: 1.2rem;
+    font-size: 2vw;
     color: #000;
     border-radius: 50px;
     transition: background 500ms ease;
@@ -39,84 +42,107 @@ a{
     color: inherit;
 }
 
-    /*Cabeçalho*/
+/*Cabeçalho*/
 #navbar {
-    width: 100vw;
-    height: 130px;
-    background: #000;
+    
+    width: 100%;
+    height: auto;
+    background: #000000;
     color: #ffffff;
-}
-
-#navbar-container {
-    width: 80%;
-    height: 50%;
+     
+ }
+ a{
+    text-decoration: none;
+    color: #fff;
+ }
+ #navbar-container {
+     color: #fff;
+     width: 80vw ;
+     height: 100%;
+     text-align: center;
+     margin: auto;
+     display: flex;
+ }
+ 
+ .img {
+     width: 12vw;
+     height: auto;
     
+ }
+ 
+ #navbar-itens {
+     color: #fff;
+     display: flex;
+     list-style: none;
+     margin: auto;
+     margin-right: 0;
+     margin-bottom: 0;
+     font-size: 4vw;
+ }
+ #navbar-itens >li >a:hover {
+     cursor: pointer;
+     color: #ff3b93;
+ }
+ 
+ #navbar-itens li {
+     margin-left: 4vw;
+ }
+
+    /*Rodapé*/
+.roda{
+    background-color: #000;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    margin: auto ;
+    padding: 2%;
+    border: 1px solid grey;
+    justify-content: space-around;
+    
+    
+}
+.roda > p{
+    margin:  auto;
+}
+.copy{
+    color: #fff;
+    font-size: 2vw;
+}
+.oi {
+    width: 10vw;
+    height: auto;
     margin: auto;
-    display: flex;
-    justify-content: space-between;
-}
-
-.img {
-    width: 100px;
-    height: 100px;
-    margin: auto 0;
-}
-
-#navbar-itens {
-    display: flex;
-    list-style: none;
-    margin: auto 0;
-    margin-bottom: 0;
-    
-}
-
-#navbar-itens li {
-    font-size: 2rem;
-    margin-left: 40px;
-    text-align: center;
-    
-    
-    
-}
-
-#navbar-itens li:hover {
-    cursor: pointer;
-    color: #ff3b93;
 }
 
 /*header*/
 button  {
 cursor: pointer;
+width: auto;
 }
 
-#showcase {
-    background-color: white;
-    color: #fff;
-    height: 100%;
-    width: 100%;
-    background-image: url("../public/question-mark-2492009.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
 
-}
 #showcase h1 {
+    color: #fff;
     margin-bottom: 5px;
     display: flex;
     justify-content: center;
-    font-size: 2.8rem;
+    font-size: 6vw;
     
 }
 
 #showcase p {
     display: flex;
+    color: #fff;
     justify-content: center;
-    font-size: 1rem;
+    font-size: 5vw;
     padding-bottom: 2%;
 }
 
 #showcase .container {
     margin:auto;
     height: 80%;
+    padding: 10vw;
+    margin-bottom: 20vh;
 }
 
 
@@ -126,11 +152,13 @@ cursor: pointer;
 .container {
     /*fundo*/
     background-color: rgba(161, 184, 247, 0.397);
-    width: 80%;
+    height: 80vh;
+    width: 80vw;
     /*borda*/
     border: 1px solid rgb(161, 184, 247);;
-    border-radius: 6px;
-    padding: 16px;
+    border-radius: 10vh;
+    padding: 10vh;
+    
     /*elementos*/
     display: flex;
     justify-content: center;
@@ -139,6 +167,7 @@ cursor: pointer;
 }
 
 /*Pergunta*/
+
 .question-container {
     padding: auto;
     display: flex;
@@ -152,19 +181,22 @@ cursor: pointer;
 
 .question {
     /*Texto*/
-    font-size: 20px;
+    color: #fff;
+    font-size: 4vw;
     font-weight: bold;
     text-align: center;
 }
 
 
 /*Respostas*/
+.answer
 .answers-container {
     width: 80%;
     display: flex;
     flex-direction: column;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
+    margin: auto;
 
 }
 
@@ -173,13 +205,15 @@ cursor: pointer;
 }
 
 .button {
-    font-size: 1.5vw;
+    font-size: 2vw;
     font-weight: bold;
     border: 0;
-    border-radius: 10px;
-    height: 50px;
-    padding: 0 32px;
+    border-radius: 15vh;
+    height: 22vh;
+    width: 100%;
+    padding-left: 2px;
     transition: 0.2s;
+    margin-bottom: 10vh;
     
 }
 
@@ -202,52 +236,4 @@ cursor: pointer;
 .incorrect {
     background-color: rgba(41, 41, 41, 0.253);
 }
- /*Rodapé*/
- .roda{
-    background-color: #000;
-    width: 80%;
-    display: flex;
-    align-items: center;
-    margin: 20px auto 20px;
-    padding: 2%;
-    border: 1px solid grey;
-    justify-content: space-around;
-    
-    
-}
-.roda > p{
-    margin:  auto;
-}
-.copy{
-    color: #fff;
-}
-.oi {
-    width: 200px;
-    height: 200px;
-    margin: auto ;
-}
 
-@media (max-width: 400px) {
-    .copy{
-        font-size: 5px;
-    }
-    #navbar-itens li {
-        font-size: 0.5rem;
-        text-align: center;
-        margin: auto 5px;
-    }
-    
-    .img {
-        width: 45px;
-        height: 45px;
-        margin: 30px auto  ;
-        
-    }
-    
-  }
-
-  @media (max-width: 450px){
-    .button{
-        font-size: 10px;
-    }
-  } 
