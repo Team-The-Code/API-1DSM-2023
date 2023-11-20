@@ -57,12 +57,12 @@ body {
  }
 
  /*header*/
-#showcase{
+
     
     /*overlay*/
 
 
-}
+
 
 #showcase-container {
     
@@ -114,4 +114,23 @@ h1{
     height: auto;
     margin: auto;
 }
+    /* botão */
+    .btn {
+        text-align: center;
+        font-size: 3vw;
+        width: 30vw;
+        margin-bottom: 2vh;
+        float: right;
+        background: #111;
+        color: #fff;
+        border: 1px solid grey;
+        border-radius: 50px;
+        transition: background 500ms ease;
+    }
     
+    .btn:hover {
+        cursor: pointer;
+        background-color: #000;
+        border-color: #ff3b93;
+        color: #fff;
+    }

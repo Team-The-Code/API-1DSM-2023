@@ -1,12 +1,8 @@
-function menushow(){
-    let menuMobile = document.querySelector('.mobile-menu');
-    if(menuMobile.classList.contains('open')){
-        menuMobile.classList.remove('open');
-        document.querySelector('.icon').src = "img/menu_white_36dp.svg";
-    } else {
-        menuMobile.classList.add('open');
-        document.querySelector('.icon').src = "img/menu_white_36dp.svg";
+const btn_imp=document.getElementById("btn_imp")
+btn_imp.addEventListener("click",(evt)=>{
+    const conteudo = document.getElementById('container').innerHTML;
+    const win =window.open('','', 'height=700, width=700')
+    win.document.write(conteudo)
 
-    }   
-    
-}
+    win.print()
+})
