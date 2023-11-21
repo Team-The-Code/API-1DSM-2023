@@ -125,7 +125,6 @@ function finishGame() {
             Você acertou ${totalCorrect} de ${totalQuestions} questões!
           </p>
           <button 
-          onclick=window.location.reload() 
           class="button"
         >
          <a href="./Ciclo3.html"> Voce passou</a>

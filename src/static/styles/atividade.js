@@ -110,8 +110,8 @@ function finishGame() {
         <p class="final-message">
           Você acertou ${totalCorrect} de ${totalQuestions} questões!
         </p>
-        <button 
-          onclick=window.location.reload() 
+        <button  
+        onclick=window.location.reload()
           class="button"
         >
           Refazer teste
@@ -126,7 +126,6 @@ function finishGame() {
             Você acertou ${totalCorrect} de ${totalQuestions} questões!
           </p>
           <button 
-          onclick=window.location.reload() 
           class="button"
         >
          <a href="./Ciclo2.html"> Voce passou</a>
