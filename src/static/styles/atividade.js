@@ -104,7 +104,7 @@ function finishGame() {
         message = "Pode melhorar"
     }
 
-    if(totalCorrect < 6){
+    if(totalCorrect <= 5){
         $questionsContainer.innerHTML = 
         `
         <p class="final-message">
