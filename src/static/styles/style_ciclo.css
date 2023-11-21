@@ -43,8 +43,7 @@
      list-style: none;
      margin: auto;
      margin-right: 0;
-     margin-bottom: 0;
-     font-size: 4vw;
+     font-size: 2vw;
  }
  #navbar-itens >li >a:hover {
      cursor: pointer;
@@ -97,7 +96,7 @@ nav.menu-lateral {
     width: 5vw;
     height: 100vh;
     background: rgba(0, 0, 0, 0.5);
-    padding: 0vh 0 0vh 1%;
+    padding: 0 0 0 1%;
     box-shadow: 3px 0 0 #ff3b93;
     position: fixed;
     top: 0;
@@ -167,9 +166,8 @@ ul li.item-menu a .icon > i {
     padding-bottom: 5%;
     font-weight: 600;
     font-family: roboto;
-    padding-left: 6%;
-    padding-right: 6%;
-    padding-top: 10%;
+    margin: auto;
+    padding-top: 19vh;
     align-items: center;
     text-align: justify;
     background-color: #000;

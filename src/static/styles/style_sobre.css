@@ -121,13 +121,12 @@ h1{
  }
  
  #navbar-itens {
-     color: #fff;
-     display: flex;
-     list-style: none;
-     margin: auto;
-     margin-right: 0;
-     margin-bottom: 0;
-     font-size: 4vw;
+    color: #fff;
+    display: flex;
+    list-style: none;
+    margin: auto;
+    margin-right: 0;
+    font-size: 2vw;
  }
  #navbar-itens >li >a:hover {
      cursor: pointer;

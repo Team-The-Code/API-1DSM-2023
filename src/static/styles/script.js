@@ -1,8 +1,9 @@
-const btn_imp=document.getElementById("btn_imp")
-btn_imp.addEventListener("click",(evt)=>{
-    const conteudo = document.getElementById('container').innerHTML;
-    const win =window.open('','', 'height=700, width=700')
-    win.document.write(conteudo)
+function imprimir() {
+    var printContents = document.getElementById("container").innerHTML;
+    var originalContents = document.body.innerHTML;
 
-    win.print()
-})
+    document.body.innerHTML = printContents;
+    window.print();
+
+    document.body.innerHTML = originalContents;
+}

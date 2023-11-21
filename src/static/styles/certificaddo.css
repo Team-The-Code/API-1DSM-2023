@@ -44,8 +44,7 @@ body {
      list-style: none;
      margin: auto;
      margin-right: 0;
-     margin-bottom: 0;
-     font-size: 4vw;
+     font-size: 2vw;
  }
  #navbar-itens >li >a:hover {
      cursor: pointer;
@@ -81,7 +80,6 @@ h1{
 }
  h3{
     text-align: center;
-
     padding-top: 20px;
     margin-bottom: 10px;
     font-size: 2.8vw;
@@ -115,6 +113,18 @@ h1{
     margin: auto;
 }
     /* botão */
+    #container {
+        width: 100vw;
+        overflow: hidden;
+    }
+    #container img{
+        width: 80vw;
+        height: 100vh;
+    }
+    .container-btn{
+        width: 80vw;
+        margin: auto;
+    }
     .btn {
         text-align: center;
         font-size: 3vw;

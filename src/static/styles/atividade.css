@@ -76,8 +76,7 @@ a{
      list-style: none;
      margin: auto;
      margin-right: 0;
-     margin-bottom: 0;
-     font-size: 4vw;
+     font-size: 2vw;
  }
  #navbar-itens >li >a:hover {
      cursor: pointer;
@@ -116,8 +115,12 @@ a{
 
 /*header*/
 button  {
-cursor: pointer;
-width: auto;
+    color: #000;
+    cursor: pointer;
+    width: 3vw;
+}
+button > a{
+    color: #141313;
 }
 
 
@@ -126,7 +129,7 @@ width: auto;
     margin-bottom: 5px;
     display: flex;
     justify-content: center;
-    font-size: 6vw;
+    font-size: 3vw;
     
 }
 
@@ -134,13 +137,13 @@ width: auto;
     display: flex;
     color: #fff;
     justify-content: center;
-    font-size: 5vw;
+    font-size: 2vw;
     padding-bottom: 2%;
 }
 
 #showcase .container {
     margin:auto;
-    height: 80%;
+    height: 100%;
     padding: 10vw;
     margin-bottom: 20vh;
 }
@@ -174,28 +177,26 @@ width: auto;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 24px;
-    width: auto;
-    height: auto;
+    gap: 2px;
+    
 }
 
 .question {
     /*Texto*/
     color: #fff;
-    font-size: 4vw;
+    font-size: 2.5vw;
     font-weight: bold;
     text-align: center;
 }
 
 
 /*Respostas*/
-.answer
 .answers-container {
     width: 80%;
     display: flex;
     flex-direction: column;
     grid-template-columns: 1fr 1fr;
-    gap: 15px;
+    gap: 20px;
     margin: auto;
 
 }
@@ -205,15 +206,15 @@ width: auto;
 }
 
 .button {
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-weight: bold;
     border: 0;
-    border-radius: 15vh;
-    height: 22vh;
+    border-radius: 5vh;
+    height: 16vh;
     width: 100%;
     padding-left: 2px;
     transition: 0.2s;
-    margin-bottom: 10vh;
+    margin-bottom: 1vh;
     
 }
 
