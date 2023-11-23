@@ -156,6 +156,8 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 | * |Backlog|                  |                   |X|Paulo, Samuel|
 | * |Fazer a apresentação|                  |                   |X|Samuel|
 | * |Documentação via GitHub Sprint 1|                  |                   |X|Samuel|
+
+<a href="https://github.com/users/Team-The-Code/projects/6/views/1?filterQuery=sprint%3A%22Sprint+1%22">Acesso ao Quadro Kanban</a>
 <br>
 
 ## Métrica do Time
@@ -244,6 +246,8 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 ||**Criar um sistema de avaliação**|||X|Samuel|
 ||**Conteúdo do Burndown**|||X|Anielle|
 
+<a href="https://github.com/users/Team-The-Code/projects/6/views/1">Acesso ao Quadro Kanban</a>
+
 ## Métrica do Time
 <img src="./docs/burndown2.png">
 <a href="https://fatecspgov-my.sharepoint.com/:x:/g/personal/samuel_melo01_fatec_sp_gov_br/EYnohnRVS1RElEp5XfIx-g0BqAQGv49jlyUkXVcIENBtTw?e=tjrOJV">Acesso</a>
@@ -273,6 +277,70 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 |  04  |  **14.DOD**|
 |  05  | **17.Artefato Scrum**|
 
+### Tarefas na Sprint 
+|   Tarefas  |         Story Point         |
+:-------------------------:|:-----:|
+| **Conteúdo da Dor - Definition of Ready**| 02 |
+| **Responsividade do Ciclos**| 08 |
+|**Conteúdo da tela de diploma**| 08 |
+|**Conteúdo da DOD - Definition of Done** | 02 |
+| **Conteúdos das perguntas da atividade de cada ciclo** | 08 |
+| **Formatar as funções no ciclo 1 em tópicos de acordo com o guia do scrum** | 03 |
+| **Responsividade da tela de inicio, sobre. contato**| 08 |
+| **Organizar o conteúdos dos ciclos entre historia, valores, artefatos e eventos** | 03 |
+| **Conteúdo da Sprint Retrospective** | 02 |
+| **Conteúdo do Kanban** | 02 |
+| **Responsividade da tela atividade** | 08 |
+|||
+|   **Total Story Point** | 54|
+
+### Quadro Kanban Sprint 3
+
+|  Product Backlog  |   Sprint Backlog 2 (tarefas)|   A fazer   |     Em andamento    |     Pronto    | Membro |
+|:----------------:|:-------------------------------------:|:-------:|:---------------------:|:----------------:|:----------------:|
+|**11.Kanban** |**Conteúdo da Dor - Definition of Ready**|||X|Ana Júlia|
+|**12.Retrospectiva**|**Responsividade do Ciclos**|||X|Ana Júlia, Marcelly, Samuel|
+|**13.DOR**|**Conteúdo da tela de diploma**|||X|Vitor|
+|**14.DOD**|**Conteúdo da DOD - Definition of Done** |||X|Ana Júlia|
+|**17.Artefato Scrum** |**Conteúdos das perguntas da atividade de cada ciclo** |||X|Anniele, Edlaine Paulo, Samuel, Vitor|
+||**Formatar as funções no ciclo 1 em tópicos de acordo com o guia do scrum**|||X|Ana Júlia|
+||**Responsividade da tela de inicio, sobre. contato**|||X|Todos|
+||**Organizar o conteúdos dos ciclos entre historia, valores, artefatos e eventos**|||X|Ana Júlia|
+||**Conteúdo da Sprint Retrospective**|||X|Marcelly|
+||**Conteúdo do Kanban** |||X|Samuel|
+||**Responsividade da tela atividade**|||X|Ana Júlia, Marcelly, Samuel|
+
+<a href="https://github.com/users/Team-The-Code/projects/6/views/1?filterQuery=sprint%3A%22Sprint+3%22">Acesso ao Quadro Kanban</a>
+
+## Métrica do Time
+<img src="./docs/burndown3.png">
+<a href="https://fatecspgov-my.sharepoint.com/:x:/g/personal/samuel_melo01_fatec_sp_gov_br/Eey-tjEKc9BIlYugK0xDlKgBN6Z2irxXh-NcbSCo6Rq7DA?e=SSjwed">Acesso</a>
+<br>
+
+## Retrospectiva da Sprint 3
+|O que funcionou bem| O que poderia melhorar|
+|:-----------------:|:---------------------:|
+|||
+|||
+|||
+|||
+
+<br>
+<hr>
+<br>
+
+## Sprint Review
+|O que funcionou bem| O que poderia melhorar|
+|:-----------------:|:---------------------:|
+|||
+||
+||
+|||
+
+<br>
+<hr>
+<br>
+
 
 <span id="tecnologias"></span>
 
@@ -297,6 +365,5 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 |   Dev Team| Ana Júlia Tette Lopes Afonso |[GitHub](https://github.com/AnaBarbancho)|
 |   Dev Team| Anielle Wesla Macedo Xavier |[GitHub](https://github.com/Anielle-Ws)|
 |   Dev Team| Edlaine de Paula Souza |[GitHub](https://github.com/edlaine-souza)|
-|   Dev Team| Lucas de Andrade Brito |[GitHub](https://github.com/Outc0d3)|
 |   Dev Team|  Marcelly Cristini Santos de Souza|[GitHub](https://github.com/Marcelly-cris)|
 |   Dev Team|Vitor Cezar de Souza|[GitHub](https://github.com/vooshybee)|
