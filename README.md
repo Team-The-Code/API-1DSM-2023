@@ -27,6 +27,7 @@ Projeto desenvolvido por alunos do 1º semestre do curso de Desenvolviento de So
 * Figma:<a href="https://www.figma.com/proto/WamIDDE9ZgLUanlkHOClT3/Untitled?type=design&node-id=1-2&t=JapPxWvDgM2Vw1s7-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2&hotspot-hints=0&mode=design">Clique Aqui!</a>
 * Vídeo Sprint 1:<a href="https://www.youtube.com/watch?v=ZdZHI50Kp0w">Clique aqui!</a>
 * Vídeo Sprint 2:<a href="https://www.youtube.com/watch?v=mlz_nk9haQA">Clique aqui!</a>
+* Vídeo Sprint 3:<a href="https://youtu.be/5ee_bg_fomc">Clique aqui!</a>
 * Aplicação/Site:<a href="https://team-the-code.github.io/EquipeTheCode.github.io/">Clique aqui!</a>
 
 
@@ -320,22 +321,22 @@ O projeto está sendo realizado utilizando-se da metodologia ágil SCRUM, separa
 ## Retrospectiva da Sprint 3
 |O que funcionou bem| O que poderia melhorar|
 |:-----------------:|:---------------------:|
-|||
-|||
-|||
-|||
+|Comunicação da equipe|Baixa frequência da Daily|
+|Tempo de entrega das tarefas|Pouco acesso ao cliente|
+|Comprometimento do time com as atribuições||
+
 
 <br>
 <hr>
 <br>
 
 ## Sprint Review
-|O que funcionou bem| O que poderia melhorar|
-|:-----------------:|:---------------------:|
-|||
-||
-||
-|||
+|Conclusões| 
+|:-----------------:|
+|O produto cumpriu com as demandas do cliente||
+|A cooperação da equipe entregando todas as atribuições impostas em todas as sprints|
+|Bom relacionamento por parte do time|
+|Desenvoltura da equipe mesmo lidando com a perda de alguns membros|
 
 <br>
 <hr>
